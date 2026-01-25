@@ -1,0 +1,326 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const plans = [
+  {
+    name: 'Cơ bản',
+    description: 'Phù hợp cho doanh nghiệp nhỏ bắt đầu chuyển đổi số',
+    price: 'Liên hệ',
+    popular: false,
+    features: [
+      'Quản lý bán hàng cơ bản',
+      'Quản lý tồn kho',
+      'Quản lý khách hàng',
+      'Báo cáo cơ bản',
+      'Hỗ trợ qua hotline',
+      '1 chi nhánh'
+    ]
+  },
+  {
+    name: 'Nâng cao',
+    description: 'Quản lý đơn hàng, tồn kho và công nợ hiệu quả',
+    price: 'Liên hệ',
+    popular: false,
+    features: [
+      'Tất cả tính năng Cơ bản',
+      'Quản lý công nợ',
+      'Quản lý nhà cung cấp',
+      'Báo cáo nâng cao',
+      'Xuất/nhập Excel',
+      '2 chi nhánh'
+    ]
+  },
+  {
+    name: 'Chuyên nghiệp',
+    description: 'Giải pháp toàn diện cho doanh nghiệp ngành VLXD',
+    price: 'Liên hệ',
+    popular: true,
+    features: [
+      'Tất cả tính năng Nâng cao',
+      'Cắt xẻ cuộn tôn',
+      'Quản lý sản xuất',
+      'Quản lý theo lô',
+      'API tích hợp',
+      '5 chi nhánh'
+    ]
+  },
+  {
+    name: 'Doanh nghiệp',
+    description: 'Cho công ty lớn cần quản lý nhiều chi nhánh',
+    price: 'Liên hệ',
+    popular: false,
+    features: [
+      'Tất cả tính năng Chuyên nghiệp',
+      'Không giới hạn chi nhánh',
+      'Báo cáo tổng hợp',
+      'Phân quyền nâng cao',
+      'Hỗ trợ ưu tiên 24/7',
+      'Tùy chỉnh theo yêu cầu'
+    ]
+  }
+];
+
+const services = [
+  { icon: 'users', text: 'Được triển khai bởi đội ngũ kỹ sư phần mềm kinh nghiệm' },
+  { icon: 'phone', text: 'Đội ngũ hỗ trợ 24/7 qua hotline 0866.135.766' },
+  { icon: 'gift', text: 'Tư vấn và hỗ trợ miễn phí dùng thử, miễn phí chuyển đổi dữ liệu' },
+  { icon: 'academic', text: 'Miễn phí đào tạo nhân viên trực tiếp và online' },
+  { icon: 'chart', text: 'Phù hợp với tất cả các quy mô kinh doanh của doanh nghiệp' },
+  { icon: 'refresh', text: 'Cập nhật phiên bản mới miễn phí' }
+];
+
+const benefits = [
+  {
+    title: 'Tồn kho "Chính xác" - Bán hàng "Nhanh"',
+    description: 'Quản lý lượng tồn kho lớn, kiểm kho theo nhiều quy cách, đơn vị. Tính toán, quy đổi linh hoạt giữa các đơn vị nhập và xuất, gia công, sản xuất.'
+  },
+  {
+    title: 'Quản lý "Hiệu quả" Công nợ',
+    description: 'Lưu trữ toàn bộ thông tin khách hàng, lịch sử giao dịch. Báo cáo thống kê công nợ, định mức công nợ giúp hạn chế rủi ro nợ xấu.'
+  },
+  {
+    title: 'Quản lý "Linh hoạt" từ xa',
+    description: 'Quản lý mọi lúc, mọi nơi trên laptop, máy tính bảng, điện thoại. Phân quyền quản lý, giám sát hoạt động nhân viên.'
+  }
+];
+
+const faqs = [
+  {
+    question: 'Khi đăng ký dùng thử có được hỗ trợ 24/7 và đào tạo nhân viên không?',
+    answer: 'Có, vSmartSell hỗ trợ khách hàng 24/7 trong quá trình dùng thử qua hotline 0866.135.766 và có kỹ thuật hướng dẫn sử dụng cũng như đào tạo nhân viên trực tiếp tại cửa hàng hoặc online qua Teamviewer, Ultraviewer.'
+  },
+  {
+    question: 'Sau khi dùng thử nếu không sử dụng gói chính thức thì có mất phí không?',
+    answer: 'Không, nếu sau thời gian dùng thử khách hàng chưa hài lòng hoặc chưa muốn sử dụng gói chính thức thì không mất thêm bất cứ chi phí nào.'
+  },
+  {
+    question: 'Dữ liệu của tôi có được bảo mật không?',
+    answer: 'Toàn bộ dữ liệu trong quá trình dùng thử sẽ được vSmartSell gửi trả lại cho khách hàng và cam kết bảo mật. Nếu sử dụng gói chính thức, toàn bộ dữ liệu sẽ được tiếp tục sử dụng.'
+  }
+];
+
+const testimonials = [
+  {
+    quote: 'Phần mềm vSmartSell làm rất tốt các sản phẩm tôn, sắt thép. Các phần mềm khác không thể quản lý được việc cắt xẻ cuộn tôn.',
+    author: 'Cô Mai',
+    role: 'Giám đốc - Công Ty TNHH Lâm Nhật Mai',
+    avatar: 'M'
+  },
+  {
+    quote: 'Tôi rất hài lòng với chức năng sản xuất của vSmartSell, giúp tôi quản lý được nguyên liệu và thành phẩm hiệu quả.',
+    author: 'Chị Thúy',
+    role: 'Giám đốc - Công Ty TNHH Trường Thành',
+    avatar: 'T'
+  },
+  {
+    quote: 'Hơn 10 chi nhánh nhưng vSmartSell giúp tôi quản lý mọi thứ dù không có mặt tại cửa hàng.',
+    author: 'Anh Nhàn',
+    role: 'Giám đốc - Công Ty TNHH Hoàng Sa',
+    avatar: 'N'
+  }
+];
+---
+
+<BaseLayout
+  title="Bảng giá | vSmartSell Phần mềm quản lý Tôn, Sắt thép"
+  description="Tham khảo bảng giá vSmartSell – phần mềm bán hàng cho doanh nghiệp ngành xây dựng. Gói cơ bản đến chuyên sâu, dễ dùng và tiết kiệm."
+>
+  <!-- Hero Section -->
+  <section class="py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:60px_60px]"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur rounded-full text-white/80 text-sm mb-6">
+        <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+        Dùng thử miễn phí 15 ngày
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+        Các gói dịch vụ <span class="text-cyan-400">vSmartSell</span>
+      </h1>
+      <p class="text-xl text-slate-300 max-w-2xl mx-auto">
+        Tất cả các gói dịch vụ đều được nghiên cứu và xây dựng phù hợp cho từng quy mô kinh doanh
+      </p>
+    </div>
+  </section>
+
+  <!-- Pricing Cards -->
+  <section class="py-20 bg-gray-50 -mt-10 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {plans.map((plan) => (
+          <div class={`relative bg-white rounded-2xl p-6 shadow-sm border-2 transition-all hover:shadow-xl ${plan.popular ? 'border-blue-500 scale-105' : 'border-gray-100 hover:border-blue-200'}`}>
+            {plan.popular && (
+              <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+                <span class="bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full">Phổ biến nhất</span>
+              </div>
+            )}
+            <div class="text-center mb-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-2">{plan.name}</h3>
+              <p class="text-gray-500 text-sm mb-4">{plan.description}</p>
+              <div class="text-3xl font-bold text-blue-600">{plan.price}</div>
+            </div>
+            <ul class="space-y-3 mb-6">
+              {plan.features.map((feature) => (
+                <li class="flex items-start gap-2 text-sm text-gray-600">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  {feature}
+                </li>
+              ))}
+            </ul>
+            <a href="#contact" class={`block w-full text-center py-3 rounded-xl font-semibold transition-colors ${plan.popular ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}>
+              Liên hệ tư vấn
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Included -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-cyan-600 font-semibold text-sm uppercase tracking-wider">Dịch vụ đi kèm</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
+          Tất cả các gói đều bao gồm
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services.map((service) => (
+          <div class="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
+            <div class="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            <p class="text-gray-700">{service.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-cyan-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Thay đổi cách quản lý để tối ưu các nguồn lực
+        </h2>
+        <p class="text-blue-100 text-lg">
+          Với vSmartSell, Tồn kho - Công Nợ - Khách hàng đều được giải quyết đơn giản
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        {benefits.map((benefit) => (
+          <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20">
+            <h3 class="text-xl font-bold text-white mb-3">{benefit.title}</h3>
+            <p class="text-blue-100">{benefit.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Đánh giá</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
+          Khách hàng nói gì về vSmartSell?
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        {testimonials.map((testimonial) => (
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div class="flex mb-4">
+              {[1,2,3,4,5].map(() => (
+                <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              ))}
+            </div>
+            <p class="text-gray-600 mb-6 italic">"{testimonial.quote}"</p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                {testimonial.avatar}
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900">{testimonial.author}</p>
+                <p class="text-sm text-gray-500">{testimonial.role}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-cyan-600 font-semibold text-sm uppercase tracking-wider">FAQ</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
+          Câu hỏi thường gặp
+        </h2>
+      </div>
+
+      <div class="space-y-4">
+        {faqs.map((faq, index) => (
+          <div class="bg-gray-50 rounded-2xl p-6">
+            <h3 class="font-bold text-gray-900 mb-3 flex items-start gap-3">
+              <span class="w-8 h-8 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 text-sm font-bold">
+                {index + 1}
+              </span>
+              {faq.question}
+            </h3>
+            <p class="text-gray-600 pl-11">{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gray-50" id="contact">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl"></div>
+
+        <div class="relative z-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Bắt đầu dùng thử miễn phí 15 ngày
+          </h2>
+          <p class="text-slate-300 text-lg mb-8">
+            Trải nghiệm những tính năng quản lý bán hàng chuyên dụng của vSmartSell
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/#dung-thu" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl hover:shadow-lg transition-shadow">
+              Dùng thử miễn phí
+              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+            <a href="tel:0866135766" class="inline-flex items-center justify-center px-8 py-4 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              0866.135.766
+            </a>
+          </div>
+          <p class="text-slate-400 text-sm mt-6">
+            Hotline hỗ trợ 24/7 - Tư vấn miễn phí
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
