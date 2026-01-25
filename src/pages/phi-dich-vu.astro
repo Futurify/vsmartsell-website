@@ -60,6 +60,74 @@ const plans = [
   }
 ];
 
+const comparisonFeatures = [
+  {
+    category: 'Quản lý bán hàng',
+    features: [
+      { name: 'Tạo đơn hàng nhanh', basic: true, advanced: true, pro: true, enterprise: true },
+      { name: 'Quản lý giá bán theo khách hàng', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'Chiết khấu, khuyến mãi', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'In hóa đơn, phiếu giao hàng', basic: true, advanced: true, pro: true, enterprise: true },
+    ]
+  },
+  {
+    category: 'Quản lý kho',
+    features: [
+      { name: 'Nhập/Xuất kho cơ bản', basic: true, advanced: true, pro: true, enterprise: true },
+      { name: 'Quản lý nhiều đơn vị tính', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'Cắt xẻ cuộn tôn', basic: false, advanced: false, pro: true, enterprise: true },
+      { name: 'Quản lý theo lô, hạn sử dụng', basic: false, advanced: false, pro: true, enterprise: true },
+      { name: 'Kiểm kho, điều chuyển kho', basic: false, advanced: true, pro: true, enterprise: true },
+    ]
+  },
+  {
+    category: 'Quản lý công nợ',
+    features: [
+      { name: 'Công nợ khách hàng', basic: true, advanced: true, pro: true, enterprise: true },
+      { name: 'Công nợ nhà cung cấp', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'Định mức công nợ', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'Nhắc nợ tự động', basic: false, advanced: false, pro: true, enterprise: true },
+    ]
+  },
+  {
+    category: 'Sản xuất & Gia công',
+    features: [
+      { name: 'Quản lý đơn gia công', basic: false, advanced: false, pro: true, enterprise: true },
+      { name: 'Định mức nguyên vật liệu', basic: false, advanced: false, pro: true, enterprise: true },
+      { name: 'Theo dõi tiến độ sản xuất', basic: false, advanced: false, pro: true, enterprise: true },
+    ]
+  },
+  {
+    category: 'Báo cáo',
+    features: [
+      { name: 'Báo cáo doanh thu, lợi nhuận', basic: true, advanced: true, pro: true, enterprise: true },
+      { name: 'Báo cáo tồn kho', basic: true, advanced: true, pro: true, enterprise: true },
+      { name: 'Báo cáo công nợ chi tiết', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'Báo cáo tổng hợp đa chi nhánh', basic: false, advanced: false, pro: false, enterprise: true },
+      { name: 'Xuất Excel', basic: false, advanced: true, pro: true, enterprise: true },
+    ]
+  },
+  {
+    category: 'Quản lý hệ thống',
+    features: [
+      { name: 'Số lượng chi nhánh', basic: '1', advanced: '2', pro: '5', enterprise: 'Không giới hạn' },
+      { name: 'Số lượng người dùng', basic: '2', advanced: '5', pro: '10', enterprise: 'Không giới hạn' },
+      { name: 'Phân quyền người dùng', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'Lịch sử hoạt động', basic: false, advanced: true, pro: true, enterprise: true },
+      { name: 'API tích hợp', basic: false, advanced: false, pro: true, enterprise: true },
+    ]
+  },
+  {
+    category: 'Hỗ trợ',
+    features: [
+      { name: 'Hỗ trợ qua hotline', basic: true, advanced: true, pro: true, enterprise: true },
+      { name: 'Đào tạo nhân viên', basic: true, advanced: true, pro: true, enterprise: true },
+      { name: 'Hỗ trợ ưu tiên 24/7', basic: false, advanced: false, pro: true, enterprise: true },
+      { name: 'Tùy chỉnh theo yêu cầu', basic: false, advanced: false, pro: false, enterprise: true },
+    ]
+  },
+];
+
 const services = [
   { icon: 'users', text: 'Được triển khai bởi đội ngũ kỹ sư phần mềm kinh nghiệm' },
   { icon: 'phone', text: 'Đội ngũ hỗ trợ 24/7 qua hotline 0866.135.766' },
@@ -178,8 +246,118 @@ const testimonials = [
     </div>
   </section>
 
-  <!-- Services Included -->
+  <!-- Comparison Table -->
   <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">So sánh</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
+          Bảng so sánh tính năng
+        </h2>
+        <p class="text-gray-600 mt-2">So sánh chi tiết các gói dịch vụ để chọn gói phù hợp nhất</p>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="bg-gray-50">
+              <th class="text-left p-4 font-semibold text-gray-900 border-b-2 border-gray-200 min-w-[200px]">Tính năng</th>
+              <th class="text-center p-4 font-semibold text-gray-900 border-b-2 border-gray-200 min-w-[120px]">Cơ bản</th>
+              <th class="text-center p-4 font-semibold text-gray-900 border-b-2 border-gray-200 min-w-[120px]">Nâng cao</th>
+              <th class="text-center p-4 font-semibold text-blue-600 border-b-2 border-blue-500 min-w-[120px] bg-blue-50">Chuyên nghiệp</th>
+              <th class="text-center p-4 font-semibold text-gray-900 border-b-2 border-gray-200 min-w-[120px]">Doanh nghiệp</th>
+            </tr>
+          </thead>
+          <tbody>
+            {comparisonFeatures.map((category) => (
+              <>
+                <tr class="bg-gray-100">
+                  <td colspan="5" class="p-3 font-bold text-gray-800">{category.category}</td>
+                </tr>
+                {category.features.map((feature, idx) => (
+                  <tr class={idx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                    <td class="p-4 text-gray-700 border-b border-gray-100">{feature.name}</td>
+                    <td class="p-4 text-center border-b border-gray-100">
+                      {typeof feature.basic === 'boolean' ? (
+                        feature.basic ? (
+                          <svg class="w-5 h-5 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        ) : (
+                          <svg class="w-5 h-5 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        )
+                      ) : (
+                        <span class="text-gray-700 font-medium">{feature.basic}</span>
+                      )}
+                    </td>
+                    <td class="p-4 text-center border-b border-gray-100">
+                      {typeof feature.advanced === 'boolean' ? (
+                        feature.advanced ? (
+                          <svg class="w-5 h-5 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        ) : (
+                          <svg class="w-5 h-5 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        )
+                      ) : (
+                        <span class="text-gray-700 font-medium">{feature.advanced}</span>
+                      )}
+                    </td>
+                    <td class="p-4 text-center border-b border-blue-100 bg-blue-50/50">
+                      {typeof feature.pro === 'boolean' ? (
+                        feature.pro ? (
+                          <svg class="w-5 h-5 text-blue-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        ) : (
+                          <svg class="w-5 h-5 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        )
+                      ) : (
+                        <span class="text-blue-600 font-medium">{feature.pro}</span>
+                      )}
+                    </td>
+                    <td class="p-4 text-center border-b border-gray-100">
+                      {typeof feature.enterprise === 'boolean' ? (
+                        feature.enterprise ? (
+                          <svg class="w-5 h-5 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        ) : (
+                          <svg class="w-5 h-5 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        )
+                      ) : (
+                        <span class="text-gray-700 font-medium">{feature.enterprise}</span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors">
+          Liên hệ tư vấn chi tiết
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Included -->
+  <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <span class="text-cyan-600 font-semibold text-sm uppercase tracking-wider">Dịch vụ đi kèm</span>
