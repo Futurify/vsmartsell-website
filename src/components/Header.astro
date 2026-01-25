@@ -1,0 +1,154 @@
+---
+const navItems = [
+  { href: '/', label: 'Trang chủ' },
+  { href: '/ve-vsmartsell', label: 'Về vSmartSell' },
+  { href: '/phi-dich-vu', label: 'Bảng giá' },
+  {
+    href: '/hop-tac',
+    label: 'Hợp tác',
+    children: [
+      { href: '/gioi-thieu-khach-hang', label: 'Giới thiệu khách hàng' },
+      { href: '/cong-tac-vien', label: 'Cộng tác viên' },
+    ]
+  },
+  { href: '/blog', label: 'Bài viết' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 bg-white shadow-sm">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="/" class="flex items-center">
+        <img src="/images/logo.png" alt="vSmartSell" class="h-8" />
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden lg:flex items-center space-x-6">
+        {navItems.map((item) => (
+          item.children ? (
+            <div class="relative group">
+              <button class="flex items-center text-sm font-medium text-gray-700 hover:text-[#096DD9] transition-colors">
+                {item.label}
+                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div class="py-1">
+                  {item.children.map((child) => (
+                    <a
+                      href={child.href}
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#096DD9]"
+                    >
+                      {child.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <a
+              href={item.href}
+              class={`text-sm font-medium transition-colors ${
+                currentPath === item.href
+                  ? 'text-[#096DD9]'
+                  : 'text-gray-700 hover:text-[#096DD9]'
+              }`}
+            >
+              {item.label}
+            </a>
+          )
+        ))}
+      </div>
+
+      <!-- CTA Buttons -->
+      <div class="hidden lg:flex items-center space-x-3">
+        <a href="tel:0866135766" class="flex items-center text-sm text-gray-600 hover:text-[#096DD9]">
+          <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          0866.135.766
+        </a>
+        <a href="#dung-thu" class="bg-[#096DD9] hover:bg-[#0050B3] text-white text-sm font-medium px-4 py-2 rounded transition-colors">
+          Dùng thử
+        </a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <button
+        type="button"
+        class="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-[#096DD9] hover:bg-gray-100"
+        id="mobile-menu-button"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Mở menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="menu-icon">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="close-icon">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="lg:hidden hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 border-t">
+        {navItems.map((item) => (
+          item.children ? (
+            <>
+              <a
+                href={item.href}
+                class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[#096DD9] hover:bg-gray-50 rounded-md"
+              >
+                {item.label}
+              </a>
+              {item.children.map((child) => (
+                <a
+                  href={child.href}
+                  class="block px-3 py-2 pl-6 text-sm text-gray-600 hover:text-[#096DD9] hover:bg-gray-50 rounded-md"
+                >
+                  {child.label}
+                </a>
+              ))}
+            </>
+          ) : (
+            <a
+              href={item.href}
+              class={`block px-3 py-2 text-base font-medium rounded-md ${
+                currentPath === item.href
+                  ? 'text-[#096DD9] bg-blue-50'
+                  : 'text-gray-700 hover:text-[#096DD9] hover:bg-gray-50'
+              }`}
+            >
+              {item.label}
+            </a>
+          )
+        ))}
+        <div class="pt-4 pb-2">
+          <a href="#dung-thu" class="block w-full text-center bg-[#096DD9] hover:bg-[#0050B3] text-white font-medium px-4 py-2 rounded transition-colors">
+            Dùng thử miễn phí
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
+
+  menuButton?.addEventListener('click', () => {
+    const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', (!isExpanded).toString());
+    mobileMenu?.classList.toggle('hidden');
+    menuIcon?.classList.toggle('hidden');
+    closeIcon?.classList.toggle('hidden');
+  });
+</script>

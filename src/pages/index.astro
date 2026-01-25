@@ -1,0 +1,478 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const features = [
+  {
+    icon: 'shopping-cart',
+    title: 'Quản lý bán hàng',
+    description: 'Xử lý đơn hàng nhanh chóng, chính xác theo nhiều đơn vị tính. Quản lý giá bán theo nhóm khách hàng.',
+    color: 'blue'
+  },
+  {
+    icon: 'truck',
+    title: 'Quản lý nhập mua',
+    description: 'Theo dõi tiến độ giao hàng, kiểm soát giá nhập và công nợ nhà cung cấp hiệu quả.',
+    color: 'cyan'
+  },
+  {
+    icon: 'cog',
+    title: 'Quản lý sản xuất',
+    description: 'Tự động hóa quy trình sản xuất, từ lập kế hoạch đến kiểm soát chất lượng.',
+    color: 'indigo'
+  },
+  {
+    icon: 'cube',
+    title: 'Quản lý kho hàng',
+    description: 'Quản lý tồn kho theo nhiều đơn vị, nhiều quy cách, nhiều lô. Kiểm soát xuất nhập tồn chính xác.',
+    color: 'purple'
+  },
+  {
+    icon: 'chart',
+    title: 'Báo cáo thông minh',
+    description: 'Hệ thống báo cáo đa dạng, trực quan giúp nắm bắt tình hình kinh doanh nhanh chóng.',
+    color: 'green'
+  },
+  {
+    icon: 'shield',
+    title: 'Bảo mật cao cấp',
+    description: 'Hệ thống bảo mật đa lớp, phân quyền chi tiết. Dữ liệu được sao lưu tự động.',
+    color: 'orange'
+  }
+];
+
+const stats = [
+  { number: '500+', label: 'Doanh nghiệp tin dùng' },
+  { number: '8+', label: 'Năm kinh nghiệm' },
+  { number: '50%', label: 'Tăng lợi nhuận' },
+  { number: '24/7', label: 'Hỗ trợ khách hàng' }
+];
+
+const testimonials = [
+  {
+    quote: 'vSmartSell giúp tôi quản lý 10 chi nhánh một cách dễ dàng. Mọi thứ đều có thể nắm bắt kịp thời cho dù không có mặt tại cửa hàng.',
+    author: 'Anh Nhàn',
+    role: 'Giám đốc - Công Ty TNHH Hoàng Sa',
+    avatar: 'N'
+  },
+  {
+    quote: 'Phần mềm xử lý rất tốt các sản phẩm tôn, sắt thép với tính năng cắt xẻ cuộn tôn mà các phần mềm khác không làm được.',
+    author: 'Cô Mai',
+    role: 'Giám đốc - Công Ty TNHH Lâm Nhật Mai',
+    avatar: 'M'
+  },
+  {
+    quote: 'Tính năng sản xuất giúp tôi quản lý được nguyên liệu và thành phẩm hiệu quả, tiết kiệm rất nhiều thời gian.',
+    author: 'Chị Thúy',
+    role: 'Giám đốc - Công Ty TNHH Trường Thành',
+    avatar: 'T'
+  }
+];
+
+const industries = [
+  { name: 'Tôn, Sắt thép', icon: 'steel', image: '/images/features-screenshot.png' },
+  { name: 'Gạch men', icon: 'tiles', image: '/images/gach-men-illustration.png' },
+  { name: 'Vật liệu xây dựng', icon: 'materials', image: '/images/software-illustration.png' },
+  { name: 'Thiết bị vệ sinh', icon: 'bathroom', image: '/images/combo-illustration.png' }
+];
+---
+
+<BaseLayout
+  title="vSmartSell - Phần mềm quản lý bán hàng VLXD hàng đầu Việt Nam"
+  description="Phần mềm quản lý Tôn, Sắt Thép, Gạch men, Vật liệu xây dựng. Bán hàng nhanh, quản lý tồn kho nhiều đơn vị. DÙNG THỬ MIỄN PHÍ 30 NGÀY."
+>
+  <!-- Hero Section - Modern Gradient -->
+  <section class="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
+    <!-- Animated Background -->
+    <div class="absolute inset-0">
+      <div class="absolute top-0 -left-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+      <div class="absolute top-0 -right-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+      <div class="absolute -bottom-8 left-20 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+    </div>
+
+    <!-- Grid Pattern Overlay -->
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="text-center lg:text-left">
+          <div class="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
+            <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse mr-2"></span>
+            <span class="text-sm text-white/80">Dùng thử miễn phí 30 ngày</span>
+          </div>
+
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+            Quản lý bán hàng
+            <span class="block bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              thông minh hơn
+            </span>
+          </h1>
+
+          <p class="text-lg md:text-xl text-slate-300 mb-8 max-w-xl mx-auto lg:mx-0">
+            Giải pháp quản lý toàn diện cho ngành Tôn, Sắt thép, Gạch men và Vật liệu xây dựng. Tối ưu vận hành, tăng trưởng doanh thu.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a href="#dung-thu" class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl overflow-hidden shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 transition-all duration-300 hover:-translate-y-1">
+              <span class="relative z-10">Bắt đầu miễn phí</span>
+              <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+            <a href="#tinh-nang" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white/20 rounded-xl hover:bg-white/10 transition-all duration-300">
+              Tìm hiểu thêm
+            </a>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="relative z-10">
+            <!-- Floating Card Effect -->
+            <div class="bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 p-2 shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
+              <img
+                src="/images/hero-dashboard.png"
+                alt="Giao diện phần mềm vSmartSell"
+                class="rounded-xl w-full"
+                loading="eager"
+                onerror="this.src='https://via.placeholder.com/600x400?text=Dashboard'"
+              />
+            </div>
+
+            <!-- Floating Stats Card -->
+            <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 animate-float">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-2xl font-bold text-gray-900">+50%</p>
+                  <p class="text-sm text-gray-500">Tăng lợi nhuận</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Users Card -->
+            <div class="absolute -top-4 -right-4 bg-white rounded-xl shadow-xl p-4 animate-float animation-delay-1000">
+              <div class="flex items-center gap-3">
+                <div class="flex -space-x-2">
+                  <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">H</div>
+                  <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">M</div>
+                  <div class="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">T</div>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold text-gray-900">500+ doanh nghiệp</p>
+                  <p class="text-xs text-gray-500">đang sử dụng</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-16 bg-white relative -mt-10 z-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="bg-white rounded-2xl shadow-xl border border-gray-100 p-8">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          {stats.map((stat) => (
+            <div class="text-center">
+              <div class="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">{stat.number}</div>
+              <div class="text-gray-600 mt-1 text-sm">{stat.label}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20 bg-slate-50" id="tinh-nang">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">Tính năng</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Mọi thứ bạn cần để
+          <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">quản lý hiệu quả</span>
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Giải pháp toàn diện được thiết kế riêng cho ngành vật liệu xây dựng với 8+ năm kinh nghiệm
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {features.map((feature, index) => (
+          <div class="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-xl hover:border-transparent hover:-translate-y-1 transition-all duration-300">
+            <div class={`w-14 h-14 rounded-xl flex items-center justify-center mb-5 ${
+              feature.color === 'blue' ? 'bg-blue-100 text-blue-600' :
+              feature.color === 'cyan' ? 'bg-cyan-100 text-cyan-600' :
+              feature.color === 'indigo' ? 'bg-indigo-100 text-indigo-600' :
+              feature.color === 'purple' ? 'bg-purple-100 text-purple-600' :
+              feature.color === 'green' ? 'bg-green-100 text-green-600' :
+              'bg-orange-100 text-orange-600'
+            } group-hover:scale-110 transition-transform duration-300`}>
+              {feature.icon === 'shopping-cart' && (
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              )}
+              {feature.icon === 'truck' && (
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+              )}
+              {feature.icon === 'cog' && (
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              )}
+              {feature.icon === 'cube' && (
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                </svg>
+              )}
+              {feature.icon === 'chart' && (
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              )}
+              {feature.icon === 'shield' && (
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              )}
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">{feature.title}</h3>
+            <p class="text-gray-600">{feature.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- App Showcase Section -->
+  <section class="py-20 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="inline-block px-4 py-1 bg-cyan-100 text-cyan-700 rounded-full text-sm font-medium mb-4">Ứng dụng di động</span>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            Quản lý mọi lúc,
+            <span class="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">mọi nơi</span>
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            Theo dõi đơn hàng, tồn kho, công nợ dễ dàng trên điện thoại. Nhận thông báo real-time khi có đơn hàng mới.
+          </p>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Báo cáo real-time</h4>
+                <p class="text-gray-600 text-sm">Xem doanh thu, lợi nhuận theo ngày/tháng/năm</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Thông báo đẩy</h4>
+                <p class="text-gray-600 text-sm">Nhận alert khi có đơn hàng, công nợ đến hạn</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Quản lý đa chi nhánh</h4>
+                <p class="text-gray-600 text-sm">Giám sát tất cả chi nhánh từ một ứng dụng</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="flex justify-center gap-4">
+            <div class="transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+              <img
+                src="/images/mobile-app-1.png"
+                alt="Ứng dụng vSmartSell trên điện thoại"
+                class="h-[500px] object-contain rounded-3xl shadow-2xl"
+                onerror="this.src='https://via.placeholder.com/272x544?text=Mobile+App'"
+              />
+            </div>
+            <div class="transform rotate-6 hover:rotate-0 transition-transform duration-500 mt-8">
+              <img
+                src="/images/mobile-app-2.png"
+                alt="Báo cáo trên điện thoại vSmartSell"
+                class="h-[500px] object-contain rounded-3xl shadow-2xl"
+                onerror="this.src='https://via.placeholder.com/272x546?text=Mobile+App'"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries Section -->
+  <section class="py-20 bg-gradient-to-br from-slate-800 via-blue-800 to-slate-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="inline-block px-4 py-1 bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 rounded-full text-sm font-medium mb-4">Ngành nghề</span>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">
+          Giải pháp cho
+          <span class="text-cyan-300">mọi ngành VLXD</span>
+        </h2>
+        <p class="text-lg text-white/80 max-w-2xl mx-auto">
+          Được thiết kế đặc biệt để phục vụ các doanh nghiệp kinh doanh vật liệu xây dựng
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {industries.map((industry) => (
+          <div class="group bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/15 hover:border-white/30 transition-all duration-300 hover:-translate-y-2">
+            <div class="h-40 mb-4 flex items-center justify-center overflow-hidden rounded-xl bg-white">
+              <img
+                src={industry.image}
+                alt={industry.name}
+                class="h-full w-full object-contain p-4 group-hover:scale-110 transition-transform duration-500"
+                onerror="this.src='https://via.placeholder.com/200x160?text=Industry'"
+              />
+            </div>
+            <h3 class="text-lg font-bold text-white text-center">{industry.name}</h3>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="inline-block px-4 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-4">Đánh giá</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Khách hàng nói gì về
+          <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">vSmartSell</span>?
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        {testimonials.map((testimonial) => (
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300">
+            <div class="flex mb-4">
+              {[1,2,3,4,5].map(() => (
+                <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              ))}
+            </div>
+            <p class="text-gray-600 mb-6 italic">"{testimonial.quote}"</p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                {testimonial.avatar}
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900">{testimonial.author}</p>
+                <p class="text-sm text-gray-500">{testimonial.role}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-white" id="dung-thu">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative bg-gradient-to-br from-blue-600 to-cyan-500 rounded-3xl p-8 md:p-12 overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-48 h-48 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/2"></div>
+
+        <div class="relative z-10 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Sẵn sàng tối ưu hóa doanh nghiệp?
+          </h2>
+          <p class="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
+            Đăng ký ngay để trải nghiệm miễn phí 30 ngày. Không cần thẻ tín dụng, hỗ trợ tư vấn 24/7.
+          </p>
+
+          <form class="max-w-lg mx-auto">
+            <div class="flex flex-col sm:flex-row gap-3">
+              <input
+                type="tel"
+                placeholder="Số điện thoại của bạn"
+                class="flex-1 px-6 py-4 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-white/30"
+                required
+              />
+              <button type="submit" class="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors shadow-lg">
+                Đăng ký ngay
+              </button>
+            </div>
+          </form>
+
+          <p class="text-sm text-blue-100 mt-4">
+            Hoặc gọi ngay <a href="tel:0866135766" class="text-white font-semibold underline">0866.135.766</a> để được tư vấn
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  @keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+</style>

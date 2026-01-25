@@ -1,0 +1,70 @@
+---
+const currentYear = new Date().getFullYear();
+
+const footerNavLinks = [
+  { href: '/', label: 'Trang chủ' },
+  { href: '/ve-vsmartsell', label: 'Về vSmartSell' },
+  { href: '/phi-dich-vu', label: 'Bảng giá' },
+  { href: '/hop-tac', label: 'Hợp tác' },
+  { href: '/gioi-thieu-khach-hang', label: 'Giới thiệu khách hàng' },
+  { href: '/cong-tac-vien', label: 'Cộng tác viên' },
+  { href: '/blog', label: 'Bài viết' },
+];
+---
+
+<footer class="bg-[#1a1a2e] text-gray-300">
+  <!-- Main Footer -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Logo & Company -->
+      <div>
+        <a href="/" class="inline-block mb-4">
+          <img src="/images/logo.png" alt="vSmartSell" class="h-8 brightness-0 invert" />
+        </a>
+        <p class="text-sm text-gray-400">
+          Phần mềm quản lý bán hàng chuyên dụng cho ngành Tôn, Sắt thép, Gạch men và Vật liệu xây dựng.
+        </p>
+      </div>
+
+      <!-- Contact Info -->
+      <div>
+        <h3 class="text-white font-semibold mb-4">Địa chỉ và liên hệ</h3>
+        <div class="space-y-2 text-sm text-gray-400">
+          <p>Địa chỉ: Phường 3, Quận 9, TP HCM</p>
+          <p>
+            <span>Email: </span>
+            <a href="mailto:contact@vsmartsell.com" class="text-[#00D2D4] hover:underline">contact@vsmartsell.com</a>
+          </p>
+          <p>
+            <span>Hotline: </span>
+            <a href="tel:0866135766" class="text-[#00D2D4] hover:underline">0866.135.766</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <div>
+        <h3 class="text-white font-semibold mb-4">Điều hướng nhanh</h3>
+        <ul class="space-y-2 text-sm">
+          {footerNavLinks.map((link) => (
+            <li>
+              <a href={link.href} class="text-gray-400 hover:text-white transition-colors">
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="border-t border-gray-700/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div class="text-center text-sm text-gray-500">
+        <p>Copyright © 2019 - {currentYear} vSmartSell là phần mềm của Công ty TNHH Futurify</p>
+        <p class="mt-1">Số Giấy CN ĐKDN mã số 0311812639 do Sở Kế hoạch và Đầu tư cấp ngày 30/05/2012</p>
+      </div>
+    </div>
+  </div>
+</footer>
