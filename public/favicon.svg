@@ -1,9 +1,10 @@
-<svg width="32" height="32" viewBox="0 0 137 98" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Shopping cart icon matching the logo -->
-  <path d="M30.5 0L0 42.5H17.5L30.5 21L43.5 42.5H61L30.5 0Z" fill="#4338CA"/>
-  <path d="M76.5 0L46 42.5H63.5L76.5 21L89.5 42.5H107L76.5 0Z" fill="#4338CA"/>
-  <path d="M46 50L63.5 42.5V75H46V50Z" fill="#4338CA"/>
-  <path d="M80 50V75H63.5V42.5L80 50Z" fill="#4338CA"/>
-  <circle cx="52" cy="88" r="10" fill="#4338CA"/>
-  <circle cx="74" cy="88" r="10" fill="#4338CA"/>
+<svg width="32" height="32" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- First V shape -->
+  <path d="M0 0 L20 0 L38 45 L56 0 L76 0 L48 70 L28 70 Z" fill="#1a1a2e"/>
+  <!-- Second V with upward extension -->
+  <path d="M52 0 L72 0 L90 45 L90 0 L110 0 L110 70 L90 70 L62 70 Z" fill="#1a1a2e"/>
+  <!-- Left dot -->
+  <circle cx="38" cy="88" r="12" fill="#1a1a2e"/>
+  <!-- Right dot -->
+  <circle cx="82" cy="88" r="12" fill="#1a1a2e"/>
 </svg>
