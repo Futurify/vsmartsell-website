@@ -4,8 +4,8 @@ description: "Hướng dẫn sử dụng báo cáo tuổi nợ khách hàng đ�
 pubDate: 2025-08-19
 author: "vSmartSell Team"
 image: ""
-category: "huong-dan-su-dung"
-categoryLabel: "Hướng dẫn sử dụng"
+category: "meo-hay"
+categoryLabel: "Mẹo hay"
 readingTime: "6 phút"
 ---
 
