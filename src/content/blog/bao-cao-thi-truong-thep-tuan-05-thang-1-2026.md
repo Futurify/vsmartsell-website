@@ -195,74 +195,52 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 ### Diễn biến giá thép tuần qua
 
-Thị trường thép Việt Nam tuần này có sự phân hóa rõ rệt giữa các dòng sản phẩm:
+Thị trường thép trong nước tuần này có diễn biến phân hóa giữa các loại sản phẩm:
 
-**Tôn mạ kẽm** ghi nhận mức tăng mạnh nhất với **+2.1%** trong 7 ngày, đạt **19,633,326 VND/tấn**. Đây là mức tăng đáng kể so với các sản phẩm thép khác.
+**Tôn mạ kẽm** ghi nhận mức tăng mạnh nhất với **+2.1%** trong 7 ngày, đạt 19,633,326 VND/tấn. Đây là mức tăng đáng kể so với các sản phẩm thép khác.
 
-**Thép cuộn cán nóng (HRC)** tăng nhẹ **+0.8%**, hiện ở mức **17,921,871 VND/tấn** - về cơ bản ổn định.
+**Thép cuộn cán nóng (HRC)** tăng nhẹ **+0.8%**, hiện ở mức 17,921,871 VND/tấn - thuộc vùng ổn định.
 
-**Thép thanh vằn (Rebar)** giảm nhẹ **-0.6%**, xuống còn **15,784,377 VND/tấn**. Đây là dòng sản phẩm duy nhất đi ngược xu hướng chung.
+**Thép thanh vằn (Rebar)** giảm nhẹ **-0.6%**, xuống còn 15,784,377 VND/tấn. Mức giảm không đáng kể, thị trường vẫn giữ trạng thái đi ngang.
 
-Tổng hợp: Tôn mạ dẫn đầu đà tăng, HRC ổn định, Rebar chịu áp lực giảm nhẹ.
-
----
+So sánh: Tôn mạ kẽm đang có xu hướng tích cực hơn hẳn so với thép xây dựng (rebar). Chênh lệch giá giữa tôn mạ kẽm và thép thanh vằn hiện khoảng 3,85 triệu VND/tấn.
 
 ### Các yếu tố tác động
 
-**Quặng sắt** - Yếu tố hỗ trợ:
-- Giá quặng sắt hồi phục lên **113,95 USD/tấn** theo tin tức mới nhất (26/01)
-- Dữ liệu hệ thống ghi nhận **104,81 USD/tấn** - dao động trong biên độ hợp lý
-- Việc quặng sắt "dừng đà giảm" và "quay đầu tăng giá" hỗ trợ tâm lý thị trường
+**Quặng sắt:** Giá quặng sắt hồi phục lên **113,95 USD/tấn** theo tin tức ngày 26/01, trong khi dữ liệu giao dịch ghi nhận **104,81 USD/tấn**. Xu hướng quặng sắt dừng đà giảm và quay đầu tăng trở lại đang hỗ trợ tâm lý thị trường thép.
 
-**Tỷ giá USD/VND**:
-- Hiện ở mức **26,180 VND/USD**
-- Tỷ giá ổn định giúp chi phí nhập khẩu nguyên liệu không biến động lớn
+**Tỷ giá USD/VND:** Ổn định ở mức **26,180 VND/USD**. Tỷ giá ổn định giúp chi phí nhập khẩu nguyên liệu không biến động mạnh, có lợi cho các nhà sản xuất trong nước.
 
-**Cung cầu nội địa**:
-- Tin tức cho thấy HPG đã "kéo giá" lần thứ 5 - động thái điều chỉnh giá bán từ nhà sản xuất lớn nhất
-- Thị trường thép nội địa được đánh giá "giữ mức ổn định" và "đi ngang"
+**Tỷ giá USD/CNY:** Ở mức **6,9537**, đồng CNY yếu làm thép Trung Quốc có lợi thế cạnh tranh về giá khi xuất khẩu, tạo áp lực cạnh tranh cho thép Việt Nam.
 
-**Giá dầu Brent**: 64,82 USD/thùng - ở mức thấp, giảm áp lực chi phí vận chuyển
-
----
+**Giá dầu Brent:** **64,82 USD/thùng** - mức khá thấp, giúp giảm chi phí vận chuyển và logistics cho ngành thép.
 
 ### Điểm đáng chú ý
 
-**1. HPG liên tục điều chỉnh giá:**
-Hòa Phát đã "kéo giá" lần thứ 5, đặt ra câu hỏi về việc "chu kỳ thép đã thực sự quay lại". Đây là tín hiệu từ nhà sản xuất lớn nhất thị trường.
+**HPG tăng giá lần thứ 5:** Tin tức ghi nhận Hòa Phát tiếp tục điều chỉnh tăng giá bán, đây là lần thứ 5 trong chu kỳ gần đây. Động thái này cho thấy nhà sản xuất lớn nhất đang tự tin về nhu cầu thị trường.
 
-**2. Phân hóa cổ phiếu ngành thép:**
-- **POM (Pomina)** tăng vọt **+14.5%** - mức tăng bất thường, cần theo dõi nguyên nhân
-- **HPG** giảm **-1.7%**, **HSG** giảm **-2.8%**, **NKG** giảm **-3.3%**
-- Sự phân hóa mạnh cho thấy kỳ vọng thị trường khác nhau giữa các doanh nghiệp
+**Cổ phiếu thép phân hóa mạnh:**
+- POM (Pomina) tăng vọt **+14,5%** - mức tăng bất thường
+- HSG giảm **-2,8%**, NKG giảm **-3,3%** 
+- HPG giảm nhẹ **-1,7%**
 
-**3. Tâm lý thị trường:**
-- Đánh giá tổng thể: **Trung lập** (điểm 0.26)
-- Tin tích cực chiếm **21.1%**, tin tiêu cực chỉ **5.6%**
-- Phần lớn tin (60%) chưa được phân tích - thị trường đang trong giai đoạn chờ đợi
+Sự phân hóa này phản ánh kỳ vọng khác nhau của nhà đầu tư về từng doanh nghiệp, không phải xu hướng chung của ngành.
 
-**4. Nông nghiệp Hòa Phát niêm yết:**
-HPG chuẩn bị niêm yết 285 triệu cổ phiếu mảng nông nghiệp trên HOSE - động thái tái cơ cấu đáng chú ý.
-
----
+**Tâm lý thị trường:** Đánh giá tổng thể ở mức **Trung lập (0.26)**, nghiêng nhẹ về tích cực với 22 bài tích cực/rất tích cực so với 6 bài tiêu cực/rất tiêu cực.
 
 ### Yếu tố cần theo dõi
 
-**Tuần tới cần chú ý:**
+**Diễn biến quặng sắt:** Giá quặng vừa hồi phục, cần theo dõi xem đà tăng có duy trì hay không. Nếu quặng tiếp tục tăng, chi phí đầu vào sẽ tăng theo, hỗ trợ giá thép thành phẩm.
 
-1. **Giá quặng sắt**: Đang ở vùng 104-114 USD/tấn. Nếu tiếp tục hồi phục sẽ hỗ trợ giá thép, nếu quay đầu giảm sẽ tạo áp lực.
+**Động thái của Hòa Phát:** HPG đã tăng giá 5 lần liên tiếp. Nếu tiếp tục tăng giá, các nhà sản xuất khác có thể theo sau, đẩy mặt bằng giá chung lên cao hơn.
 
-2. **Động thái HPG**: Sau 5 lần điều chỉnh giá, cần theo dõi xem có đợt điều chỉnh tiếp theo không và phản ứng của thị trường.
+**Nhu cầu xây dựng sau Tết:** Đây là thời điểm trước Tết Nguyên đán, hoạt động xây dựng thường chậm lại. Nhu cầu thực sự sẽ rõ ràng hơn sau kỳ nghỉ Tết.
 
-3. **Nghỉ Tết Nguyên đán**: Thời điểm cận Tết thường có biến động về nhu cầu - doanh nghiệp có thể đẩy mạnh hoặc giảm nhập hàng.
-
-4. **Tỷ giá USD/VND**: Bất kỳ biến động nào sẽ ảnh hưởng trực tiếp đến giá thép nhập khẩu và nguyên liệu.
-
-5. **Cổ phiếu POM**: Mức tăng +14.5% bất thường cần theo dõi - có thể phản ánh thông tin nội bộ hoặc đầu cơ.
+**Chính sách thương mại:** Cần theo dõi các động thái về thuế chống bán phá giá, đặc biệt với thép nhập khẩu từ Trung Quốc trong bối cảnh đồng CNY yếu.
 
 ---
 
-**Ghi chú**: Giá tôn mạ kẽm đang ở xu hướng tăng mạnh nhất (+2.1%/tuần), trong khi thép thanh vằn đang chịu áp lực giảm nhẹ. Thị trường nhìn chung ổn định với tâm lý trung lập, chưa có tín hiệu đột phá rõ ràng theo hướng nào.
+*Lưu ý: Giá thép nội địa đang đi ngang trong khi quặng sắt có dấu hiệu hồi phục. Đây là giai đoạn thị trường chờ đợi tín hiệu rõ ràng hơn về xu hướng.*
 ---
 
 # PHẦN V: PHÂN TÍCH CƠ BẢN (CHI PHÍ & TƯƠNG QUAN)
@@ -352,7 +330,7 @@ HPG chuẩn bị niêm yết 285 triệu cổ phiếu mảng nông nghiệp trê
 
 **Báo cáo được tạo tự động bởi Vietnam Steel Analyzer**
 
-**Ngày tạo:** 26/01/2026 14:17
+**Ngày tạo:** 26/01/2026 14:24
 
 **Liên hệ:** Để biết thêm chi tiết hoặc yêu cầu phân tích chuyên sâu, vui lòng liên hệ đội ngũ phân tích.
 
