@@ -1,5 +1,4 @@
 ---
-export const prerender = true;
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const features = [
@@ -430,20 +429,18 @@ const industries = [
             Đừng để thất thoát kéo dài. Đăng ký dùng thử ngay - chúng tôi sẽ giúp bạn cài đặt và đào tạo <strong class="text-white">hoàn toàn miễn phí</strong>.
           </p>
 
-          <form id="contact-form" class="max-w-lg mx-auto">
+          <form class="max-w-lg mx-auto">
             <div class="flex flex-col sm:flex-row gap-3">
               <input
                 type="tel"
-                id="phone-input"
                 placeholder="Số điện thoại của bạn"
                 class="flex-1 px-6 py-4 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-white/30"
                 required
               />
-              <button type="submit" id="submit-btn" class="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors shadow-lg disabled:opacity-50 disabled:cursor-not-allowed">
+              <button type="submit" class="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors shadow-lg">
                 Nhận tư vấn miễn phí
               </button>
             </div>
-            <p id="form-message" class="mt-3 text-sm hidden"></p>
           </form>
 
           <div class="flex flex-wrap justify-center gap-6 mt-6 text-sm text-blue-100">
@@ -509,49 +506,3 @@ const industries = [
     animation-delay: 4s;
   }
 </style>
-
-<script>
-  const form = document.getElementById('contact-form') as HTMLFormElement;
-  const phoneInput = document.getElementById('phone-input') as HTMLInputElement;
-  const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
-  const formMessage = document.getElementById('form-message') as HTMLParagraphElement;
-
-  form?.addEventListener('submit', async (e) => {
-    e.preventDefault();
-
-    const phone = phoneInput.value.trim();
-    if (!phone) return;
-
-    // Disable button and show loading state
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Đang gửi...';
-    formMessage.classList.add('hidden');
-
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ phone, source: 'homepage' }),
-      });
-
-      const result = await response.json();
-
-      formMessage.classList.remove('hidden');
-      if (result.success) {
-        formMessage.textContent = result.message;
-        formMessage.className = 'mt-3 text-sm text-green-300';
-        phoneInput.value = '';
-      } else {
-        formMessage.textContent = result.message;
-        formMessage.className = 'mt-3 text-sm text-red-300';
-      }
-    } catch {
-      formMessage.classList.remove('hidden');
-      formMessage.textContent = 'Có lỗi xảy ra. Vui lòng thử lại sau.';
-      formMessage.className = 'mt-3 text-sm text-red-300';
-    } finally {
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Nhận tư vấn miễn phí';
-    }
-  });
-</script>
