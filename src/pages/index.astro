@@ -440,7 +440,7 @@ const industries = [
                 type="tel"
                 id="phone-input"
                 name="phone"
-                placeholder="Số điện thoại của bạn (VD: 0866135766)"
+                placeholder="Nhập số điện thoại (VD: 0866135766)"
                 class="flex-1 px-6 py-4 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-white/30"
                 required
               />
@@ -457,8 +457,7 @@ const industries = [
               const errorEl = document.getElementById('phone-error');
 
               // Vietnamese phone: 10 digits starting with 03, 05, 07, 08, 09
-              // Or with +84 prefix (11 chars total)
-              const vnPhoneRegex = /^(0[35789][0-9]{8}|\+84[35789][0-9]{8})$/;
+              const vnPhoneRegex = /^0[35789][0-9]{8}$/;
 
               if (!vnPhoneRegex.test(phone)) {
                 e.preventDefault();
