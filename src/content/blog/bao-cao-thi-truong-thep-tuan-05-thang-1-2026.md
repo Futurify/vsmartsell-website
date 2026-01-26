@@ -23,9 +23,7 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 **Điểm nổi bật:**
 
-1. Hòa Phát (HPG) được đánh giá gần như độc chiếm thép ray
-2. Trung Quốc khó có cửa vào do chính sách mới
-3. Tâm lý thị trường: Rất tích cực (0.85)
+1. Giá thép biến động trong biên độ hẹp tuần qua
 
 ---
 
@@ -193,115 +191,55 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 ---
 
-# PHẦN V: PHÂN TÍCH VÀ KHUYẾN NGHỊ
+## Phân Tích Chuyên Sâu
 
-# BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG THÉP VIỆT NAM
+### Diễn biến giá thép tuần qua
 
-**Tuần 20-26/01/2026**
+Tuần này thị trường thép Việt Nam có sự phân hóa rõ rệt giữa các sản phẩm:
 
----
+**Thép cuộn cán nóng (HRC)** ghi nhận mức tăng mạnh nhất với **+2.0%**, đạt 17,921,871 VND/tấn (cập nhật 23/01). Đây là mức tăng đáng kể trong bối cảnh thị trường.
 
-## 5.1. Diễn biến giá thép tuần qua
+**Tôn mạ kẽm** duy trì ổn định với mức tăng nhẹ **+0.4%**, hiện ở 19,633,326 VND/tấn.
 
-### Bảng tổng hợp giá thép (cập nhật 23/01/2026)
+**Thép thanh vằn (Rebar)** gần như đi ngang với biến động **-0.1%**, giá 15,784,377 VND/tấn. Đáng chú ý, có tin tức cho thấy giá thép xây dựng đã giảm 200,000 đồng/tấn do nguồn cung dư thừa.
 
-| Loại thép | Giá (VND/tấn) | Thay đổi 7 ngày | Xu hướng |
-|-----------|---------------|-----------------|----------|
-| Thép cuộn cán nóng (HRC) | 17,921,871 | **+2.0%** | 📈 Tăng |
-| Tôn mạ kẽm | 19,633,326 | +0.4% | ➡️ Ổn định |
-| Thép thanh vằn (Rebar) | 15,784,377 | -0.1% | ➡️ Ổn định |
+### Các yếu tố tác động
 
-### Nhận xét:
-- **HRC tăng mạnh nhất** trong các loại thép với mức +2.0%, tương đương tăng khoảng 350,000 VND/tấn trong tuần
-- **Tôn mạ kẽm** duy trì ổn định với mức tăng nhẹ +0.4%
-- **Thép thanh vằn (Rebar)** gần như đi ngang, giảm nhẹ 0.1% - phản ánh đúng tin tức về giá thép xây dựng giảm 200,000đ/tấn do nguồn cung dư thừa
+**Quặng sắt:** Giá quặng sắt ở mức $104.81 USD/tấn (24/01) - mức giá này tương đối ổn định, chưa tạo áp lực lớn lên chi phí sản xuất.
 
----
+**Tỷ giá:** USD/VND đang ở 26,205 VND. Tỷ giá duy trì mức cao tiếp tục ảnh hưởng đến chi phí nhập khẩu nguyên liệu và sản phẩm thép.
 
-## 5.2. Các yếu tố tác động
+**Chính sách:** 
+- Trung Quốc tăng thuế xuất khẩu thép - đây là yếu tố tích cực cho doanh nghiệp Việt Nam, giảm áp lực cạnh tranh từ thép giá rẻ Trung Quốc.
+- Dự án đường sắt tốc độ cao 67 tỷ USD được phê duyệt chính sách mới, trong đó Hòa Phát được đánh giá có lợi thế gần như độc quyền về thép ray.
 
-### A. Giá nguyên liệu đầu vào
-- **Quặng sắt**: $104.81 USD/tấn (24/01)
-  - Mức giá này nằm trong vùng ổn định, hỗ trợ biên lợi nhuận cho các nhà sản xuất
+**Cung cầu:** Nguồn cung thép xây dựng trong nước đang dư thừa, gây áp lực giảm giá đối với thép thanh vằn và thép xây dựng nói chung.
 
-### B. Tỷ giá
-- **USD/VND**: 26,205 VND
-- **USD/CNY**: 6.9626 CNY
-  - Tỷ giá ổn định giúp giảm áp lực chi phí nhập khẩu nguyên liệu
+### Điểm đáng chú ý
 
-### C. Chi phí năng lượng
-- **Dầu Brent**: $65.07 USD/thùng
-  - Giá dầu ở mức thấp, giảm áp lực chi phí vận chuyển và sản xuất
+**Phân hóa kết quả kinh doanh:**
+- Hòa Phát báo lãi kỷ lục Q4/2025, doanh thu thép tăng 25% - phản ánh vị thế dẫn đầu và năng lực cạnh tranh mạnh.
+- Ngược lại, Pomina lỗ 500 tỷ đồng năm 2025, cổ phiếu POM tuy vậy vẫn tăng 14.5% trong phiên 23/01 sau 9 phiên tăng trần liên tiếp. Cổ đông lớn nhất đang bán 7.5 triệu cổ phiếu để trả nợ thay công ty.
 
-### D. Yếu tố cung cầu
-- **Nguồn cung**: Dư thừa - gây áp lực giảm giá thép xây dựng (Rebar)
-- **Chính sách Trung Quốc**: Trung Quốc tăng thuế xuất khẩu thép → giảm cạnh tranh từ thép Trung Quốc, tạo lợi thế cho doanh nghiệp Việt
+**Tâm lý thị trường:** Đánh giá tổng thể ở mức trung lập (điểm 0.27), với 30% tin tích cực và chỉ 7.1% tin tiêu cực. Điều này cho thấy kỳ vọng thị trường đang nghiêng về hướng lạc quan.
 
----
+**Vùng kinh tế:** Quảng Ngãi - nơi có Khu liên hợp gang thép Hòa Phát Dung Quất - ghi nhận tăng trưởng kinh tế 10.02%, dẫn đầu miền Trung, trong đó ngành thép đóng góp đáng kể.
 
-## 5.3. Điểm đáng chú ý
+### Yếu tố cần theo dõi
 
-### Sự kiện quan trọng:
+1. **Diễn biến chính sách thuế Trung Quốc:** Nếu Trung Quốc tiếp tục tăng thuế xuất khẩu, giá thép nội địa Việt Nam có thể được hỗ trợ thêm.
 
-**1. Dự án đường sắt tốc độ cao 67 tỷ USD**
-- Hòa Phát (HPG) được đánh giá gần như độc chiếm thép ray
-- Trung Quốc khó có cửa vào do chính sách mới
-- *Tâm lý thị trường: Rất tích cực (0.85)*
+2. **Tiến độ dự án đường sắt tốc độ cao:** Nhu cầu thép ray và thép xây dựng từ dự án này có thể tạo động lực dài hạn cho ngành.
 
-**2. Kết quả kinh doanh Hòa Phát Q4/2025**
-- Báo lãi kỷ lục
-- Doanh thu thép tăng 25%
-- *Tâm lý thị trường: Rất tích cực (0.90)*
+3. **Nguồn cung thép xây dựng:** Tình trạng dư thừa hiện tại có thể tiếp tục gây áp lực lên giá thép thanh vằn nếu nhu cầu không cải thiện.
 
-**3. Tình hình Pomina (POM)**
-- Lỗ 500 tỷ đồng trong năm 2025
-- Cổ đông lớn bán cổ phiếu để trả nợ thay công ty
-- Tuy nhiên, cổ phiếu POM tăng 14.5% sau 9 phiên tăng trần liên tiếp
-- *Điểm bất thường: Giá cổ phiếu đi ngược với kết quả kinh doanh*
+4. **Giá quặng sắt quốc tế:** Mức $104.81/tấn cần được theo dõi - nếu tăng sẽ đẩy chi phí sản xuất lên cao.
 
-### Chỉ báo từ cổ phiếu ngành thép:
-
-| Mã | Giá (VND) | Thay đổi | Khối lượng |
-|----|-----------|----------|------------|
-| HPG | 26,750 | -0.4% | 24.2 triệu |
-| HSG | 16,350 | -1.8% | 2.3 triệu |
-| NKG | 15,350 | -0.6% | 2.6 triệu |
-| POM | 7,900 | **+14.5%** | 2.4 triệu |
-| TIS | 5,300 | +1.9% | 20,600 |
-
-*Lưu ý: Đa số cổ phiếu giảm nhẹ trừ POM và TIS*
-
-### Tâm lý thị trường tổng thể:
-- **Điểm đánh giá**: 0.27/1.0 (Trung lập nghiêng tích cực)
-- Tin tích cực: 24 bài (34.3%)
-- Tin tiêu cực: 6 bài (8.5%)
+5. **Tỷ giá USD/VND:** Biến động tỷ giá ảnh hưởng trực tiếp đến chi phí nhập khẩu và giá bán thép nhập khẩu.
 
 ---
 
-## 5.4. Yếu tố cần theo dõi tuần tới
-
-| Yếu tố | Lý do theo dõi | Tác động tiềm năng |
-|--------|----------------|-------------------|
-| **Chính sách thuế Trung Quốc** | Trung Quốc tăng thuế xuất khẩu thép | Giảm thép Trung Quốc nhập vào VN → có lợi cho sản xuất nội địa |
-| **Tiến độ đường sắt tốc độ cao** | Dự án 67 tỷ USD đang triển khai | Nhu cầu thép ray và thép xây dựng tăng dài hạn |
-| **Nguồn cung thép xây dựng** | Đang dư thừa | Có thể tiếp tục gây áp lực lên giá Rebar |
-| **Giá quặng sắt quốc tế** | Đang ở $104.81 | Biến động sẽ ảnh hưởng trực tiếp chi phí sản xuất |
-| **Tình hình Pomina** | Đang gặp khó khăn tài chính | Có thể ảnh hưởng cạnh tranh giá trên thị trường |
-
----
-
-## Tóm lược
-
-- **HRC đang có đà tăng** (+2.0% tuần qua) - mức tăng cao nhất trong các loại thép
-- **Rebar và tôn mạ kẽm** giữ ổn định, nguồn cung Rebar đang dư thừa
-- **Môi trường vĩ mô thuận lợi**: Giá quặng sắt ổn định, tỷ giá ổn định, Trung Quốc tăng thuế xuất khẩu
-- **Hòa Phát** đang ở vị thế mạnh với lãi kỷ lục và lợi thế dự án đường sắt
-- **Tâm lý thị trường** nghiêng tích cực (0.27) nhưng chưa rõ xu hướng mạnh
-
----
-
-*Báo cáo được tổng hợp từ dữ liệu thị trường ngày 23-24/01/2026*
-*Chỉ mang tính chất thông tin, không phải khuyến nghị đầu tư*
+*Gợi ý:* HRC đang trong xu hướng tăng (+2% tuần qua) trong khi thép xây dựng chịu áp lực từ nguồn cung dư thừa. Khoảng cách giá giữa các sản phẩm thép đang giãn rộng - đây là điểm đáng cân nhắc khi lên kế hoạch nhập hàng.
 ---
 
 # PHẦN VI: PHƯƠNG PHÁP LUẬN
@@ -332,7 +270,7 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 **Báo cáo được tạo tự động bởi Vietnam Steel Analyzer**
 
-**Ngày tạo:** 26/01/2026 00:13
+**Ngày tạo:** 26/01/2026 00:20
 
 **Liên hệ:** Để biết thêm chi tiết hoặc yêu cầu phân tích chuyên sâu, vui lòng liên hệ đội ngũ phân tích.
 
