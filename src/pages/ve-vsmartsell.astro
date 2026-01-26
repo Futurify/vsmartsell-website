@@ -2,50 +2,50 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const timeline = [
-  { year: '2016', title: 'Khởi đầu', description: 'Bắt đầu nghiên cứu thị trường VLXD' },
-  { year: '2018', title: 'Ra mắt', description: 'Phiên bản đầu tiên của vSmartSell' },
-  { year: '2020', title: 'Phát triển', description: '100+ doanh nghiệp tin dùng' },
-  { year: '2024', title: 'Hiện tại', description: '500+ doanh nghiệp, 8+ năm kinh nghiệm' }
+  { year: '2016', title: 'Khởi đầu', description: 'Nhận ra ngành VLXD thiếu phần mềm phù hợp' },
+  { year: '2018', title: 'Ra mắt', description: 'Phiên bản đầu tiên, 10 khách hàng đầu tiên' },
+  { year: '2020', title: 'Bứt phá', description: '100+ doanh nghiệp, hoàn thiện tính năng cắt xẻ tôn' },
+  { year: '2024', title: 'Dẫn đầu', description: '500+ doanh nghiệp tin dùng trên toàn quốc' }
 ];
 
 const coreValues = [
   {
-    title: 'Khách hàng là trọng tâm',
-    description: 'Luôn đặt lợi ích khách hàng lên hàng đầu, lắng nghe nhu cầu và tìm ra giải pháp tối ưu nhất.',
+    title: 'Hiểu ngành, hiểu bạn',
+    description: 'Chúng tôi không làm phần mềm rồi đi tìm khách hàng. Chúng tôi đến từng cửa hàng, ngồi cùng chủ kinh doanh, hiểu từng nỗi đau rồi mới viết từng dòng code.',
     icon: 'heart',
     color: 'blue'
   },
   {
-    title: 'Không ngừng đổi mới',
-    description: 'Liên tục cải tiến để nâng cao trải nghiệm khách hàng.',
-    icon: 'refresh',
-    color: 'cyan'
-  },
-  {
-    title: 'Mạnh mẽ & Đơn giản',
-    description: 'Giải pháp mạnh mẽ với giao diện thân thiện, ai cũng có thể sử dụng.',
+    title: 'Đơn giản là sức mạnh',
+    description: 'Nhân viên bạn không cần biết IT. Phần mềm của chúng tôi đơn giản đến mức ai cũng dùng được sau 1 buổi đào tạo.',
     icon: 'zap',
     color: 'purple'
   },
   {
-    title: 'Đồng hành cùng bạn',
-    description: 'Không chỉ bán phần mềm, chúng tôi là người đồng hành suốt chặng đường.',
+    title: 'Hỗ trợ như người nhà',
+    description: 'Gọi lúc 2h sáng vẫn có người nghe máy. Chúng tôi không bỏ rơi bạn sau khi bán hàng.',
     icon: 'users',
     color: 'green'
   },
   {
-    title: 'Đáng tin cậy',
-    description: 'Coi trọng chữ "tín" như niềm tin và trách nhiệm của mình.',
+    title: 'Cải tiến không ngừng',
+    description: 'Mỗi tháng đều có tính năng mới từ góp ý của khách hàng. Bạn góp ý, chúng tôi làm.',
+    icon: 'refresh',
+    color: 'cyan'
+  },
+  {
+    title: 'Cam kết kết quả',
+    description: 'Nếu sau 15 ngày dùng thử bạn không hài lòng, chúng tôi hoàn tiền 100%. Không hỏi lý do.',
     icon: 'shield',
     color: 'orange'
   }
 ];
 
 const stats = [
-  { number: '500+', label: 'Doanh nghiệp tin dùng' },
-  { number: '8+', label: 'Năm kinh nghiệm' },
-  { number: '20+', label: 'Kỹ sư phát triển' },
-  { number: '24/7', label: 'Hỗ trợ khách hàng' }
+  { number: '500+', label: 'Doanh nghiệp đã tin tưởng' },
+  { number: '8 năm', label: 'Chuyên sâu ngành VLXD' },
+  { number: '50%', label: 'Khách hàng giảm thất thoát' },
+  { number: '2 giờ', label: 'Tiết kiệm mỗi ngày' }
 ];
 ---
 
@@ -63,13 +63,13 @@ const stats = [
       <div class="text-center max-w-4xl mx-auto">
         <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur rounded-full text-white/80 text-sm mb-8">
           <span class="w-2 h-2 bg-cyan-400 rounded-full"></span>
-          Về chúng tôi
+          Câu chuyện của chúng tôi
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-          Chúng tôi <span class="text-cyan-400">hiểu</span> ngành của bạn
+          Sinh ra từ <span class="text-cyan-400">nỗi đau</span> của chính bạn
         </h1>
         <p class="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">
-          8+ năm nghiên cứu và phát triển giải pháp quản lý chuyên dụng cho ngành vật liệu xây dựng tại Việt Nam.
+          Chúng tôi đã chứng kiến hàng trăm chủ cửa hàng VLXD mất ngủ vì tồn kho sai, công nợ không đòi được. Và chúng tôi quyết tâm thay đổi điều đó.
         </p>
 
         <!-- Stats -->
@@ -90,19 +90,19 @@ const stats = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Câu chuyện của chúng tôi</span>
+          <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Tại sao chúng tôi tồn tại</span>
           <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4 mb-6">
-            Từ ý tưởng đến giải pháp hàng đầu
+            Bắt đầu từ một câu hỏi đơn giản
           </h2>
           <div class="space-y-4 text-gray-600 text-lg">
             <p>
-              <strong class="text-gray-900">vSmartSell</strong> được phát triển bởi Công ty TNHH Futurify. Với nhiều năm hoạt động trong lĩnh vực phát triển phần mềm, chúng tôi nhận thấy thị trường tôn thép, vật liệu xây dựng đang rất phát triển nhưng thiếu giải pháp quản lý phù hợp.
+              <strong class="text-gray-900">"Tại sao ngành tôn thép, VLXD lại không có phần mềm quản lý tử tế?"</strong> - Đó là câu hỏi chúng tôi đặt ra năm 2016 khi chứng kiến một chủ cửa hàng sắt thép mất 200 triệu vì nhân viên bán sai giá suốt 6 tháng mà không ai biết.
             </p>
             <p>
-              Cách quản lý truyền thống làm mất quá nhiều thời gian, độ chính xác không cao gây thất thoát hàng hoá, dẫn đến rủi ro và thua lỗ.
+              Anh ấy đã dùng Excel, dùng sổ sách, thậm chí mua phần mềm đắt tiền - nhưng không phần mềm nào hiểu được nghiệp vụ cắt xẻ cuộn tôn, quản lý theo m/kg/cây/tấm, hay tính giá theo từng khách hàng.
             </p>
             <p>
-              Chúng tôi đã hợp tác với hàng trăm nhà phân phối để tìm ra giải pháp giúp bạn <span class="text-blue-600 font-semibold">"quản lý kho – không lo thất thoát"</span>, đồng thời tăng năng suất công việc và hiệu quả chi phí.
+              <span class="text-blue-600 font-semibold">Chúng tôi quyết định thay đổi điều đó.</span> 8 năm qua, chúng tôi đã ngồi với hơn 500 chủ doanh nghiệp VLXD, lắng nghe từng vấn đề, và xây dựng phần mềm từ chính nhu cầu thực tế của họ.
             </p>
           </div>
         </div>
@@ -133,9 +133,9 @@ const stats = [
         <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
       </svg>
       <blockquote class="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-relaxed mb-6">
-        "Không chỉ là phần mềm, vSmartSell là giải pháp quản lý toàn diện cho doanh nghiệp của bạn"
+        "Mục tiêu của chúng tôi là giúp mỗi chủ doanh nghiệp VLXD có thể ngủ ngon, biết rõ từng đồng lãi lỗ, và có thời gian cho gia đình"
       </blockquote>
-      <p class="text-blue-100 text-lg">— Tầm nhìn vSmartSell</p>
+      <p class="text-blue-100 text-lg">— Sứ mệnh của vSmartSell</p>
     </div>
   </section>
 
@@ -143,10 +143,13 @@ const stats = [
   <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <span class="text-cyan-600 font-semibold text-sm uppercase tracking-wider">Giá trị cốt lõi</span>
+        <span class="text-cyan-600 font-semibold text-sm uppercase tracking-wider">Cam kết của chúng tôi</span>
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
-          5 giá trị định hình chúng tôi
+          5 điều chúng tôi hứa với bạn
         </h2>
+        <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+          Đây không chỉ là slogan. Đây là những gì 500+ khách hàng đã trải nghiệm.
+        </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -202,14 +205,14 @@ const stats = [
 
         <div class="relative z-10">
           <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-            Hãy để vSmartSell đồng hành cùng bạn
+            Bạn có muốn là người tiếp theo thay đổi cách quản lý?
           </h2>
           <p class="text-slate-300 text-lg mb-8 max-w-xl mx-auto">
-            Dùng thử miễn phí 30 ngày. Không cần thẻ tín dụng, hỗ trợ tư vấn 24/7.
+            500+ doanh nghiệp đã làm được. Bạn cũng có thể. Dùng thử 15 ngày - không hài lòng, không mất đồng nào.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/#dung-thu" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl hover:shadow-lg transition-shadow">
-              Dùng thử miễn phí
+              Dùng thử miễn phí 15 ngày
               <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -218,9 +221,10 @@ const stats = [
               <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              0866.135.766
+              Gọi ngay: 0866.135.766
             </a>
           </div>
+          <p class="text-slate-400 text-sm mt-4">Hỗ trợ 24/7 • Cài đặt miễn phí • Đào tạo tận nơi</p>
         </div>
       </div>
     </div>
