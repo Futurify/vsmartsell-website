@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const categories = [
+  { slug: 'tin-tuc-vsmartsell', label: 'Tin tức vSmartSell', color: 'blue' },
+  { slug: 'meo-hay', label: 'Mẹo hay', color: 'green' },
+  { slug: 'tin-tuc-thi-truong', label: 'Tin tức thị trường', color: 'purple' },
+  { slug: 'kien-thuc-kinh-doanh', label: 'Kiến thức kinh doanh', color: 'cyan' }
+];
+
+const formatDate = (date: Date) => {
+  return new Intl.DateTimeFormat('vi-VN', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  }).format(date);
+};
+---
+
+<BaseLayout
+  title="Blog | Kiến thức kinh doanh VLXD | vSmartSell"
+  description="Chia sẻ kiến thức, mẹo hay và tin tức mới nhất về quản lý bán hàng vật liệu xây dựng, tôn sắt thép, gạch men."
+>
+  <!-- Hero Section -->
+  <section class="py-16 lg:py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:60px_60px]"></div>
+    <div class="absolute top-20 left-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-20 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center max-w-3xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur rounded-full text-white/80 text-sm mb-6">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
+          Blog vSmartSell
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+          Kiến thức & Mẹo hay
+        </h1>
+        <p class="text-xl text-slate-300">
+          Chia sẻ kinh nghiệm quản lý bán hàng VLXD từ 500+ doanh nghiệp thành công
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="py-8 bg-white border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap justify-center gap-3">
+        <a
+          href="/blog"
+          class="px-4 py-2 rounded-full text-sm font-medium bg-blue-600 text-white"
+        >
+          Tất cả
+        </a>
+        {categories.map((cat) => (
+          <a
+            href={`/blog/category/${cat.slug}`}
+            class={`px-4 py-2 rounded-full text-sm font-medium border transition-colors hover:bg-gray-50 ${
+              cat.color === 'blue' ? 'border-blue-200 text-blue-700 hover:border-blue-300' :
+              cat.color === 'green' ? 'border-green-200 text-green-700 hover:border-green-300' :
+              cat.color === 'purple' ? 'border-purple-200 text-purple-700 hover:border-purple-300' :
+              'border-cyan-200 text-cyan-700 hover:border-cyan-300'
+            }`}
+          >
+            {cat.label}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts Grid -->
+  <section class="py-16 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {sortedPosts.length > 0 ? (
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {sortedPosts.map((post) => (
+            <a href={`/blog/${post.slug}`} class="block h-full">
+              <article class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer h-full flex flex-col">
+                {post.data.image && (
+                  <div class="aspect-video overflow-hidden">
+                    <img
+                      src={post.data.image}
+                      alt={post.data.title}
+                      class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                      onerror="this.src='https://via.placeholder.com/600x340?text=vSmartSell+Blog'"
+                    />
+                  </div>
+                )}
+                <div class="p-6 flex flex-col flex-grow">
+                  <div class="flex items-center gap-3 mb-3">
+                    <span class={`px-3 py-1 rounded-full text-xs font-medium ${
+                      post.data.category === 'tin-tuc-vsmartsell' ? 'bg-blue-100 text-blue-700' :
+                      post.data.category === 'meo-hay' ? 'bg-green-100 text-green-700' :
+                      post.data.category === 'tin-tuc-thi-truong' ? 'bg-purple-100 text-purple-700' :
+                      'bg-cyan-100 text-cyan-700'
+                    }`}>
+                      {post.data.categoryLabel}
+                    </span>
+                    <span class="text-gray-400 text-sm">{formatDate(post.data.pubDate)}</span>
+                  </div>
+                  <h2 class="text-lg font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                    {post.data.title}
+                  </h2>
+                  <p class="text-gray-600 text-sm line-clamp-3 mb-4 flex-grow">
+                    {post.data.description}
+                  </p>
+                  <span class="inline-flex items-center text-blue-600 text-sm font-medium mt-auto">
+                    Đọc tiếp
+                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                </div>
+              </article>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Chưa có bài viết nào</h3>
+          <p class="text-gray-600">Các bài viết sẽ sớm được cập nhật. Hãy quay lại sau!</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-br from-blue-600 to-cyan-500 rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+
+        <div class="relative z-10">
+          <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
+            Muốn áp dụng những kiến thức này vào thực tế?
+          </h2>
+          <p class="text-blue-100 mb-6">
+            Dùng thử miễn phí vSmartSell 15 ngày và trải nghiệm sự khác biệt
+          </p>
+          <a href="/#dung-thu" class="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors shadow-lg">
+            Dùng thử miễn phí
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
