@@ -4,64 +4,64 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const features = [
   {
     icon: 'shopping-cart',
-    title: 'Quản lý bán hàng',
-    description: 'Xử lý đơn hàng nhanh chóng, chính xác theo nhiều đơn vị tính. Quản lý giá bán theo nhóm khách hàng.',
+    title: 'Bán hàng siêu tốc',
+    description: 'Tạo đơn hàng chỉ trong 30 giây với tính năng tìm kiếm thông minh. Tự động tính giá theo khách hàng, chiết khấu và khuyến mãi.',
     color: 'blue'
   },
   {
     icon: 'truck',
-    title: 'Quản lý nhập mua',
-    description: 'Theo dõi tiến độ giao hàng, kiểm soát giá nhập và công nợ nhà cung cấp hiệu quả.',
+    title: 'Kiểm soát nhập hàng',
+    description: 'Không bao giờ nhập sai giá, sai số lượng. So sánh giá nhập giữa các nhà cung cấp, tự động cảnh báo khi giá bất thường.',
     color: 'cyan'
   },
   {
     icon: 'cog',
-    title: 'Quản lý sản xuất',
-    description: 'Tự động hóa quy trình sản xuất, từ lập kế hoạch đến kiểm soát chất lượng.',
+    title: 'Cắt xẻ cuộn tôn chuyên nghiệp',
+    description: 'Tính năng độc quyền cho ngành tôn thép. Tự động tính toán hao hụt, quản lý cuộn gốc và thành phẩm chính xác đến từng kg.',
     color: 'indigo'
   },
   {
     icon: 'cube',
-    title: 'Quản lý kho hàng',
-    description: 'Quản lý tồn kho theo nhiều đơn vị, nhiều quy cách, nhiều lô. Kiểm soát xuất nhập tồn chính xác.',
+    title: 'Tồn kho không bao giờ sai',
+    description: 'Quản lý theo m, m², kg, cây, tấm, cuộn... Biết chính xác còn bao nhiêu hàng, ở đâu, nhập từ bao giờ.',
     color: 'purple'
   },
   {
     icon: 'chart',
-    title: 'Báo cáo thông minh',
-    description: 'Hệ thống báo cáo đa dạng, trực quan giúp nắm bắt tình hình kinh doanh nhanh chóng.',
+    title: 'Biết lãi lỗ ngay lập tức',
+    description: 'Xem doanh thu, lợi nhuận, công nợ real-time trên điện thoại. Báo cáo tự động gửi về email mỗi ngày.',
     color: 'green'
   },
   {
     icon: 'shield',
-    title: 'Bảo mật cao cấp',
-    description: 'Hệ thống bảo mật đa lớp, phân quyền chi tiết. Dữ liệu được sao lưu tự động.',
+    title: 'An tâm tuyệt đối',
+    description: 'Nhân viên chỉ thấy những gì được phép. Mọi thao tác đều được ghi log. Dữ liệu sao lưu tự động trên cloud.',
     color: 'orange'
   }
 ];
 
 const stats = [
-  { number: '500+', label: 'Doanh nghiệp tin dùng' },
-  { number: '8+', label: 'Năm kinh nghiệm' },
-  { number: '50%', label: 'Tăng lợi nhuận' },
-  { number: '24/7', label: 'Hỗ trợ khách hàng' }
+  { number: '500+', label: 'Doanh nghiệp đã chuyển đổi số thành công' },
+  { number: '8 năm', label: 'Chuyên sâu ngành VLXD' },
+  { number: '50%', label: 'Giảm thất thoát hàng hóa' },
+  { number: '2 giờ', label: 'Tiết kiệm mỗi ngày cho chủ kinh doanh' }
 ];
 
 const testimonials = [
   {
-    quote: 'vSmartSell giúp tôi quản lý 10 chi nhánh một cách dễ dàng. Mọi thứ đều có thể nắm bắt kịp thời cho dù không có mặt tại cửa hàng.',
+    quote: 'Trước dùng Excel, tháng nào cũng lệch tồn kho vài chục triệu. Giờ dùng vSmartSell, kiểm kho khớp 100%, tôi ngủ ngon hơn nhiều.',
     author: 'Anh Nhàn',
-    role: 'Giám đốc - Công Ty TNHH Hoàng Sa',
+    role: 'Giám đốc - Công Ty TNHH Hoàng Sa (10 chi nhánh)',
     avatar: 'N'
   },
   {
-    quote: 'Phần mềm xử lý rất tốt các sản phẩm tôn, sắt thép với tính năng cắt xẻ cuộn tôn mà các phần mềm khác không làm được.',
+    quote: 'Tôi đã thử 5 phần mềm khác nhưng không ai làm được tính năng cắt xẻ cuộn tôn. vSmartSell là phần mềm duy nhất hiểu ngành tôn thép.',
     author: 'Cô Mai',
     role: 'Giám đốc - Công Ty TNHH Lâm Nhật Mai',
     avatar: 'M'
   },
   {
-    quote: 'Tính năng sản xuất giúp tôi quản lý được nguyên liệu và thành phẩm hiệu quả, tiết kiệm rất nhiều thời gian.',
+    quote: 'Nhờ vSmartSell mà tôi phát hiện nhân viên đang bán sai giá. Một tháng tiết kiệm được gần 30 triệu từ việc kiểm soát giá bán.',
     author: 'Chị Thúy',
     role: 'Giám đốc - Công Ty TNHH Trường Thành',
     avatar: 'T'
@@ -69,10 +69,10 @@ const testimonials = [
 ];
 
 const industries = [
-  { name: 'Tôn, Sắt thép', icon: 'steel', image: '/images/features-screenshot.png' },
-  { name: 'Gạch men', icon: 'tiles', image: '/images/gach-men-illustration.png' },
-  { name: 'Vật liệu xây dựng', icon: 'materials', image: '/images/software-illustration.png' },
-  { name: 'Thiết bị vệ sinh', icon: 'bathroom', image: '/images/combo-illustration.png' }
+  { name: 'Tôn, Sắt thép', icon: 'steel', image: '/images/features-screenshot.png', desc: 'Cắt xẻ cuộn, quản lý theo kg/m/cây' },
+  { name: 'Gạch men', icon: 'tiles', image: '/images/gach-men-illustration.png', desc: 'Quản lý theo m², hộp, viên' },
+  { name: 'Vật liệu xây dựng', icon: 'materials', image: '/images/software-illustration.png', desc: 'Xi măng, cát, đá, gạch block' },
+  { name: 'Thiết bị vệ sinh', icon: 'bathroom', image: '/images/combo-illustration.png', desc: 'Combo sản phẩm, quản lý serial' }
 ];
 ---
 
@@ -97,31 +97,36 @@ const industries = [
         <div class="text-center lg:text-left">
           <div class="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
             <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse mr-2"></span>
-            <span class="text-sm text-white/80">Dùng thử miễn phí 30 ngày</span>
+            <span class="text-sm text-white/80">Đã có 500+ doanh nghiệp VLXD tin dùng</span>
           </div>
 
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            Quản lý bán hàng
+            Chấm dứt thất thoát,
             <span class="block bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              thông minh hơn
+              tăng lợi nhuận 50%
             </span>
           </h1>
 
           <p class="text-lg md:text-xl text-slate-300 mb-8 max-w-xl mx-auto lg:mx-0">
-            Giải pháp quản lý toàn diện cho ngành Tôn, Sắt thép, Gạch men và Vật liệu xây dựng. Tối ưu vận hành, tăng trưởng doanh thu.
+            Phần mềm quản lý <strong class="text-white">duy nhất</strong> được thiết kế riêng cho ngành Tôn, Sắt thép, Gạch men, VLXD. Kiểm soát tồn kho chính xác đến từng kg, biết lãi lỗ ngay lập tức.
           </p>
 
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a href="#dung-thu" class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl overflow-hidden shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 transition-all duration-300 hover:-translate-y-1">
-              <span class="relative z-10">Bắt đầu miễn phí</span>
+              <span class="relative z-10">Dùng thử miễn phí 15 ngày</span>
               <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
-            <a href="#tinh-nang" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white/20 rounded-xl hover:bg-white/10 transition-all duration-300">
-              Tìm hiểu thêm
+            <a href="tel:0866135766" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white/20 rounded-xl hover:bg-white/10 transition-all duration-300">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Gọi tư vấn ngay
             </a>
           </div>
+
+          <p class="text-sm text-slate-400 mt-4">Không cần thẻ tín dụng • Hỗ trợ cài đặt miễn phí • Đào tạo 1-1</p>
         </div>
 
         <div class="relative">
@@ -199,13 +204,13 @@ const industries = [
   <section class="py-20 bg-slate-50" id="tinh-nang">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <span class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">Tính năng</span>
+        <span class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">Tại sao chọn vSmartSell?</span>
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Mọi thứ bạn cần để
-          <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">quản lý hiệu quả</span>
+          Giải quyết triệt để
+          <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">6 nỗi đau lớn nhất</span>
         </h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          Giải pháp toàn diện được thiết kế riêng cho ngành vật liệu xây dựng với 8+ năm kinh nghiệm
+          Sau 8 năm làm việc với 500+ doanh nghiệp VLXD, chúng tôi hiểu rõ những vấn đề bạn đang gặp phải
         </p>
       </div>
 
@@ -265,13 +270,13 @@ const industries = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         <div>
-          <span class="inline-block px-4 py-1 bg-cyan-100 text-cyan-700 rounded-full text-sm font-medium mb-4">Ứng dụng di động</span>
+          <span class="inline-block px-4 py-1 bg-cyan-100 text-cyan-700 rounded-full text-sm font-medium mb-4">Quản lý từ xa</span>
           <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Quản lý mọi lúc,
-            <span class="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">mọi nơi</span>
+            Đi đâu cũng yên tâm,
+            <span class="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">cửa hàng vẫn chạy tốt</span>
           </h2>
           <p class="text-lg text-gray-600 mb-8">
-            Theo dõi đơn hàng, tồn kho, công nợ dễ dàng trên điện thoại. Nhận thông báo real-time khi có đơn hàng mới.
+            Không cần có mặt tại cửa hàng, bạn vẫn biết hôm nay bán được bao nhiêu, lãi bao nhiêu, nhân viên làm gì. Mọi thứ trong lòng bàn tay.
           </p>
 
           <div class="space-y-4">
@@ -282,8 +287,8 @@ const industries = [
                 </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-gray-900">Báo cáo real-time</h4>
-                <p class="text-gray-600 text-sm">Xem doanh thu, lợi nhuận theo ngày/tháng/năm</p>
+                <h4 class="font-semibold text-gray-900">Biết ngay lãi lỗ</h4>
+                <p class="text-gray-600 text-sm">Doanh thu, lợi nhuận cập nhật real-time, không cần đợi kế toán</p>
               </div>
             </div>
             <div class="flex items-start gap-4">
@@ -293,8 +298,8 @@ const industries = [
                 </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-gray-900">Thông báo đẩy</h4>
-                <p class="text-gray-600 text-sm">Nhận alert khi có đơn hàng, công nợ đến hạn</p>
+                <h4 class="font-semibold text-gray-900">Cảnh báo bất thường</h4>
+                <p class="text-gray-600 text-sm">Nhận ngay thông báo khi có giao dịch lớn, tồn kho thấp, công nợ quá hạn</p>
               </div>
             </div>
             <div class="flex items-start gap-4">
@@ -304,8 +309,8 @@ const industries = [
                 </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-gray-900">Quản lý đa chi nhánh</h4>
-                <p class="text-gray-600 text-sm">Giám sát tất cả chi nhánh từ một ứng dụng</p>
+                <h4 class="font-semibold text-gray-900">Kiểm soát nhân viên</h4>
+                <p class="text-gray-600 text-sm">Xem ai bán gì, sửa giá gì, xóa gì - tất cả đều được ghi lại</p>
               </div>
             </div>
           </div>
@@ -339,13 +344,13 @@ const industries = [
   <section class="py-20 bg-gradient-to-br from-slate-800 via-blue-800 to-slate-800 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <span class="inline-block px-4 py-1 bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 rounded-full text-sm font-medium mb-4">Ngành nghề</span>
+        <span class="inline-block px-4 py-1 bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 rounded-full text-sm font-medium mb-4">Chuyên ngành</span>
         <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">
-          Giải pháp cho
-          <span class="text-cyan-300">mọi ngành VLXD</span>
+          Hiểu sâu từng ngành,
+          <span class="text-cyan-300">giải quyết đúng vấn đề</span>
         </h2>
         <p class="text-lg text-white/80 max-w-2xl mx-auto">
-          Được thiết kế đặc biệt để phục vụ các doanh nghiệp kinh doanh vật liệu xây dựng
+          Không phải phần mềm bán hàng chung chung. vSmartSell được xây dựng từ kinh nghiệm thực tế của 500+ doanh nghiệp VLXD.
         </p>
       </div>
 
@@ -361,6 +366,7 @@ const industries = [
               />
             </div>
             <h3 class="text-lg font-bold text-white text-center">{industry.name}</h3>
+            <p class="text-sm text-white/60 text-center mt-1">{industry.desc}</p>
           </div>
         ))}
       </div>
@@ -371,11 +377,14 @@ const industries = [
   <section class="py-20 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <span class="inline-block px-4 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-4">Đánh giá</span>
+        <span class="inline-block px-4 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-4">Câu chuyện thành công</span>
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Khách hàng nói gì về
-          <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">vSmartSell</span>?
+          Họ đã thay đổi cách
+          <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">quản lý kinh doanh</span>
         </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Những chủ doanh nghiệp từng đau đầu với quản lý giờ đã có thời gian cho gia đình
+        </p>
       </div>
 
       <div class="grid md:grid-cols-3 gap-6">
@@ -414,10 +423,10 @@ const industries = [
 
         <div class="relative z-10 text-center">
           <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-            Sẵn sàng tối ưu hóa doanh nghiệp?
+            Bạn đang mất bao nhiêu tiền mỗi tháng vì quản lý thủ công?
           </h2>
           <p class="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-            Đăng ký ngay để trải nghiệm miễn phí 30 ngày. Không cần thẻ tín dụng, hỗ trợ tư vấn 24/7.
+            Đừng để thất thoát kéo dài. Đăng ký dùng thử ngay - chúng tôi sẽ giúp bạn cài đặt và đào tạo <strong class="text-white">hoàn toàn miễn phí</strong>.
           </p>
 
           <form class="max-w-lg mx-auto">
@@ -429,13 +438,34 @@ const industries = [
                 required
               />
               <button type="submit" class="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors shadow-lg">
-                Đăng ký ngay
+                Nhận tư vấn miễn phí
               </button>
             </div>
           </form>
 
+          <div class="flex flex-wrap justify-center gap-6 mt-6 text-sm text-blue-100">
+            <span class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              Dùng thử 15 ngày
+            </span>
+            <span class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              Cài đặt miễn phí
+            </span>
+            <span class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              Đào tạo 1-1
+            </span>
+          </div>
+
           <p class="text-sm text-blue-100 mt-4">
-            Hoặc gọi ngay <a href="tel:0866135766" class="text-white font-semibold underline">0866.135.766</a> để được tư vấn
+            Cần tư vấn ngay? Gọi <a href="tel:0866135766" class="text-white font-semibold underline">0866.135.766</a> (Hỗ trợ 24/7)
           </p>
         </div>
       </div>
