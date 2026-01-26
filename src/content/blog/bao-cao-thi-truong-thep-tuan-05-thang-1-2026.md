@@ -112,19 +112,19 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
   - Nguồn: nguoiquansat.vn | Tâm lý: 🟢 +0.85
 - **[24/01]** <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVVrRDlEd2pOaTdIdUJGaktHdTVZUTBibXBCRVpqVmFBQlRxWnFzX2ttSlVzVG1PNGdsdm1iLS1GMnZNN0FRcE9HNkhzdExmU2FuV3VjNlhWY1B6Y2w2T0Q1a3ZvTU1VZnhVbUxLZEpVRTRkYlZ2eExhT3lkSG5ZMnVaT25NRk4zOHhveDctQ2I?oc=5" target="_blank" rel="nofollow noopener noreferrer">HPG AWARDS 2025: Dự kiến vinh danh, khen thưởng - Nội Bộ Hòa Phát</a>
   - Nguồn: Nội Bộ Hòa Phát | Tâm lý: 🟢 +0.50
-- **[24/01]** Trung Quốc tăng thuế xuất khẩu thép, cơ hội cho doanh nghiệp Việt
-  - Nguồn: Tổng hợp | Tâm lý: 🟢 +0.65
-- **[24/01]** Hòa Phát báo lãi kỷ lục quý 4/2025, doanh thu thép tăng 25%
-  - Nguồn: Tổng hợp | Tâm lý: 🟢 +0.90
+- **[24/01]** <a href="https://vietnambiz.vn/trung-quoc-siet-xuat-khau-thep-20251214102232554.htm" target="_blank" rel="nofollow noopener noreferrer">Trung Quốc tăng thuế xuất khẩu thép, cơ hội cho doanh nghiệp Việt</a>
+  - Nguồn: VietnamBiz | Tâm lý: 🟢 +0.65
+- **[24/01]** <a href="https://cafebiz.vn/hoa-phat-cua-ty-phu-tran-dinh-long-lap-ky-luc-vuot-10-trieu-tan-thep-trong-nam-2025-176260109093034711.chn" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát báo lãi kỷ lục quý 4/2025, doanh thu thép tăng 25%</a>
+  - Nguồn: CafeBiz | Tâm lý: 🟢 +0.90
 - **[24/01]** <a href="https://vnexpress.net/ly-do-quang-ngai-tang-truong-kinh-te-dan-dau-mien-trung-5005507.html" target="_blank" rel="nofollow noopener noreferrer">Lý do Quảng Ngãi tăng trưởng kinh tế dẫn đầu miền Trung</a>
   - Nguồn: vnexpress | Tâm lý: 🟢 +0.50
 
 ### Tin tiêu cực
 
-- **[24/01]** Pomina lỗ 500 tỷ đồng trong năm 2025, cổ phiếu POM giảm sâu
-  - Nguồn: Tổng hợp | Tâm lý: 🔴 -0.85
-- **[24/01]** Giá thép xây dựng giảm 200.000 đồng/tấn do nguồn cung dư thừa
-  - Nguồn: Tổng hợp | Tâm lý: 🔴 -0.45
+- **[24/01]** <a href="https://vneconomy.vn/lo-luy-ke-hon-2-356-ty-dong-pom-sap-phai-thanh-toan-hon-15-ty-vi-thua-kien.htm" target="_blank" rel="nofollow noopener noreferrer">Pomina lỗ 500 tỷ đồng trong năm 2025, cổ phiếu POM giảm sâu</a>
+  - Nguồn: VnEconomy | Tâm lý: 🔴 -0.85
+- **[24/01]** <a href="https://vietnambiz.vn/gia-thep-hom-nay-112026-dong-loat-di-xuong-2026118136401.htm" target="_blank" rel="nofollow noopener noreferrer">Giá thép xây dựng giảm 200.000 đồng/tấn do nguồn cung dư thừa</a>
+  - Nguồn: VietnamBiz | Tâm lý: 🔴 -0.45
 - **[23/01]** <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc0YxME9GanRlLW4zZjJMRUFaaXJjajZZeUVnSjc5NVZaLTJjYmdPdHNuWkZLWU1ycVdBQ2hrZjVnVWVha0JnN3pkZk5OQzZOTWZUT2xWR2NIckg4S1k5bmducVp6Q25EOHM4R2dGZFRjNHF3NzlheTMxR2FLUERIU1B4QmFjOVhEVUV2RDEtZjA0cEl0X2pJVUF2VlZ1X0IwN2c5Z0huSEZYZDjSAacBQVVfeXFMT1lhUGM1UXpWb3AwV2pwOFE3NGV2ZW5jXy16TVBoaEZoTmM0QktVZjN2dGY4Y1ZqaW1hZXNEY09mMEE1UEdwc05UdDJVblNlMlRVaWpBUzVEQUFwbTFoX3doY3VuMmxSYjNtcVpveHBmUUxHMm1LTW5aRm16WEJQcnRmMW1iSEJaOXZoZGRGYy1JbGhwM0ZralVnS28yUl9weng1N0dxT2s?oc=5" target="_blank" rel="nofollow noopener noreferrer">Nhập khẩu sản phẩm từ sắt thép tăng kỷ lục, vượt 8,3 tỷ USD - Tin nhanh chứng khoán</a>
   - Nguồn: Tin nhanh chứng khoán | Tâm lý: 🔴 -0.40
 - **[23/01]** <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxObzVJbVlhTlVFTXRHWXg0cVpicGEwZ1pvSk11STQtdFVNNk9nMEdleE82OXJwZ2RsX3NyZGhpTHlNeHozWlNEWVVPQXFiZlVSdDJWWm5ER2pBVmZmcm5URmpxVlNKc2NXUi0tVlNLSmxJSTZSQkhLNlYxLU8xc3JmcmVmMmlsWDFmQ2R6MzZKdEJtZjladld2WnNzWC1yOXpiSkx2Sk9QTXdabXhDY3VuMUQydHFpcThvLXVUQzBwdFdpNDhrMXdZSE5hSQ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Sản lượng thép thô Nhật Bản chạm đáy 56 năm vì sức ép hàng giá rẻ nhập khẩu từ Trung Quốc - VietnamBiz</a>
@@ -163,10 +163,10 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 | 23 | 24/01 | nguoiquansat | <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVlVJdVhmbmM4ZmNocUlLbmNaeVM0dHZJanV3aEF1MlJfb1hxOTYzSXJ3bFFwdEs4eGxRbUJuUjhEQUFsVHAtMDlmNUJoQmowQXlXRFV4V2tjcFlvMWplMHJWd2gwb0RiZDFiaTUtQmFMZ1ZKLXgyZEVGdTljeWRwSXpnX09GbWo1bFNmUXNaYjFXRk1waXNrMFpTRjZILWdpbjgzWXhqQVBfdVRwOE05TEFqSElSOExKbUNZRmFyLWpmUmVxcGgzbW1MSUxBamxCVFBJZ3h3Um1DS0s4SXRGSy05ankzdw?oc=5" target="_blank" rel="nofollow noopener noreferrer">Chính sách mới cho đường sắt tốc độ cao 67 tỷ USD: Hòa Phát ...</a> | 🟢 +0.85 |
 | 24 | 24/01 | Znews | <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWUweWdhSHk0aWpta1VjNmd5OV9DaDYtTGhqeHlXekZOYmx2dVNZOTB5NnZNbzhMcFpGVG1lR25iQVJqMXAyYXV5emlReWoxOWZiR2JvVFJvN0tmRTZUTHEtelNhQmdHVnU2Q2p0MWY4WmIxS0NzQmVuZFJZTDhfQ2ZfWmtMWmx3RDQ3ZzdrWnpYSWZxQ0pyTg?oc=5" target="_blank" rel="nofollow noopener noreferrer">Diễn biến mới tại công ty nông nghiệp của 'vua thép' Hòa Phá...</a> | ⚪ |
 | 25 | 24/01 | Nội Bộ Hòa P | <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVVrRDlEd2pOaTdIdUJGaktHdTVZUTBibXBCRVpqVmFBQlRxWnFzX2ttSlVzVG1PNGdsdm1iLS1GMnZNN0FRcE9HNkhzdExmU2FuV3VjNlhWY1B6Y2w2T0Q1a3ZvTU1VZnhVbUxLZEpVRTRkYlZ2eExhT3lkSG5ZMnVaT25NRk4zOHhveDctQ2I?oc=5" target="_blank" rel="nofollow noopener noreferrer">HPG AWARDS 2025: Dự kiến vinh danh, khen thưởng - Nội Bộ Hòa...</a> | 🟢 +0.50 |
-| 26 | 24/01 | Tổng hợp | Pomina lỗ 500 tỷ đồng trong năm 2025, cổ phiếu POM giảm sâu | 🔴 -0.85 |
-| 27 | 24/01 | Tổng hợp | Trung Quốc tăng thuế xuất khẩu thép, cơ hội cho doanh nghiệp... | 🟢 +0.65 |
-| 28 | 24/01 | Tổng hợp | Giá thép xây dựng giảm 200.000 đồng/tấn do nguồn cung dư thừ... | 🔴 -0.45 |
-| 29 | 24/01 | Tổng hợp | Hòa Phát báo lãi kỷ lục quý 4/2025, doanh thu thép tăng 25% | 🟢 +0.90 |
+| 26 | 24/01 | VnEconomy | <a href="https://vneconomy.vn/lo-luy-ke-hon-2-356-ty-dong-pom-sap-phai-thanh-toan-hon-15-ty-vi-thua-kien.htm" target="_blank" rel="nofollow noopener noreferrer">Pomina lỗ 500 tỷ đồng trong năm 2025, cổ phiếu POM giảm sâu</a> | 🔴 -0.85 |
+| 27 | 24/01 | VietnamBiz | <a href="https://vietnambiz.vn/trung-quoc-siet-xuat-khau-thep-20251214102232554.htm" target="_blank" rel="nofollow noopener noreferrer">Trung Quốc tăng thuế xuất khẩu thép, cơ hội cho doanh nghiệp...</a> | 🟢 +0.65 |
+| 28 | 24/01 | VietnamBiz | <a href="https://vietnambiz.vn/gia-thep-hom-nay-112026-dong-loat-di-xuong-2026118136401.htm" target="_blank" rel="nofollow noopener noreferrer">Giá thép xây dựng giảm 200.000 đồng/tấn do nguồn cung dư thừ...</a> | 🔴 -0.45 |
+| 29 | 24/01 | CafeBiz | <a href="https://cafebiz.vn/hoa-phat-cua-ty-phu-tran-dinh-long-lap-ky-luc-vuot-10-trieu-tan-thep-trong-nam-2025-176260109093034711.chn" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát báo lãi kỷ lục quý 4/2025, doanh thu thép tăng 25%</a> | 🟢 +0.90 |
 | 30 | 24/01 | vnexpress | <a href="https://vnexpress.net/ly-do-quang-ngai-tang-truong-kinh-te-dan-dau-mien-trung-5005507.html" target="_blank" rel="nofollow noopener noreferrer">Lý do Quảng Ngãi tăng trưởng kinh tế dẫn đầu miền Trung</a> | 🟢 +0.50 |
 | 31 | 24/01 | vnexpress | <a href="https://vnexpress.net/chu-thep-pomina-ban-co-phieu-de-tra-no-sau-9-phien-tang-tran-5006206.html" target="_blank" rel="nofollow noopener noreferrer">Chủ Thép Pomina bán cổ phiếu để trả nợ sau 9 phiên tăng trần</a> | ⚪ -0.10 |
 | 32 | 24/01 | Tuổi trẻ và  | <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlRwd0p3SzNEbjRkYTFldVhwRmY5RzdOY01nTkNENE1HcmNFRmlwcTJCTXhsQ21WWmR1OTZ1TUxSOTJuSmNuZmJYSHpDNTZzUC16dzFYLXh5QkxaY2hyT0M2WEEwRFhINGVEZG9SeGM5cjdpUnJKOWJwNUQ3UzNvbTFud1hHSV9jNXQ3T2hPUXlHZU1mNkhnaV9SU210dTFNXzFjczJvU0ZJaUFQczdr?oc=5" target="_blank" rel="nofollow noopener noreferrer">Thép Việt Đức Awards 2025: Hành trình bản lĩnh - Định vững t...</a> | 🟢 +0.40 |
@@ -195,49 +195,65 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 ### Diễn biến giá thép tuần qua
 
-**Tôn mạ kẽm** ghi nhận mức tăng mạnh nhất trong tuần với +2.1%, đạt 19,633,326 VND/tấn. Đây là mức tăng đáng kể so với các loại thép khác.
+**Tôn mạ kẽm** ghi nhận mức tăng mạnh nhất trong tuần với **+2.1%**, đạt 19,633,326 VND/tấn. Đây là mức tăng đáng kể so với các loại thép khác.
 
-**Thép cuộn cán nóng (HRC)** tăng nhẹ +0.8%, hiện ở mức 17,921,871 VND/tấn, được đánh giá là ổn định.
+**Thép cuộn cán nóng (HRC)** tăng nhẹ **+0.8%**, hiện ở mức 17,921,871 VND/tấn - về cơ bản giữ ổn định.
 
-**Thép thanh vằn (Rebar)** giảm nhẹ -0.6%, xuống còn 15,784,377 VND/tấn. Mức giảm này vẫn nằm trong biên độ ổn định.
+**Thép thanh vằn (Rebar)** giảm nhẹ **-0.6%**, xuống còn 15,784,377 VND/tấn. Mức giảm không đáng kể, thị trường đang đi ngang.
 
-Nhìn chung, thị trường thép trong nước đang đi ngang với xu hướng nghiêng về ổn định, không có biến động đột biến.
-
-### Các yếu tố tác động
-
-**Quặng sắt:** Giá quặng sắt đã hồi phục lên 113,95 USD/tấn sau khi dừng đà giảm. Tuy nhiên, dữ liệu ngày 26/01 cho thấy giá giao ngay ở mức 104,81 USD/tấn. Sự hồi phục của quặng sắt đang hỗ trợ giá thép kỳ hạn và tạo nền giá cho thép trong nước.
-
-**Tỷ giá USD/VND:** Hiện ở mức 26,180 VND, tương đối ổn định. Tỷ giá ổn định giúp chi phí nhập khẩu nguyên liệu không bị biến động mạnh.
-
-**Tỷ giá USD/CNY:** Ở mức 6.9537, ảnh hưởng đến giá thép nhập khẩu từ Trung Quốc - nguồn cạnh tranh chính với thép nội địa.
-
-**Giá dầu Brent:** Ở mức 64,82 USD/thùng, tương đối thấp, giúp giảm áp lực chi phí vận chuyển và sản xuất.
-
-### Điểm đáng chú ý
-
-**Hòa Phát tiếp tục tăng giá lần thứ 5:** Tin tức ngày 26/01 cho thấy HPG liên tục điều chỉnh giá bán, đặt ra câu hỏi về việc chu kỳ ngành thép có đang quay lại hay không. Đây là tín hiệu cho thấy nhà sản xuất lớn nhất đang có động thái tích cực về giá.
-
-**Diễn biến cổ phiếu ngành:** Cổ phiếu các công ty thép lớn (HPG -1.7%, HSG -2.8%, NKG -3.3%) giảm trong phiên 25/01, trong khi POM tăng mạnh +14.5%. Sự phân hóa này cho thấy thị trường đang đánh giá khác nhau về triển vọng từng doanh nghiệp.
-
-**Tâm lý thị trường:** Đánh giá tổng thể ở mức trung lập (0.26), với số bài tích cực (21.1%) nhiều hơn tiêu cực (5.6%). Tuy nhiên, 60% tin tức chưa được phân tích, cần theo dõi thêm.
-
-**Nông nghiệp Hòa Phát niêm yết:** HPG nộp hồ sơ niêm yết 285 triệu cổ phiếu mảng nông nghiệp trên HOSE - động thái đa dạng hóa của tập đoàn thép lớn nhất.
-
-### Yếu tố cần theo dõi
-
-**Giá quặng sắt quốc tế:** Quặng sắt vừa hồi phục sau đà giảm. Nếu tiếp tục tăng, giá thép trong nước có thể được điều chỉnh theo. Ngưỡng 110-115 USD/tấn là vùng cần quan sát.
-
-**Động thái giá từ Hòa Phát:** HPG đã tăng giá 5 lần liên tiếp. Các nhà sản xuất khác có theo không? Và thị trường có hấp thụ được mức giá mới hay không?
-
-**Nhu cầu sau Tết Nguyên đán:** Hiện đang trong giai đoạn cận Tết, hoạt động xây dựng thường chậm lại. Nhu cầu thực tế sau Tết sẽ quyết định xu hướng giá quý I/2026.
-
-**Chính sách thương mại:** Theo dõi các biện pháp phòng vệ thương mại với thép nhập khẩu, đặc biệt từ Trung Quốc.
-
-**Biến động tỷ giá:** Với đồng USD có thể biến động sau các quyết định chính sách, tỷ giá cần được theo dõi sát vì ảnh hưởng trực tiếp đến chi phí nhập khẩu nguyên liệu.
+**Nhận xét:** Tôn mạ kẽm đang có biên độ biến động lớn nhất (+2.1%), trong khi thép xây dựng (rebar, HRC) ổn định hơn.
 
 ---
 
-*Ghi chú: Giá tôn mạ kẽm đang có mức tăng mạnh nhất (+2.1%) trong khi thép thanh vằn giảm nhẹ (-0.6%). Khoảng cách giá giữa hai sản phẩm này đang nới rộng.*
+### Các yếu tố tác động
+
+**Quặng sắt (nguyên liệu đầu vào):**
+- Giá hồi phục lên **113.95 USD/tấn** theo tin tức ngày 26/01
+- Dữ liệu yếu tố bên ngoài ghi nhận **104.81 USD/tấn** 
+- Quặng sắt dừng đà giảm và quay đầu tăng - đây là tín hiệu hỗ trợ cho giá thép
+
+**Tỷ giá USD/VND:**
+- Hiện ở mức **26,180 VND/USD**
+- Tỷ giá ổn định giúp giảm áp lực chi phí nhập khẩu nguyên liệu
+
+**Hoạt động của nhà sản xuất:**
+- HPG (Hòa Phát) đã **"kéo giá" lần thứ 5** - cho thấy nhà sản xuất lớn nhất đang chủ động điều chỉnh tăng giá bán
+- Đây là tín hiệu cho thấy doanh nghiệp kỳ vọng nhu cầu cải thiện
+
+---
+
+### Điểm đáng chú ý
+
+**1. HPG liên tục điều chỉnh giá:**
+Việc Hòa Phát "kéo giá" lần thứ 5 liên tiếp đặt ra câu hỏi: chu kỳ tăng giá thép đã thực sự bắt đầu? Tuy nhiên, cổ phiếu HPG vẫn giảm **-1.7%** (26,300 VND) - cho thấy thị trường chứng khoán chưa hoàn toàn tin vào đà tăng bền vững.
+
+**2. Phân hóa giữa các cổ phiếu thép:**
+- **POM (Pomina)** tăng mạnh **+14.5%** - mức tăng bất thường
+- **NKG (Nam Kim)** giảm **-3.3%**
+- **HSG (Hoa Sen)** giảm **-2.8%**
+
+Sự phân hóa này phản ánh kỳ vọng khác nhau về từng phân khúc sản phẩm.
+
+**3. Tâm lý thị trường:**
+- 21% tin tức tích cực, 5.6% tiêu cực
+- Điểm đánh giá tổng thể: **Trung lập (0.26)**
+- Thị trường đang trong trạng thái chờ đợi, chưa có xu hướng rõ ràng
+
+---
+
+### Yếu tố cần theo dõi
+
+**Giá quặng sắt:** Đang hồi phục - nếu tiếp tục tăng sẽ đẩy chi phí sản xuất lên và tạo áp lực tăng giá thép thành phẩm.
+
+**Động thái của HPG:** Sau 5 lần điều chỉnh giá, cần theo dõi các nhà sản xuất khác có đồng loạt tăng theo hay không.
+
+**Nhu cầu xây dựng:** Sau kỳ nghỉ Tết Nguyên đán (đang trong giai đoạn này), nhu cầu thực tế sẽ phản ánh rõ hơn khi các công trình tái khởi động.
+
+**Chính sách:** Theo dõi các động thái về thuế chống bán phá giá thép nhập khẩu.
+
+---
+
+*Gợi ý: Giá thép trong nước đang đi ngang trong khi nguyên liệu đầu vào (quặng sắt) có dấu hiệu tăng trở lại. Biên lợi nhuận của nhà sản xuất có thể bị thu hẹp nếu giá thành phẩm không tăng theo - đây thường là tiền đề cho đợt điều chỉnh giá bán.*
 ---
 
 # PHẦN V: PHÂN TÍCH CƠ BẢN (CHI PHÍ & TƯƠNG QUAN)
@@ -327,7 +343,7 @@ Nhìn chung, thị trường thép trong nước đang đi ngang với xu hướ
 
 **Báo cáo được tạo tự động bởi Vietnam Steel Analyzer**
 
-**Ngày tạo:** 26/01/2026 14:30
+**Ngày tạo:** 26/01/2026 15:46
 
 **Liên hệ:** Để biết thêm chi tiết hoặc yêu cầu phân tích chuyên sâu, vui lòng liên hệ đội ngũ phân tích.
 
