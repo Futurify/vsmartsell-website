@@ -1,0 +1,337 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const steps = [
+  {
+    number: '01',
+    title: 'Giới thiệu khách hàng',
+    description: 'Bạn biết ai đang kinh doanh tôn, sắt thép, gạch men, VLXD? Chỉ cần gửi thông tin liên hệ của họ cho chúng tôi.',
+    icon: 'user-plus'
+  },
+  {
+    number: '02',
+    title: 'vSmartSell tư vấn & demo',
+    description: 'Đội ngũ vSmartSell sẽ liên hệ, tư vấn và demo sản phẩm. Bạn không cần phải làm gì thêm.',
+    icon: 'presentation'
+  },
+  {
+    number: '03',
+    title: 'Nhận thưởng ngay',
+    description: 'Khi khách hàng ký hợp đồng, bạn nhận ngay thưởng lên đến 2 triệu đồng. Thanh toán trong 7 ngày.',
+    icon: 'gift'
+  }
+];
+
+const rewardOptions = [
+  {
+    icon: 'cash',
+    title: 'Tiền mặt',
+    description: 'Nhận thưởng trực tiếp qua chuyển khoản ngân hàng trong vòng 7 ngày làm việc.'
+  },
+  {
+    icon: 'time',
+    title: 'Gia hạn dịch vụ',
+    description: 'Cộng thêm số tháng sử dụng vào gói dịch vụ vSmartSell hiện tại của bạn.'
+  },
+  {
+    icon: 'discount',
+    title: 'Giảm phí dịch vụ',
+    description: 'Trừ trực tiếp vào hóa đơn thanh toán dịch vụ của kỳ tiếp theo.'
+  }
+];
+
+const faqs = [
+  {
+    question: 'Tôi không phải khách hàng vSmartSell, có được tham gia không?',
+    answer: 'Có! Chương trình dành cho tất cả mọi người, không cần là khách hàng của vSmartSell. Bất kỳ ai cũng có thể giới thiệu và nhận thưởng.'
+  },
+  {
+    question: 'Tôi có thể giới thiệu bao nhiêu khách hàng?',
+    answer: 'Không giới hạn! Bạn có thể giới thiệu bao nhiêu khách hàng tùy thích và nhận thưởng cho mỗi khách hàng thành công.'
+  },
+  {
+    question: 'Khi nào tôi nhận được tiền thưởng?',
+    answer: 'Bạn nhận thưởng ngay sau khi khách hàng ký hợp đồng với vSmartSell. Tiền thưởng được thanh toán trong vòng 7 ngày làm việc.'
+  },
+  {
+    question: 'Tôi cần làm gì sau khi giới thiệu?',
+    answer: 'Chỉ cần gửi thông tin khách hàng, mọi việc còn lại vSmartSell sẽ lo. Chúng tôi sẽ liên hệ, tư vấn và chăm sóc khách hàng.'
+  }
+];
+---
+
+<BaseLayout
+  title="Giới thiệu khách hàng | Nhận thưởng 2 triệu đồng | vSmartSell"
+  description="Giới thiệu khách hàng mới cho vSmartSell và nhận ngay 2 triệu đồng. Không cần là khách hàng vSmartSell. Giới thiệu không giới hạn."
+>
+  <!-- Hero Section -->
+  <section class="py-20 lg:py-28 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:60px_60px]"></div>
+    <div class="absolute top-20 left-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-20 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center max-w-4xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-500/20 backdrop-blur rounded-full text-green-300 text-sm mb-8 border border-green-500/30">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+          </svg>
+          Chương trình "Giới thiệu ngay - Quà liền tay"
+        </div>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          Giới thiệu bạn bè,
+          <span class="block bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent pb-2 leading-relaxed">nhận ngay 2 triệu</span>
+        </h1>
+        <p class="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+          Bạn có quen ai đang kinh doanh VLXD và cần phần mềm quản lý? Chỉ cần giới thiệu, chúng tôi lo phần còn lại. Bạn nhận thưởng khi họ thành công.
+        </p>
+
+        <!-- Reward Highlight -->
+        <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 max-w-md mx-auto mb-8">
+          <p class="text-slate-400 text-sm mb-2">Thưởng cho mỗi khách hàng thành công</p>
+          <div class="text-5xl md:text-6xl font-bold text-white mb-2">
+            2.000.000<span class="text-2xl text-slate-400">đ</span>
+          </div>
+          <p class="text-green-400 font-medium">Không giới hạn số lượng giới thiệu</p>
+        </div>
+
+        <a href="#dang-ky" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-500 to-cyan-500 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-green-500/25 transition-all hover:-translate-y-1">
+          Giới thiệu ngay
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">Đơn giản như 1-2-3</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Cách thức tham gia
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Chỉ cần 3 bước đơn giản. Bạn giới thiệu, chúng tôi lo phần còn lại.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        {steps.map((step, index) => (
+          <div class="relative">
+            <div class="bg-slate-50 rounded-2xl p-8 h-full hover:shadow-lg transition-shadow">
+              <div class="text-6xl font-bold text-blue-100 mb-4">{step.number}</div>
+              <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+                {step.icon === 'user-plus' && (
+                  <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                  </svg>
+                )}
+                {step.icon === 'presentation' && (
+                  <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                )}
+                {step.icon === 'gift' && (
+                  <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                  </svg>
+                )}
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">{step.title}</h3>
+              <p class="text-gray-600">{step.description}</p>
+            </div>
+            {index < steps.length - 1 && (
+              <div class="hidden md:block absolute top-1/2 -right-4 w-8 h-8 text-gray-300">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Reward Options -->
+  <section class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="inline-block px-4 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-4">Linh hoạt nhận thưởng</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          3 cách nhận thưởng
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Bạn chọn cách nhận thưởng phù hợp với mình. Tất cả đều có giá trị tương đương.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        {rewardOptions.map((option) => (
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-center">
+            <div class={`w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 ${
+              option.icon === 'cash' ? 'bg-green-100 text-green-600' :
+              option.icon === 'time' ? 'bg-blue-100 text-blue-600' :
+              'bg-purple-100 text-purple-600'
+            }`}>
+              {option.icon === 'cash' && (
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              )}
+              {option.icon === 'time' && (
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              )}
+              {option.icon === 'discount' && (
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                </svg>
+              )}
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">{option.title}</h3>
+            <p class="text-gray-600 text-sm">{option.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Who Can Join -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="inline-block px-4 py-1 bg-cyan-100 text-cyan-700 rounded-full text-sm font-medium mb-4">Ai có thể tham gia?</span>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            Chương trình dành cho <span class="text-blue-600">tất cả mọi người</span>
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            Bạn không cần là khách hàng của vSmartSell để tham gia. Bất kỳ ai có mối quan hệ trong ngành VLXD đều có thể giới thiệu và nhận thưởng.
+          </p>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+              <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Khách hàng hiện tại của vSmartSell</h4>
+                <p class="text-gray-600 text-sm">Bạn đang dùng vSmartSell và muốn giới thiệu cho đối tác, bạn bè</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+              <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Người chưa phải khách hàng</h4>
+                <p class="text-gray-600 text-sm">Bạn biết ai đang kinh doanh VLXD và cần phần mềm quản lý</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+              <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Người làm trong ngành VLXD</h4>
+                <p class="text-gray-600 text-sm">Nhân viên sale, kế toán, hoặc bất kỳ ai có network trong ngành</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-blue-600 to-cyan-500 rounded-3xl p-8 text-white">
+          <h3 class="text-2xl font-bold mb-6">Điều kiện để nhận thưởng</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-bold">1</span>
+              <span>Người được giới thiệu đang kinh doanh ngành VLXD (tôn, sắt thép, gạch men, xi măng, thiết bị vệ sinh...)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-bold">2</span>
+              <span>Thông tin liên hệ chính xác (tên, số điện thoại, địa chỉ)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-bold">3</span>
+              <span>Khách hàng chưa từng liên hệ hoặc dùng thử vSmartSell trước đó</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-bold">4</span>
+              <span>Bạn nhận thưởng khi khách hàng ký hợp đồng sử dụng dịch vụ</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-slate-50">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">Câu hỏi thường gặp</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+          Giải đáp thắc mắc
+        </h2>
+      </div>
+
+      <div class="space-y-4">
+        {faqs.map((faq) => (
+          <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
+            <p class="text-gray-600">{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-white" id="dang-ky">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-br from-green-600 to-cyan-500 rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+
+        <div class="relative z-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Sẵn sàng nhận 2 triệu đồng?
+          </h2>
+          <p class="text-green-100 text-lg mb-8 max-w-xl mx-auto">
+            Liên hệ ngay với chúng tôi để giới thiệu khách hàng. Nhận thưởng ngay khi họ ký hợp đồng!
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="tel:0866135766" class="inline-flex items-center justify-center px-8 py-4 bg-white text-green-600 font-semibold rounded-xl hover:bg-green-50 transition-colors shadow-lg">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Gọi ngay: 0866.135.766
+            </a>
+            <a href="https://zalo.me/0866135766" target="_blank" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors">
+              <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+              </svg>
+              Nhắn tin Zalo
+            </a>
+          </div>
+
+          <p class="text-green-100 text-sm mt-6">
+            Hoặc gửi thông tin khách hàng qua email: <a href="mailto:contact@vsmartsell.com" class="text-white underline">contact@vsmartsell.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
