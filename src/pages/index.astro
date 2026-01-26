@@ -429,10 +429,14 @@ const industries = [
             Đừng để thất thoát kéo dài. Đăng ký dùng thử ngay - chúng tôi sẽ giúp bạn cài đặt và đào tạo <strong class="text-white">hoàn toàn miễn phí</strong>.
           </p>
 
-          <form class="max-w-lg mx-auto">
+          <form action="https://formspree.io/f/xojdjogn" method="POST" class="max-w-lg mx-auto">
+            <input type="hidden" name="_subject" value="[vSmartSell] Khách hàng mới từ Trang chủ" />
+            <input type="hidden" name="_next" value="https://vsmartsell.com/?submitted=true" />
+            <input type="hidden" name="nguon" value="Trang chủ - vsmartsell.com" />
             <div class="flex flex-col sm:flex-row gap-3">
               <input
                 type="tel"
+                name="phone"
                 placeholder="Số điện thoại của bạn"
                 class="flex-1 px-6 py-4 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-white/30"
                 required
