@@ -195,71 +195,133 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 ### Diễn biến giá thép tuần qua
 
-**Tôn mạ kẽm** ghi nhận mức tăng mạnh nhất trong tuần với **+2.1%**, đạt 19,633,326 VND/tấn. Đây là mức tăng đáng kể so với xu hướng chung của thị trường.
+Thị trường thép Việt Nam tuần này có sự phân hóa rõ rệt giữa các dòng sản phẩm:
 
-**Thép cuộn cán nóng (HRC)** tăng nhẹ **+0.8%**, hiện ở mức 17,921,871 VND/tấn - được đánh giá là ổn định.
+**Tôn mạ kẽm** ghi nhận mức tăng mạnh nhất với **+2.1%** trong 7 ngày, đạt **19,633,326 VND/tấn**. Đây là mức tăng đáng kể so với các sản phẩm thép khác.
 
-**Thép thanh vằn (Rebar)** giảm nhẹ **-0.6%**, xuống còn 15,784,377 VND/tấn. Mức giảm này không đáng kể và vẫn nằm trong vùng ổn định.
+**Thép cuộn cán nóng (HRC)** tăng nhẹ **+0.8%**, hiện ở mức **17,921,871 VND/tấn** - về cơ bản ổn định.
 
-**So sánh:** Tôn mạ kẽm đang có diễn biến tích cực hơn so với thép xây dựng (rebar). Khoảng cách giá giữa tôn mạ kẽm và HRC là gần 1.7 triệu VND/tấn.
+**Thép thanh vằn (Rebar)** giảm nhẹ **-0.6%**, xuống còn **15,784,377 VND/tấn**. Đây là dòng sản phẩm duy nhất đi ngược xu hướng chung.
+
+Tổng hợp: Tôn mạ dẫn đầu đà tăng, HRC ổn định, Rebar chịu áp lực giảm nhẹ.
 
 ---
 
 ### Các yếu tố tác động
 
-**Quặng sắt - Tín hiệu hỗ trợ:**
-- Giá quặng sắt hồi phục lên **113.95 USD/tấn** theo tin tức mới nhất (26/01)
-- Dữ liệu giao dịch ghi nhận **104.81 USD/tấn** - quặng sắt đã dừng đà giảm và quay đầu tăng
-- Nguyên liệu đầu vào ổn định giúp các nhà sản xuất có cơ sở giữ giá bán
+**Quặng sắt** - Yếu tố hỗ trợ:
+- Giá quặng sắt hồi phục lên **113,95 USD/tấn** theo tin tức mới nhất (26/01)
+- Dữ liệu hệ thống ghi nhận **104,81 USD/tấn** - dao động trong biên độ hợp lý
+- Việc quặng sắt "dừng đà giảm" và "quay đầu tăng giá" hỗ trợ tâm lý thị trường
 
-**Tỷ giá USD/VND:**
-- Hiện ở mức **26,180 VND/USD** (26/01)
+**Tỷ giá USD/VND**:
+- Hiện ở mức **26,180 VND/USD**
 - Tỷ giá ổn định giúp chi phí nhập khẩu nguyên liệu không biến động lớn
 
-**Giá dầu:**
-- Dầu Brent ở mức **64.82 USD/thùng** - tương đối thấp
-- Chi phí vận chuyển và logistics được hỗ trợ
+**Cung cầu nội địa**:
+- Tin tức cho thấy HPG đã "kéo giá" lần thứ 5 - động thái điều chỉnh giá bán từ nhà sản xuất lớn nhất
+- Thị trường thép nội địa được đánh giá "giữ mức ổn định" và "đi ngang"
 
-**Động thái của doanh nghiệp:**
-- Hòa Phát (HPG) đã **điều chỉnh tăng giá lần thứ 5** - đây là tín hiệu cho thấy nhà sản xuất lớn nhất đang kỳ vọng nhu cầu và có khả năng đẩy giá
+**Giá dầu Brent**: 64,82 USD/thùng - ở mức thấp, giảm áp lực chi phí vận chuyển
 
 ---
 
 ### Điểm đáng chú ý
 
-**1. Cổ phiếu POM tăng đột biến +14.5%**
-- Pomina Steel ghi nhận phiên tăng mạnh bất thường trong khi HPG (-1.7%), HSG (-2.8%), NKG (-3.3%) đều giảm
-- Đây có thể là yếu tố đầu cơ hoặc tin đồn nội bộ, cần theo dõi thêm
+**1. HPG liên tục điều chỉnh giá:**
+Hòa Phát đã "kéo giá" lần thứ 5, đặt ra câu hỏi về việc "chu kỳ thép đã thực sự quay lại". Đây là tín hiệu từ nhà sản xuất lớn nhất thị trường.
 
-**2. Hòa Phát kéo giá lần thứ 5**
-- Tin tức ghi nhận "HPG tiếp tục kéo giá lần thứ 5" - câu hỏi đặt ra là chu kỳ tăng giá thép có thực sự bền vững hay không
-- Giá cổ phiếu HPG giảm 1.7% cho thấy thị trường chứng khoán chưa hoàn toàn tin vào đà tăng
+**2. Phân hóa cổ phiếu ngành thép:**
+- **POM (Pomina)** tăng vọt **+14.5%** - mức tăng bất thường, cần theo dõi nguyên nhân
+- **HPG** giảm **-1.7%**, **HSG** giảm **-2.8%**, **NKG** giảm **-3.3%**
+- Sự phân hóa mạnh cho thấy kỳ vọng thị trường khác nhau giữa các doanh nghiệp
 
-**3. Tâm lý thị trường nghiêng về tích cực**
-- 21.1% tin tức tích cực vs 5.6% tiêu cực
-- Điểm đánh giá tổng thể: **0.26 (Trung lập)** - chưa có xu hướng rõ ràng
+**3. Tâm lý thị trường:**
+- Đánh giá tổng thể: **Trung lập** (điểm 0.26)
+- Tin tích cực chiếm **21.1%**, tin tiêu cực chỉ **5.6%**
+- Phần lớn tin (60%) chưa được phân tích - thị trường đang trong giai đoạn chờ đợi
 
-**4. Phân hóa giữa các sản phẩm**
-- Tôn mạ (+2.1%) khác biệt rõ so với thép xây dựng (-0.6%)
-- Nhu cầu tôn có thể đang được hỗ trợ bởi các dự án nhà xưởng, công nghiệp
+**4. Nông nghiệp Hòa Phát niêm yết:**
+HPG chuẩn bị niêm yết 285 triệu cổ phiếu mảng nông nghiệp trên HOSE - động thái tái cơ cấu đáng chú ý.
 
 ---
 
 ### Yếu tố cần theo dõi
 
-**Quặng sắt:** Đà hồi phục có tiếp tục hay không sẽ quyết định chi phí đầu vào. Mức 113-115 USD/tấn là ngưỡng quan trọng.
+**Tuần tới cần chú ý:**
 
-**Chính sách điều chỉnh giá của HPG:** Sau 5 lần tăng giá, liệu các nhà sản xuất khác có theo không, hay thị trường sẽ điều chỉnh về lại.
+1. **Giá quặng sắt**: Đang ở vùng 104-114 USD/tấn. Nếu tiếp tục hồi phục sẽ hỗ trợ giá thép, nếu quay đầu giảm sẽ tạo áp lực.
 
-**Tỷ giá USD/VND:** Nếu tỷ giá tăng mạnh, chi phí nhập khẩu phôi thép và quặng sẽ tăng theo.
+2. **Động thái HPG**: Sau 5 lần điều chỉnh giá, cần theo dõi xem có đợt điều chỉnh tiếp theo không và phản ứng của thị trường.
 
-**Nhu cầu xây dựng sau Tết:** Thị trường thép thường có sự phục hồi sau kỳ nghỉ Tết Nguyên đán. Mức độ hồi phục năm nay sẽ cho thấy sức khỏe thực sự của ngành.
+3. **Nghỉ Tết Nguyên đán**: Thời điểm cận Tết thường có biến động về nhu cầu - doanh nghiệp có thể đẩy mạnh hoặc giảm nhập hàng.
 
-**Khối lượng giao dịch cổ phiếu:** HPG với 34 triệu cổ phiếu giao dịch cho thấy thanh khoản cao, nhà đầu tư đang quan tâm đến nhóm thép.
+4. **Tỷ giá USD/VND**: Bất kỳ biến động nào sẽ ảnh hưởng trực tiếp đến giá thép nhập khẩu và nguyên liệu.
+
+5. **Cổ phiếu POM**: Mức tăng +14.5% bất thường cần theo dõi - có thể phản ánh thông tin nội bộ hoặc đầu cơ.
 
 ---
 
-*Ghi chú: Giá thép nội địa đang đi ngang trong khi nguyên liệu hồi phục - đây là giai đoạn thị trường đang chờ đợi tín hiệu rõ ràng hơn.*
+**Ghi chú**: Giá tôn mạ kẽm đang ở xu hướng tăng mạnh nhất (+2.1%/tuần), trong khi thép thanh vằn đang chịu áp lực giảm nhẹ. Thị trường nhìn chung ổn định với tâm lý trung lập, chưa có tín hiệu đột phá rõ ràng theo hướng nào.
+---
+
+# PHẦN V: PHÂN TÍCH CƠ BẢN (CHI PHÍ & TƯƠNG QUAN)
+
+*Phân tích dựa trên tính toán định lượng, không phải dự đoán AI.*
+
+## 5.1. Chi phí sản xuất HRC
+
+| Thành phần | Chi phí (VND/tấn) | Tỷ lệ |
+|:-----------|------------------:|------:|
+| Quặng sắt (105 USD × 1.6t) | 4,390,281 | 36.8% |
+| Than cốc (230 USD × 0.45t) | 2,709,630 | 22.7% |
+| Năng lượng (điện + gas) | 3,040,000 | 25.5% |
+| Chi phí cố định | 1,800,000 | 15.1% |
+| **Tổng chi phí sản xuất** | **11,939,911** | 100% |
+
+### Phân tích biên lợi nhuận
+
+| Chỉ số | Giá trị | Đánh giá |
+|:-------|--------:|:---------|
+| Giá HRC hiện tại | 17,921,871 VND/tấn | - |
+| Chi phí sản xuất | 11,939,911 VND/tấn | - |
+| **Biên lợi nhuận** | **33.4%** | ✅ Lành mạnh |
+| Sàn chi phí (min 5%) | 12,568,328 VND/tấn | Hỗ trợ |
+| Khoảng cách đến sàn | 42.6% | - |
+
+**Tín hiệu chi phí:** 🔴 Tiêu cực (biên cao, thu hút tăng cung)
+
+## 5.2. Tương quan quặng sắt - thép
+
+- Lag tối ưu: **14 ngày** (r=0.50)
+  - *Quặng sắt thay đổi → thép phản ứng sau 14 ngày*
+
+## 5.3. Điểm cơ bản tổng hợp
+
+| Yếu tố | Điểm | Trọng số | Đóng góp |
+|:-------|-----:|--------:|---------:|
+| Chi phí/Biên lợi nhuận | -0.60 | 30% | -0.18 |
+| Tương quan quặng sắt | +0.00 | 25% | +0.00 |
+| Mean reversion | -0.20 | 20% | -0.04 |
+| Cung cầu | -0.12 | 25% | -0.03 |
+
+### 📉 Điểm cơ bản: -0.25 (BEARISH (Tiêu cực))
+
+- Độ tin cậy: 87%
+
+## 5.4. Mức giá tham khảo (dựa trên chi phí)
+
+| Mức | Giá (VND/tấn) | Cơ sở tính toán |
+|:----|-------------:|:----------------|
+| 🟢 Hỗ trợ | 12,568,328 | Chi phí + 5% margin tối thiểu |
+| 🟡 Hợp lý | 13,568,081 | Chi phí + 12% margin bình thường |
+| 🔴 Kháng cự | 18,521,747 | Đỉnh giá 90 ngày gần nhất |
+
+### Yếu tố cơ bản tiêu cực
+
+- ⚠️ Biên lợi nhuận cao (33.4%), thu hút tăng cung
+- ⚠️ Cổ phiếu thép underperform, tín hiệu tồn kho tăng
+
 ---
 
 # PHẦN VI: PHƯƠNG PHÁP LUẬN
@@ -290,7 +352,7 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 **Báo cáo được tạo tự động bởi Vietnam Steel Analyzer**
 
-**Ngày tạo:** 26/01/2026 14:09
+**Ngày tạo:** 26/01/2026 14:17
 
 **Liên hệ:** Để biết thêm chi tiết hoặc yêu cầu phân tích chuyên sâu, vui lòng liên hệ đội ngũ phân tích.
 
