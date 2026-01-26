@@ -5,7 +5,8 @@ const plans = [
   {
     name: 'Cơ bản',
     description: 'Phù hợp cho doanh nghiệp nhỏ bắt đầu chuyển đổi số',
-    price: 'Liên hệ',
+    price: '800.000',
+    period: 'đ/tháng',
     popular: false,
     features: [
       'Quản lý bán hàng cơ bản',
@@ -19,7 +20,8 @@ const plans = [
   {
     name: 'Nâng cao',
     description: 'Quản lý đơn hàng, tồn kho và công nợ hiệu quả',
-    price: 'Liên hệ',
+    price: '1.000.000',
+    period: 'đ/tháng',
     popular: false,
     features: [
       'Tất cả tính năng Cơ bản',
@@ -33,7 +35,8 @@ const plans = [
   {
     name: 'Chuyên nghiệp',
     description: 'Giải pháp toàn diện cho doanh nghiệp ngành VLXD',
-    price: 'Liên hệ',
+    price: '1.200.000',
+    period: 'đ/tháng',
     popular: true,
     features: [
       'Tất cả tính năng Nâng cao',
@@ -47,7 +50,8 @@ const plans = [
   {
     name: 'Doanh nghiệp',
     description: 'Cho công ty lớn cần quản lý nhiều chi nhánh',
-    price: 'Liên hệ',
+    price: '1.800.000',
+    period: 'đ/tháng',
     popular: false,
     features: [
       'Tất cả tính năng Chuyên nghiệp',
@@ -225,7 +229,7 @@ const testimonials = [
             <div class="text-center mb-6">
               <h3 class="text-xl font-bold text-gray-900 mb-2">{plan.name}</h3>
               <p class="text-gray-500 text-sm mb-4">{plan.description}</p>
-              <div class="text-3xl font-bold text-blue-600">{plan.price}</div>
+              <div class="text-3xl font-bold text-blue-600">{plan.price}<span class="text-base font-normal text-gray-500">{plan.period}</span></div>
             </div>
             <ul class="space-y-3 mb-6">
               {plan.features.map((feature) => (
