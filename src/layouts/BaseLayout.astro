@@ -7,15 +7,83 @@ interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  keywords?: string;
+  article?: boolean;
+  publishedTime?: string;
 }
 
 const {
   title,
-  description = 'Phần mềm quản lý Tôn, Sắt Thép, Gạch men, Vật liệu xây dựng. Bán hàng nhanh, quản lý tồn kho nhiều đơn vị. DÙNG THỬ MIỄN PHÍ 30 NGÀY.',
-  ogImage = '/images/og-image.png'
+  description = 'Phần mềm quản lý Tôn, Sắt Thép, Gạch men, Vật liệu xây dựng. Bán hàng nhanh, quản lý tồn kho nhiều đơn vị. DÙNG THỬ MIỄN PHÍ 15 NGÀY.',
+  ogImage = '/images/og-image.png',
+  keywords = 'phần mềm quản lý bán hàng, phần mềm VLXD, quản lý tôn sắt thép, quản lý gạch men, phần mềm vật liệu xây dựng, vSmartSell',
+  article = false,
+  publishedTime
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astro.site).href;
+
+// Organization structured data
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "vSmartSell",
+  "alternateName": "Phần mềm quản lý bán hàng vSmartSell",
+  "url": "https://vsmartsell.com",
+  "logo": "https://vsmartsell.com/images/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+84-866-135-766",
+    "contactType": "sales",
+    "areaServed": "VN",
+    "availableLanguage": "Vietnamese"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Tòa nhà TS - Số 17 Đường Số 2",
+    "addressLocality": "Phường Bàn Cờ",
+    "addressRegion": "TP. Hồ Chí Minh",
+    "addressCountry": "VN"
+  },
+  "sameAs": [
+    "https://www.facebook.com/vsmartsell",
+    "https://www.youtube.com/@vsmartsell"
+  ]
+};
+
+// Website structured data
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "vSmartSell",
+  "url": "https://vsmartsell.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://vsmartsell.com/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+
+// Software Application structured data
+const softwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "vSmartSell",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Windows, Android, iOS, Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "800000",
+    "priceCurrency": "VND",
+    "priceValidUntil": "2026-12-31"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "500"
+  }
+};
 ---
 
 <!doctype html>
@@ -24,33 +92,58 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
 
     <!-- Primary Meta Tags -->
     <title>{title}</title>
     <meta name="title" content={title} />
     <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <meta name="author" content="vSmartSell" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
     <link rel="canonical" href={canonicalURL} />
 
+    <!-- Geo Meta Tags for Vietnam -->
+    <meta name="geo.region" content="VN-SG" />
+    <meta name="geo.placename" content="Ho Chi Minh City" />
+    <meta name="language" content="Vietnamese" />
+
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={article ? "article" : "website"} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="vi_VN" />
+    <meta property="og:site_name" content="vSmartSell" />
+    {article && publishedTime && (
+      <meta property="article:published_time" content={publishedTime} />
+    )}
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalURL} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/images/logo.png" as="image" />
   </head>
   <body class="min-h-screen flex flex-col">
     <Header />
