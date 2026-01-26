@@ -433,11 +433,15 @@ const industries = [
             <input type="hidden" name="_subject" value="[vSmartSell] Khách hàng mới từ Trang chủ" />
             <input type="hidden" name="_next" value="https://vsmartsell.com/?submitted=true" />
             <input type="hidden" name="nguon" value="Trang chủ - vsmartsell.com" />
+            <!-- Honeypot field for spam prevention - bots fill this, humans don't see it -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
             <div class="flex flex-col sm:flex-row gap-3">
               <input
                 type="tel"
                 name="phone"
-                placeholder="Số điện thoại của bạn"
+                placeholder="Số điện thoại của bạn (VD: 0866135766)"
+                pattern="^(0|\+84)(3[2-9]|5[2689]|7[06-9]|8[1-9]|9[0-9])[0-9]{7}$"
+                title="Vui lòng nhập số điện thoại Việt Nam hợp lệ (10 số, bắt đầu bằng 03, 05, 07, 08, 09)"
                 class="flex-1 px-6 py-4 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-white/30"
                 required
               />
