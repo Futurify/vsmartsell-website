@@ -268,19 +268,21 @@ const idealCandidates = [
         </h2>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-        {steps.map((step, index) => (
-          <div class="text-center relative">
-            <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
-              {step.number}
+      <div class="relative max-w-4xl mx-auto">
+        <!-- Connecting lines -->
+        <div class="hidden md:block absolute top-8 left-[calc(16.67%+32px)] right-[calc(16.67%+32px)] h-0.5 border-t-2 border-dashed border-gray-300"></div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          {steps.map((step) => (
+            <div class="text-center relative z-10">
+              <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold shadow-lg">
+                {step.number}
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">{step.title}</h3>
+              <p class="text-gray-600">{step.description}</p>
             </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">{step.title}</h3>
-            <p class="text-gray-600">{step.description}</p>
-            {index < steps.length - 1 && (
-              <div class="hidden md:block absolute top-8 left-[60%] w-[80%] border-t-2 border-dashed border-gray-300"></div>
-            )}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   </section>
