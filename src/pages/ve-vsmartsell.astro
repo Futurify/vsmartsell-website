@@ -117,7 +117,11 @@ const stats = [
                 <p class="text-blue-100 text-sm">{item.description}</p>
               </div>
               {index < timeline.length - 1 && (
-                <div class="hidden lg:block absolute top-1/2 -right-2 w-4 h-4 border-t-2 border-r-2 border-white/50 transform rotate-45 -translate-y-1/2"></div>
+                <div class="hidden lg:flex absolute top-1/2 -right-4 w-8 h-8 items-center justify-center -translate-y-1/2 text-white">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
               )}
             </div>
           ))}
