@@ -429,7 +429,7 @@ const industries = [
             Đừng để thất thoát kéo dài. Đăng ký dùng thử ngay - chúng tôi sẽ giúp bạn cài đặt và đào tạo <strong class="text-white">hoàn toàn miễn phí</strong>.
           </p>
 
-          <form action="https://formspree.io/f/xojdjogn" method="POST" class="max-w-lg mx-auto">
+          <form id="contact-form" action="https://formspree.io/f/xojdjogn" method="POST" class="max-w-lg mx-auto">
             <input type="hidden" name="_subject" value="[vSmartSell] Khách hàng mới từ Trang chủ" />
             <input type="hidden" name="_next" value="https://vsmartsell.com/?submitted=true" />
             <input type="hidden" name="nguon" value="Trang chủ - vsmartsell.com" />
@@ -438,10 +438,9 @@ const industries = [
             <div class="flex flex-col sm:flex-row gap-3">
               <input
                 type="tel"
+                id="phone-input"
                 name="phone"
                 placeholder="Số điện thoại của bạn (VD: 0866135766)"
-                pattern="^(0|\+84)(3[2-9]|5[2689]|7[06-9]|8[1-9]|9[0-9])[0-9]{7}$"
-                title="Vui lòng nhập số điện thoại Việt Nam hợp lệ (10 số, bắt đầu bằng 03, 05, 07, 08, 09)"
                 class="flex-1 px-6 py-4 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-white/30"
                 required
               />
@@ -449,7 +448,34 @@ const industries = [
                 Nhận tư vấn miễn phí
               </button>
             </div>
+            <p id="phone-error" class="text-yellow-200 text-sm mt-2 hidden">Vui lòng nhập số điện thoại Việt Nam hợp lệ (VD: 0866135766)</p>
           </form>
+
+          <script>
+            document.getElementById('contact-form').addEventListener('submit', function(e) {
+              const phone = document.getElementById('phone-input').value.trim();
+              const errorEl = document.getElementById('phone-error');
+
+              // Vietnamese phone: 10 digits starting with 03, 05, 07, 08, 09
+              // Or with +84 prefix (11 chars total)
+              const vnPhoneRegex = /^(0[35789][0-9]{8}|\+84[35789][0-9]{8})$/;
+
+              if (!vnPhoneRegex.test(phone)) {
+                e.preventDefault();
+                errorEl.classList.remove('hidden');
+                document.getElementById('phone-input').focus();
+                return false;
+              }
+
+              errorEl.classList.add('hidden');
+              return true;
+            });
+
+            // Clear error on input
+            document.getElementById('phone-input').addEventListener('input', function() {
+              document.getElementById('phone-error').classList.add('hidden');
+            });
+          </script>
 
           <div class="flex flex-wrap justify-center gap-6 mt-6 text-sm text-blue-100">
             <span class="flex items-center gap-2">
