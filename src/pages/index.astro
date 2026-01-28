@@ -69,10 +69,10 @@ const testimonials = [
 ];
 
 const industries = [
-  { name: 'Tôn, Sắt thép', icon: 'steel', image: '/images/features-screenshot.png', desc: 'Cắt xẻ cuộn, quản lý theo kg/m/cây' },
-  { name: 'Gạch men', icon: 'tiles', image: '/images/gach-men-illustration.png', desc: 'Quản lý theo m², hộp, viên' },
-  { name: 'Vật liệu xây dựng', icon: 'materials', image: '/images/software-illustration.png', desc: 'Xi măng, cát, đá, gạch block' },
-  { name: 'Thiết bị vệ sinh', icon: 'bathroom', image: '/images/combo-illustration.png', desc: 'Combo sản phẩm, quản lý serial' }
+  { name: 'Tôn, Sắt thép', icon: 'steel', image: '/images/industry-tonsatthep.png', desc: 'Cắt xẻ cuộn, quản lý theo kg/m/cây' },
+  { name: 'Gạch men', icon: 'tiles', image: '/images/industry-gachmen.jpg', desc: 'Quản lý theo m², hộp, viên' },
+  { name: 'Vật liệu xây dựng', icon: 'materials', image: '/images/industry-vlxd.png', desc: 'Xi măng, cát, đá, gạch block' },
+  { name: 'Thiết bị vệ sinh', icon: 'bathroom', image: '/images/industry-thietbivesinh.png', desc: 'Combo sản phẩm, quản lý serial' }
 ];
 ---
 
@@ -471,12 +471,11 @@ const industries = [
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {industries.map((industry) => (
           <div class="group bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/15 hover:border-white/30 transition-all duration-300 hover:-translate-y-2">
-            <div class="h-40 mb-4 flex items-center justify-center overflow-hidden rounded-xl bg-white">
+            <div class="h-44 mb-4 overflow-hidden rounded-xl">
               <img
                 src={industry.image}
                 alt={industry.name}
-                class="h-full w-full object-contain p-4 group-hover:scale-110 transition-transform duration-500"
-                onerror="this.src='https://via.placeholder.com/200x160?text=Industry'"
+                class="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
             </div>
             <h3 class="text-lg font-bold text-white text-center">{industry.name}</h3>
