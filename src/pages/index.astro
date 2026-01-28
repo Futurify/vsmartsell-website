@@ -80,9 +80,9 @@ const industries = [
   title="vSmartSell - Phần mềm quản lý bán hàng VLXD hàng đầu Việt Nam"
   description="Phần mềm quản lý Tôn, Sắt Thép, Gạch men, Vật liệu xây dựng. Bán hàng nhanh, quản lý tồn kho nhiều đơn vị. DÙNG THỬ MIỄN PHÍ 30 NGÀY."
 >
-  <!-- Hero Section with Sticky Scroll Animation -->
-  <div class="relative h-[180vh]" id="hero-scroll-container">
-  <section class="sticky top-0 relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
+  <!-- Hero Section with Sticky Scroll Animation (desktop only) -->
+  <div class="relative lg:h-[180vh]" id="hero-scroll-container">
+  <section class="lg:sticky top-0 relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
     <!-- Animated Background -->
     <div class="absolute inset-0">
       <div class="absolute top-0 -left-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
@@ -157,9 +157,9 @@ const industries = [
                 </div>
               </div>
 
-              <!-- Back image (Reports) - scrolls up and over -->
+              <!-- Back image (Reports) - scrolls up and over (hidden on mobile) -->
               <div
-                class="absolute top-4 left-4 w-full bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 p-2 shadow-xl cursor-pointer hero-photo"
+                class="hidden lg:block absolute top-4 left-4 w-full bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 p-2 shadow-xl cursor-pointer hero-photo"
                 id="hero-image-back"
                 data-image="/images/hero-reports.png"
                 title="Nhấn để xem báo cáo"
@@ -360,22 +360,93 @@ const industries = [
         </div>
 
         <div class="relative">
-          <div class="flex justify-center gap-4">
-            <div class="transform -rotate-6 hover:rotate-0 transition-transform duration-500">
-              <img
-                src="/images/mobile-app-1.png"
-                alt="Ứng dụng vSmartSell trên điện thoại"
-                class="h-[500px] object-contain rounded-3xl shadow-2xl"
-                onerror="this.src='https://via.placeholder.com/272x544?text=Mobile+App'"
-              />
-            </div>
-            <div class="transform rotate-6 hover:rotate-0 transition-transform duration-500 mt-8">
-              <img
-                src="/images/mobile-app-2.png"
-                alt="Báo cáo trên điện thoại vSmartSell"
-                class="h-[500px] object-contain rounded-3xl shadow-2xl"
-                onerror="this.src='https://via.placeholder.com/272x546?text=Mobile+App'"
-              />
+          <!-- Background pattern -->
+          <div class="absolute inset-0 opacity-30">
+            <div class="absolute top-10 left-10 w-32 h-32 bg-cyan-400 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-10 right-10 w-40 h-40 bg-blue-400 rounded-full blur-3xl"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(6,182,212,0.1)_0%,transparent_50%)]"></div>
+          </div>
+
+          <div class="flex justify-center relative z-10">
+            <!-- Phone mockup with 3D perspective -->
+            <div
+              class="relative transform perspective-1000 hover:rotate-y-0 transition-all duration-700 cursor-pointer lightbox-image group"
+              data-image="/images/mobile-dashboard.png"
+              title="Nhấn để xem chi tiết"
+              style="transform: perspective(1000px) rotateY(-5deg) rotateX(2deg);"
+            >
+              <!-- Glow effect behind phone -->
+              <div class="absolute -inset-4 bg-gradient-to-r from-cyan-500/30 to-blue-500/30 rounded-[3rem] blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
+
+              <!-- iPhone 15 Pro frame - thin bezels -->
+              <div class="relative bg-[#1a1a1a] rounded-[2.5rem] p-1.5 shadow-2xl border border-gray-700">
+                <!-- Titanium side buttons simulation -->
+                <div class="absolute -left-0.5 top-24 w-0.5 h-8 bg-gray-600 rounded-full"></div>
+                <div class="absolute -left-0.5 top-36 w-0.5 h-12 bg-gray-600 rounded-full"></div>
+                <div class="absolute -left-0.5 top-52 w-0.5 h-12 bg-gray-600 rounded-full"></div>
+                <div class="absolute -right-0.5 top-32 w-0.5 h-16 bg-gray-600 rounded-full"></div>
+
+                <!-- Screen with Dynamic Island -->
+                <div class="relative overflow-hidden rounded-[2.2rem] bg-black">
+                  <!-- Dynamic Island -->
+                  <div class="absolute top-2 left-1/2 -translate-x-1/2 w-[90px] h-[26px] bg-black rounded-full z-20"></div>
+
+                  <img
+                    src="/images/mobile-dashboard.png"
+                    alt="Dashboard vSmartSell trên điện thoại"
+                    class="h-[520px] w-auto object-cover object-top"
+                  />
+
+                  <!-- Home indicator -->
+                  <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 w-28 h-1 bg-gray-400 rounded-full"></div>
+                </div>
+              </div>
+
+              <!-- Floating notification badges -->
+              <!-- Orders badge -->
+              <div class="absolute -top-4 -right-8 bg-white rounded-xl shadow-lg p-3 animate-float z-30">
+                <div class="flex items-center gap-2">
+                  <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-xs text-gray-500">Đơn hoàn thành</p>
+                    <p class="text-sm font-bold text-gray-900">24 đơn hôm nay</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Inventory alert badge -->
+              <div class="absolute top-1/3 -left-12 bg-white rounded-xl shadow-lg p-3 animate-float animation-delay-1000 z-30">
+                <div class="flex items-center gap-2">
+                  <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-xs text-gray-500">Tồn kho thấp</p>
+                    <p class="text-sm font-bold text-amber-600">3 sản phẩm</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Debt collection badge -->
+              <div class="absolute -bottom-4 -right-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-xl shadow-lg p-3 animate-float animation-delay-2000 z-30">
+                <div class="flex items-center gap-2">
+                  <div class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-xs text-white/80">Công nợ thu hôm nay</p>
+                    <p class="text-sm font-bold">+85,000,000đ</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -576,8 +647,9 @@ const industries = [
   const modalImage = document.getElementById('modal-image') as HTMLImageElement;
   const modalClose = document.getElementById('modal-close');
 
-  // Smooth scroll animation for stacked photos
+  // Smooth scroll animation for stacked photos (desktop only)
   const scrollContainer = document.getElementById('hero-scroll-container');
+  const isDesktop = () => window.innerWidth >= 1024;
 
   // Current animated values (for smooth interpolation)
   let currentProgress = 0;
@@ -588,6 +660,12 @@ const industries = [
   const lerp = (start: number, end: number, factor: number) => start + (end - start) * factor;
 
   const updateAnimation = () => {
+    // Skip animation on mobile
+    if (!isDesktop()) {
+      animationId = null;
+      return;
+    }
+
     // Smooth interpolation towards target
     currentProgress = lerp(currentProgress, targetProgress, 0.12);
 
@@ -625,7 +703,8 @@ const industries = [
   };
 
   const handleScroll = () => {
-    if (!scrollContainer) return;
+    // Skip on mobile
+    if (!isDesktop() || !scrollContainer) return;
 
     const containerRect = scrollContainer.getBoundingClientRect();
     const containerTop = -containerRect.top;
@@ -641,7 +720,7 @@ const industries = [
   };
 
   window.addEventListener('scroll', handleScroll, { passive: true });
-  handleScroll(); // Initial call
+  if (isDesktop()) handleScroll(); // Initial call only on desktop
 
   // Lightbox functionality
   const openModal = (imageSrc: string) => {
@@ -659,6 +738,14 @@ const industries = [
   heroImageBack?.addEventListener('click', () => {
     const src = heroImageBack.getAttribute('data-image') || '/images/hero-reports.png';
     openModal(src);
+  });
+
+  // Add lightbox to all elements with lightbox-image class
+  document.querySelectorAll('.lightbox-image').forEach((el) => {
+    el.addEventListener('click', () => {
+      const src = el.getAttribute('data-image');
+      if (src) openModal(src);
+    });
   });
 
   const closeModal = () => {
