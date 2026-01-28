@@ -80,8 +80,9 @@ const industries = [
   title="vSmartSell - Phần mềm quản lý bán hàng VLXD hàng đầu Việt Nam"
   description="Phần mềm quản lý Tôn, Sắt Thép, Gạch men, Vật liệu xây dựng. Bán hàng nhanh, quản lý tồn kho nhiều đơn vị. DÙNG THỬ MIỄN PHÍ 30 NGÀY."
 >
-  <!-- Hero Section - Modern Gradient -->
-  <section class="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
+  <!-- Hero Section with Sticky Scroll Animation -->
+  <div class="relative h-[180vh]" id="hero-scroll-container">
+  <section class="sticky top-0 relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
     <!-- Animated Background -->
     <div class="absolute inset-0">
       <div class="absolute top-0 -left-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
@@ -131,19 +132,58 @@ const industries = [
 
         <div class="relative">
           <div class="relative z-10">
-            <!-- Floating Card Effect -->
-            <div class="bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 p-2 shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
-              <img
-                src="/images/hero-dashboard.png"
-                alt="Giao diện phần mềm vSmartSell"
-                class="rounded-xl w-full"
-                loading="eager"
-                onerror="this.src='https://via.placeholder.com/600x400?text=Dashboard'"
-              />
+            <!-- Stacked Photos with Scroll Animation -->
+            <div class="relative" id="photo-stack">
+              <!-- Front image (Order) - starts on top -->
+              <div
+                class="relative bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 p-2 shadow-2xl cursor-pointer hero-photo"
+                id="hero-image-front"
+                data-image="/images/hero-screenshot.png"
+                title="Nhấn để xem chi tiết"
+              >
+                <img
+                  src="/images/hero-screenshot.png"
+                  alt="Giao diện phần mềm vSmartSell - Màn hình đặt đơn hàng"
+                  class="rounded-xl w-full"
+                  loading="eager"
+                />
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/20 rounded-2xl">
+                  <span class="bg-white/90 text-gray-800 px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                    </svg>
+                    Đơn hàng
+                  </span>
+                </div>
+              </div>
+
+              <!-- Back image (Reports) - scrolls up and over -->
+              <div
+                class="absolute top-4 left-4 w-full bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 p-2 shadow-xl cursor-pointer hero-photo"
+                id="hero-image-back"
+                data-image="/images/hero-reports.png"
+                title="Nhấn để xem báo cáo"
+                style="transform: rotate(3deg);"
+              >
+                <img
+                  src="/images/hero-reports.png"
+                  alt="Giao diện phần mềm vSmartSell - Báo cáo doanh thu"
+                  class="rounded-xl w-full"
+                  loading="eager"
+                />
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/20 rounded-2xl">
+                  <span class="bg-white/90 text-gray-800 px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                    </svg>
+                    Báo cáo
+                  </span>
+                </div>
+              </div>
             </div>
 
             <!-- Floating Stats Card -->
-            <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 animate-float">
+            <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 animate-float z-30">
               <div class="flex items-center gap-3">
                 <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                   <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -158,7 +198,7 @@ const industries = [
             </div>
 
             <!-- Floating Users Card -->
-            <div class="absolute -top-4 -right-4 bg-white rounded-xl shadow-xl p-4 animate-float animation-delay-1000">
+            <div class="absolute -top-4 -right-4 bg-white rounded-xl shadow-xl p-4 animate-float animation-delay-1000 z-30">
               <div class="flex items-center gap-3">
                 <div class="flex -space-x-2">
                   <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">H</div>
@@ -185,6 +225,7 @@ const industries = [
       </div>
     </div>
   </section>
+  </div><!-- End hero-scroll-container -->
 
   <!-- Stats Section -->
   <section class="py-16 bg-white relative -mt-10 z-20">
@@ -506,9 +547,151 @@ const industries = [
       </div>
     </div>
   </section>
+
+  <!-- Image Lightbox Modal -->
+  <div id="image-modal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/90 p-4">
+    <button
+      id="modal-close"
+      class="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
+      aria-label="Đóng"
+    >
+      <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <img
+      id="modal-image"
+      src="/images/hero-screenshot.png"
+      alt="Giao diện phần mềm vSmartSell - Màn hình đặt đơn hàng"
+      class="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
+    />
+  </div>
 </BaseLayout>
 
+<script>
+  const heroImageFront = document.getElementById('hero-image-front');
+  const heroImageBack = document.getElementById('hero-image-back');
+  const photoStack = document.getElementById('photo-stack');
+  const imageModal = document.getElementById('image-modal');
+  const modalImage = document.getElementById('modal-image') as HTMLImageElement;
+  const modalClose = document.getElementById('modal-close');
+
+  // Smooth scroll animation for stacked photos
+  const scrollContainer = document.getElementById('hero-scroll-container');
+
+  // Current animated values (for smooth interpolation)
+  let currentProgress = 0;
+  let targetProgress = 0;
+  let animationId: number | null = null;
+
+  // Lerp function for smooth interpolation
+  const lerp = (start: number, end: number, factor: number) => start + (end - start) * factor;
+
+  const updateAnimation = () => {
+    // Smooth interpolation towards target
+    currentProgress = lerp(currentProgress, targetProgress, 0.12);
+
+    // Stop animating if close enough
+    if (Math.abs(currentProgress - targetProgress) < 0.001) {
+      currentProgress = targetProgress;
+    }
+
+    if (heroImageBack && heroImageFront) {
+      const p = currentProgress;
+
+      // Back image: moves up and comes to front
+      const translateY = -p * 150;
+      const translateX = -p * 30;
+      const rotate = (1 - p) * 3;
+      const scale = 1 + p * 0.05;
+
+      heroImageBack.style.transform = `translate3d(${translateX}px, ${translateY}px, 0) rotate(${rotate}deg) scale(${scale})`;
+      heroImageBack.style.zIndex = p > 0.4 ? '25' : '10';
+
+      // Front image: moves down and fades slightly
+      const frontTranslateY = p * 80;
+      const frontOpacity = 1 - p * 0.3;
+      heroImageFront.style.transform = `translate3d(0, ${frontTranslateY}px, 0)`;
+      heroImageFront.style.zIndex = p > 0.4 ? '15' : '20';
+      heroImageFront.style.opacity = String(frontOpacity);
+    }
+
+    // Continue animation loop if not at target
+    if (currentProgress !== targetProgress) {
+      animationId = requestAnimationFrame(updateAnimation);
+    } else {
+      animationId = null;
+    }
+  };
+
+  const handleScroll = () => {
+    if (!scrollContainer) return;
+
+    const containerRect = scrollContainer.getBoundingClientRect();
+    const containerTop = -containerRect.top;
+    const containerHeight = scrollContainer.offsetHeight - window.innerHeight;
+
+    // Set target progress
+    targetProgress = Math.min(Math.max(containerTop / containerHeight, 0), 1);
+
+    // Start animation loop if not running
+    if (animationId === null) {
+      animationId = requestAnimationFrame(updateAnimation);
+    }
+  };
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  handleScroll(); // Initial call
+
+  // Lightbox functionality
+  const openModal = (imageSrc: string) => {
+    if (modalImage) modalImage.src = imageSrc;
+    imageModal?.classList.remove('hidden');
+    imageModal?.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  };
+
+  heroImageFront?.addEventListener('click', () => {
+    const src = heroImageFront.getAttribute('data-image') || '/images/hero-screenshot.png';
+    openModal(src);
+  });
+
+  heroImageBack?.addEventListener('click', () => {
+    const src = heroImageBack.getAttribute('data-image') || '/images/hero-reports.png';
+    openModal(src);
+  });
+
+  const closeModal = () => {
+    imageModal?.classList.add('hidden');
+    imageModal?.classList.remove('flex');
+    document.body.style.overflow = '';
+  };
+
+  modalClose?.addEventListener('click', closeModal);
+  imageModal?.addEventListener('click', (e) => {
+    if (e.target === imageModal) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+</script>
+
 <style>
+  /* Smooth GPU-accelerated photo animations */
+  .hero-photo {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
+  #hero-image-front {
+    z-index: 20;
+  }
+
+  #hero-image-back {
+    z-index: 10;
+  }
+
   @keyframes blob {
     0% { transform: translate(0px, 0px) scale(1); }
     33% { transform: translate(30px, -50px) scale(1.1); }
