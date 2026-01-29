@@ -1,7 +1,17 @@
 ---
 const navItems = [
   { href: '/', label: 'Trang chủ' },
-  { href: '/ve-vsmartsell', label: 'Về vSmartSell' },
+  {
+    href: '/ve-vsmartsell',
+    label: 'Về vSmartSell',
+    children: [
+      { href: '/ve-vsmartsell', label: 'Giới thiệu' },
+      { href: '/nganh-ton-cuon', label: 'Ngành Tôn, Sắt thép' },
+      { href: '/nganh-gach-men', label: 'Ngành Gạch men' },
+      { href: '/nganh-thiet-bi-ve-sinh', label: 'Ngành Thiết bị vệ sinh' },
+      { href: '/nganh-vat-lieu-xay-dung', label: 'Ngành Vật liệu xây dựng' },
+    ]
+  },
   { href: '/ai-bao-cao', label: 'AI Báo Cáo' },
   { href: '/phi-dich-vu', label: 'Bảng giá' },
   {
@@ -37,7 +47,7 @@ const currentPath = Astro.url.pathname;
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div class="absolute left-0 mt-2 w-48 bg-slate-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 border border-white/10">
+              <div class="absolute left-0 mt-2 w-56 bg-slate-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 border border-white/10">
                 <div class="py-1">
                   {item.children.map((child) => (
                     <a
