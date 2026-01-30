@@ -214,7 +214,7 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 ## Phân Tích Chuyên Sâu
 
-Lỗi: Claude Code CLI không được cài đặt. Chạy: npm install -g @anthropic-ai/claude-code
+Lỗi: Claude Code timeout sau 2 phút
 ---
 
 # PHẦN V: PHÂN TÍCH CƠ BẢN (CHI PHÍ & TƯƠNG QUAN)
@@ -302,7 +302,7 @@ Lỗi: Claude Code CLI không được cài đặt. Chạy: npm install -g @anth
 
 **Báo cáo được tạo tự động bởi Vietnam Steel Analyzer**
 
-**Ngày tạo:** 30/01/2026 12:00
+**Ngày tạo:** 30/01/2026 12:07
 
 **Liên hệ:** Để biết thêm chi tiết hoặc yêu cầu phân tích chuyên sâu, vui lòng liên hệ đội ngũ phân tích.
 
