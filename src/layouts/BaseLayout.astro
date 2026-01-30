@@ -96,6 +96,15 @@ const softwareSchema = {
     <link rel="shortcut icon" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6LB8EMQTR3"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6LB8EMQTR3');
+    </script>
+
     <!-- Primary Meta Tags -->
     <title>{title}</title>
     <meta name="title" content={title} />
@@ -151,5 +160,97 @@ const softwareSchema = {
       <slot />
     </main>
     <Footer />
+
+    <!-- GA Funnel Event Tracking -->
+    <script is:inline>
+    (function() {
+      function track(event, params) {
+        if (typeof gtag === 'function') gtag('event', event, params);
+      }
+
+      // 1. CTA button clicks (Dùng thử, Đăng ký, etc.)
+      document.querySelectorAll('a[href*="dung-thu"], a[href*="/#dung-thu"]').forEach(function(el) {
+        el.addEventListener('click', function() {
+          track('cta_click', {
+            event_category: 'conversion',
+            event_label: el.textContent.trim(),
+            link_url: el.href
+          });
+        });
+      });
+
+      // 2. Phone call clicks
+      document.querySelectorAll('a[href^="tel:"]').forEach(function(el) {
+        el.addEventListener('click', function() {
+          track('phone_click', {
+            event_category: 'conversion',
+            event_label: el.textContent.trim(),
+            phone_number: el.href.replace('tel:', '')
+          });
+        });
+      });
+
+      // 3. Navigation clicks (track which pages/industries interest users)
+      document.querySelectorAll('nav a[href]').forEach(function(el) {
+        el.addEventListener('click', function() {
+          track('nav_click', {
+            event_category: 'navigation',
+            event_label: el.textContent.trim(),
+            link_url: el.href
+          });
+        });
+      });
+
+      // 4. Scroll depth tracking (25%, 50%, 75%, 100%)
+      var scrollMarks = { 25: false, 50: false, 75: false, 100: false };
+      window.addEventListener('scroll', function() {
+        var scrollPercent = Math.round(
+          (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
+        );
+        [25, 50, 75, 100].forEach(function(mark) {
+          if (scrollPercent >= mark && !scrollMarks[mark]) {
+            scrollMarks[mark] = true;
+            track('scroll_depth', {
+              event_category: 'engagement',
+              event_label: mark + '%',
+              value: mark
+            });
+          }
+        });
+      }, { passive: true });
+
+      // 5. Industry page card clicks (from homepage)
+      document.querySelectorAll('a[href*="nganh-"]').forEach(function(el) {
+        el.addEventListener('click', function() {
+          track('industry_click', {
+            event_category: 'engagement',
+            event_label: el.textContent.trim(),
+            link_url: el.href
+          });
+        });
+      });
+
+      // 6. Lightbox image views
+      document.querySelectorAll('.lightbox-image, [id*="hero-image"]').forEach(function(el) {
+        el.addEventListener('click', function() {
+          track('image_view', {
+            event_category: 'engagement',
+            event_label: el.getAttribute('data-image') || 'hero-image'
+          });
+        });
+      });
+
+      // 7. Time on page (30s, 60s, 120s, 300s)
+      [30, 60, 120, 300].forEach(function(seconds) {
+        setTimeout(function() {
+          track('time_on_page', {
+            event_category: 'engagement',
+            event_label: seconds + 's',
+            value: seconds
+          });
+        }, seconds * 1000);
+      });
+    })();
+    </script>
   </body>
 </html>

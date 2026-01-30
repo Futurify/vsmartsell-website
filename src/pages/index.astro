@@ -576,10 +576,25 @@ const industries = [
                 e.preventDefault();
                 errorEl.classList.remove('hidden');
                 document.getElementById('phone-input').focus();
+                // Track failed validation
+                if (typeof gtag === 'function') {
+                  gtag('event', 'form_validation_error', {
+                    event_category: 'conversion',
+                    event_label: 'invalid_phone'
+                  });
+                }
                 return false;
               }
 
               errorEl.classList.add('hidden');
+              // Track successful form submission
+              if (typeof gtag === 'function') {
+                gtag('event', 'generate_lead', {
+                  event_category: 'conversion',
+                  event_label: 'phone_submit',
+                  value: 1
+                });
+              }
               return true;
             });
 
