@@ -1,6 +1,6 @@
 ---
-title: "Báo Cáo Thị Trường Thép Tuần 05/2026 - GIÁ THÉP TĂNG - Một số loại tăng đến 2.1%"
-description: "Phân tích thị trường thép Việt Nam tuần 5 năm 2026. Cập nhật giá thép, xu hướng và nhận định cho doanh nghiệp."
+title: "Báo Cáo Thị Trường Thép 26/01/2026 - GIÁ THÉP TĂNG - Một số loại tăng đến 2.1%"
+description: "Phân tích thị trường thép Việt Nam ngày 26/01/2026. Cập nhật giá thép, xu hướng và nhận định cho doanh nghiệp."
 pubDate: 2026-01-26
 author: "vSmartSell Team"
 image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
