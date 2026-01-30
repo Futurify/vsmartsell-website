@@ -31,6 +31,9 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 | Chỉ số | Giá trị | Xu hướng |
 |:-------|--------:|:---------|
+| Tôn mạ kẽm | 19.7tr | ➡️ +0.2% |
+| HRC | 18.0tr | ➡️ +0.2% |
+| Thép thanh | 15.8tr | ➡️ +0.2% |
 | Tâm lý | +0.34 | 🟢 Tích cực |
 | Quặng sắt | $105 | 🟡 TB |
 
@@ -42,9 +45,13 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 | Loại | Giá (tr/tấn) | 7 ngày | Xu hướng |
 |:-----|-------------:|-------:|:---------|
+| Tôn mạ kẽm | 19.7 | +0.2% | ➡️ Ổn định |
+| HRC | 18.0 | +0.2% | ➡️ Ổn định |
+| Thép thanh | 15.8 | +0.2% | ➡️ Ổn định |
 
 ### Nhận định giá thép:
 
+- **Ổn định:** Tôn mạ kẽm, HRC, Thép thanh vằn - thị trường cân bằng cung cầu
 
 **Đánh giá chung:** Thị trường phân hóa, cần theo dõi từng loại thép cụ thể.
 
@@ -216,71 +223,79 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 ### Diễn biến giá thép tuần qua
 
-Giá thép trên thị trường Việt Nam tính đến ngày 30/01/2026:
+Thị trường thép trong nước tuần kết thúc ngày 30/01 ghi nhận biến động rất nhẹ, cả ba nhóm sản phẩm chính đều tăng +0.2% trong 7 ngày qua — mức thay đổi không đáng kể, phản ánh trạng thái **đi ngang** hơn là một xu hướng rõ ràng.
 
-| Loại thép | Giá (VND/tấn) |
-|---|---|
-| Tôn mạ kẽm | 19,679,194 |
-| Thép cuộn cán nóng (HRC) | 17,955,469 |
-| Thép thanh vằn (Rebar) | 15,818,768 |
+| Sản phẩm | Giá hiện tại (VND/tấn) | Thay đổi 7 ngày |
+|---|---|---|
+| Tôn mạ kẽm | 19,679,194 | +0.2% |
+| Thép cuộn cán nóng (HRC) | 17,955,469 | +0.2% |
+| Thép thanh vằn (Rebar) | 15,818,768 | +0.2% |
 
-Do chưa có dữ liệu so sánh với tuần trước, không thể xác định chính xác mức biến động phần trăm. Tuy nhiên, một tin tức đáng chú ý trong tuần là **"Giá thép tăng do Trung Quốc nới lằn ranh đỏ"** (Tin tức 24h, 30/01), cho thấy xu hướng tăng giá đang diễn ra, đặc biệt liên quan đến chính sách sản xuất từ Trung Quốc.
-
-Chênh lệch giữa các loại thép: HRC cao hơn Rebar khoảng **2,14 triệu VND/tấn** (+13.5%), trong khi tôn mạ kẽm cao hơn HRC khoảng **1,72 triệu VND/tấn** (+9.6%) -- phản ánh giá trị gia tăng qua các công đoạn chế biến.
+Điểm đáng lưu ý là cả ba loại thép đều có mức tăng đồng đều +0.2%, cho thấy **không có sự phân hóa** giữa các phân khúc sản phẩm. Thị trường đang trong trạng thái chờ đợi, không có áp lực mua hoặc bán rõ rệt.
 
 ---
 
 ### Các yếu tố tác động
 
-**Quặng sắt -- chi phí đầu vào:**
-Giá quặng sắt ở mức **$104.81/tấn**, vẫn nằm trong vùng trên $100 -- mức tương đối cao. Đây là yếu tố giữ giá thành sản xuất ở mức cao, hạn chế khả năng giảm giá thép thành phẩm.
+**Quặng sắt — chi phí đầu vào ổn định ở mức trung bình**
 
-**Tỷ giá USD/VND:**
-Tỷ giá ở mức **25,880 VND/USD**. Với các doanh nghiệp nhập khẩu phôi thép hoặc thép thành phẩm, tỷ giá ổn định giúp chi phí nhập khẩu không bị đẩy lên thêm. Tỷ giá USD/CNY ở mức **6.9535** -- đồng CNY yếu có thể khiến thép Trung Quốc xuất khẩu rẻ hơn, tạo áp lực cạnh tranh lên thép nội địa.
+Giá quặng sắt đang ở mức $104.81/tấn (30/01). Đây là mức giá nằm trong vùng trung bình, không tạo áp lực tăng chi phí sản xuất đáng kể nhưng cũng không hỗ trợ kỳ vọng giá thép giảm sâu. So với vùng đỉnh trên $120 và vùng đáy dưới $90 trong các chu kỳ gần đây, mức giá hiện tại cho thấy thị trường nguyên liệu đang cân bằng.
 
-**Giá dầu:**
-Dầu Brent ở mức **$69.75/thùng**, tương đối ổn định, không tạo áp lực đáng kể lên chi phí vận chuyển và logistics.
+**Tỷ giá — áp lực nhập khẩu duy trì**
 
-**Yếu tố Trung Quốc:**
-Tin tức về việc Trung Quốc **nới "lằn ranh đỏ"** trong sản xuất thép là yếu tố quan trọng. Nếu Trung Quốc nới lỏng hạn chế sản xuất, nguồn cung thép toàn cầu có thể tăng, nhưng ngắn hạn đang tạo kỳ vọng giá tăng do nhu cầu nguyên liệu đầu vào tăng theo.
+- USD/VND: 25,880 — tỷ giá duy trì ở mức cao, khiến chi phí nhập khẩu thép và nguyên liệu vẫn đắt đỏ. Điều này gián tiếp hỗ trợ giá thép nội địa vì thép nhập khẩu kém cạnh tranh hơn.
+- USD/CNY: 6.9535 — đồng Nhân dân tệ yếu so với USD, có nghĩa là thép Trung Quốc xuất khẩu vẫn có lợi thế về giá, tiềm ẩn áp lực cạnh tranh với thép Việt Nam trên thị trường khu vực.
+
+**Giá dầu — không tạo áp lực lớn**
+
+Dầu Brent ở mức $69.75/thùng, thuộc vùng giá tương đối thấp, không gây áp lực đáng kể lên chi phí vận chuyển và logistics cho ngành thép.
+
+**Yếu tố Trung Quốc**
+
+Tin tức ngày 30/01 đề cập việc Trung Quốc **nới "lằn ranh đỏ"**, được cho là yếu tố hỗ trợ giá thép tăng. Đây là thông tin cần theo dõi sát vì mọi thay đổi chính sách sản xuất thép từ Trung Quốc — quốc gia sản xuất hơn 50% sản lượng thép thế giới — đều có tác động trực tiếp đến giá thép khu vực và Việt Nam.
 
 ---
 
 ### Điểm đáng chú ý
 
-**1. Kết quả kinh doanh ấn tượng của Hòa Phát:**
-Đây là điểm nổi bật nhất trong tuần. Hòa Phát công bố kết quả năm 2025:
-- Lợi nhuận sau thuế: **15.515 tỷ đồng**, tăng **29%** so với 2024, vượt kế hoạch
-- Doanh thu lần đầu **vượt mốc 150.000 tỷ đồng**
-- Quý 4 riêng lẻ: lợi nhuận tăng **38%**
-- Sản lượng HRC **lập kỷ lục** -- nhà máy Dung Quất 2 bắt đầu phát huy hiệu quả
+**Kết quả kinh doanh Hòa Phát — tín hiệu tích cực từ đầu ngành**
 
-Kết quả này phản ánh nhu cầu thép thực tế đang mạnh và biên lợi nhuận được cải thiện. Sản lượng HRC kỷ lục cũng đồng nghĩa nguồn cung HRC nội địa đang tăng lên đáng kể.
+Sự kiện nổi bật nhất tuần này là loạt tin tức về kết quả kinh doanh năm 2025 của Hòa Phát (HPG):
 
-**2. Tín hiệu từ cổ phiếu thép:**
-Mặc dù kết quả kinh doanh tích cực, cổ phiếu thép phiên 29/01 lại giảm nhẹ:
-- HPG: **-1.1%** (26,800 VND) với khối lượng giao dịch rất lớn (56.3 triệu cổ phiếu)
-- HSG: **-0.9%**, NKG: **-0.7%**
-- Ngoại lệ: TIS **+2.0%**, POM đi ngang
+- Lợi nhuận sau thuế đạt hơn **15.500 tỷ đồng**, tăng **29%** so với 2024, **vượt kế hoạch** đề ra
+- Doanh thu **lần đầu vượt mốc 150.000 tỷ đồng** — một cột mốc lịch sử
+- Lợi nhuận quý 4/2025 tăng trưởng **38%**
+- Sản lượng thép cán nóng (HRC) **lập kỷ lục**
+- Dự án **Dung Quất 2** bắt đầu đóng góp hiệu quả
 
-Khối lượng giao dịch HPG rất cao kết hợp giá giảm có thể cho thấy một bộ phận nhà đầu tư đang **chốt lời sau tin tốt** ("buy the rumor, sell the news"). Điều này chưa phản ánh xu hướng giá thép hàng hóa sẽ giảm, nhưng cho thấy kỳ vọng tăng trưởng có thể đã được phản ánh vào giá.
+Kết quả này cho thấy: (1) nhu cầu thép vẫn đang được duy trì, (2) sản lượng tăng mạnh nhưng lợi nhuận vẫn tăng tốt, nghĩa là biên lợi nhuận được cải thiện hoặc ít nhất không bị thu hẹp, (3) nguồn cung HRC nội địa tăng lên đáng kể khi Dung Quất 2 đi vào hoạt động — yếu tố có thể ảnh hưởng đến giá HRC trong nước.
 
-**3. Tâm lý thị trường:**
-Đánh giá tổng thể **tích cực** (điểm 0.34). Trong các bài đã phân tích, tin tích cực chiếm đa số (11/17 bài). Tuy nhiên, vẫn còn **85.6% tin tức chưa được phân tích**, cần thận trọng khi đánh giá toàn cảnh.
+**Phản ứng cổ phiếu — thận trọng dù tin tốt**
+
+Mặc dù kết quả kinh doanh rất tích cực, cổ phiếu thép phiên 29/01 lại giảm nhẹ:
+- HPG: -1.1% (26,800 VND), khối lượng giao dịch rất lớn 56.3 triệu cổ phiếu
+- HSG: -0.9% (16,100 VND)
+- NKG: -0.7% (15,200 VND)
+
+Hiện tượng **"sell on news"** — giá giảm khi tin tốt được công bố — gợi ý rằng thị trường đã phản ánh kỳ vọng tích cực từ trước. Khối lượng giao dịch HPG lớn bất thường cũng cho thấy có sự chốt lời đáng kể.
+
+**Tâm lý thị trường — nghiêng tích cực nhưng cần thận trọng**
+
+Trong số các bài phân tích đã được đánh giá, tâm lý tổng thể nghiêng **tích cực** (điểm 0.34/1.0), với 11 bài tích cực so với chỉ 1 bài tiêu cực. Tuy nhiên, 85.6% bài viết chưa được phân tích, và phần lớn tin tích cực xoay quanh kết quả Hòa Phát — chưa phản ánh toàn diện bức tranh thị trường.
 
 ---
 
 ### Yếu tố cần theo dõi
 
-**Giá quặng sắt:** Đang ở mức $104.81 -- nếu vượt $110 sẽ đẩy chi phí sản xuất lên cao hơn. Ngược lại, nếu giảm dưới $100 sẽ giảm áp lực giá đầu vào.
+1. **Chính sách Trung Quốc sau Tết Nguyên đán**: Việc nới "lằn ranh đỏ" trong sản xuất thép có thể làm tăng nguồn cung thép Trung Quốc, ảnh hưởng đến giá thép khu vực. Cần theo dõi các chính sách cụ thể được ban hành.
 
-**Chính sách Trung Quốc:** Việc nới "lằn ranh đỏ" cần theo dõi chi tiết -- nếu sản lượng thép Trung Quốc tăng mạnh, giá thép xuất khẩu từ Trung Quốc có thể giảm, tạo áp lực cạnh tranh trực tiếp lên thị trường Việt Nam.
+2. **Sản lượng HRC từ Dung Quất 2**: Khi nhà máy mới của Hòa Phát tăng công suất, nguồn cung HRC nội địa sẽ tăng đáng kể. Đây là yếu tố có thể **gây áp lực giảm giá HRC nhập khẩu** nhưng đồng thời giảm phụ thuộc vào nguồn cung nước ngoài.
 
-**Công suất Dung Quất 2:** Hòa Phát đang tăng sản lượng HRC từ nhà máy mới. Nguồn cung HRC nội địa tăng có thể ảnh hưởng đến giá HRC trong thời gian tới -- đặc biệt nếu nhu cầu không tăng tương ứng.
+3. **Tỷ giá USD/VND**: Mức 25,880 đang ở vùng cao. Nếu tỷ giá tiếp tục tăng, chi phí nhập khẩu nguyên liệu sẽ đẩy giá thành sản xuất lên, nhưng đồng thời cũng hạn chế thép nhập khẩu giá rẻ tràn vào thị trường nội địa.
 
-**Tỷ giá USD/VND:** Trong bối cảnh chính sách thuế quan của Mỹ có thể thay đổi, tỷ giá là biến số cần theo dõi sát. Mỗi biến động 1% tỷ giá ảnh hưởng trực tiếp đến giá thép nhập khẩu.
+4. **Giá quặng sắt quốc tế**: Hiện ở $104.81, nếu giá quặng sắt biến động mạnh (đặc biệt khi Trung Quốc quay lại sản xuất sau Tết), sẽ tác động trực tiếp đến chi phí đầu vào và giá bán thép.
 
-**Mùa xây dựng:** Quý 1 thường là giai đoạn nhu cầu xây dựng tăng sau Tết Nguyên đán. Mức độ phục hồi nhu cầu thực tế sẽ quyết định xu hướng giá thép thanh vằn và thép xây dựng trong các tuần tới.
+5. **Nhu cầu xây dựng nội địa**: Giai đoạn sau Tết Nguyên đán thường là thời điểm các công trình xây dựng tái khởi động. Mức độ phục hồi nhu cầu thực tế trong các tuần tới sẽ là yếu tố then chốt quyết định giá thép thanh vằn và thép xây dựng có bứt phá hay tiếp tục đi ngang.
 ---
 
 # PHẦN V: PHÂN TÍCH CƠ BẢN (CHI PHÍ & TƯƠNG QUAN)
@@ -319,7 +334,7 @@ Khối lượng giao dịch HPG rất cao kết hợp giá giảm có thể cho 
 |:-------|-----:|---------:|
 | Chi phí (30%) | -0.60 | -0.18 |
 | Quặng sắt (25%) | +0.00 | +0.00 |
-| Mean rev (20%) | -0.21 | -0.04 |
+| Mean rev (20%) | -0.20 | -0.04 |
 | Cung cầu (25%) | +0.00 | +0.00 |
 
 ### 📉 Điểm cơ bản: -0.22 (BEARISH (Tiêu cực))
@@ -368,7 +383,7 @@ Khối lượng giao dịch HPG rất cao kết hợp giá giảm có thể cho 
 
 **Báo cáo được tạo tự động bởi Vietnam Steel Analyzer**
 
-**Ngày tạo:** 30/01/2026 12:37
+**Ngày tạo:** 30/01/2026 12:38
 
 **Liên hệ:** Để biết thêm chi tiết hoặc yêu cầu phân tích chuyên sâu, vui lòng liên hệ đội ngũ phân tích.
 
