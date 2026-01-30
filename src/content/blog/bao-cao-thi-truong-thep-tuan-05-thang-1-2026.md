@@ -1,7 +1,7 @@
 ---
-title: "Báo Cáo Thị Trường Thép Tuần 05/2026 - GIÁ THÉP TĂNG - Một số loại tăng đến 2.1%"
+title: "Báo Cáo Thị Trường Thép Tuần 05/2026 - GIÁ THÉP ỔN ĐỊNH - Biến động trong biên độ hẹp"
 description: "Phân tích thị trường thép Việt Nam tuần 5 năm 2026. Cập nhật giá thép, xu hướng và nhận định cho doanh nghiệp."
-pubDate: 2026-01-26
+pubDate: 2026-01-30
 author: "vSmartSell Team"
 image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 category: "tin-tuc-thi-truong"
@@ -11,19 +11,19 @@ readingTime: "5 phút"
 
 Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích diễn biến giá và xu hướng sắp tới cho doanh nghiệp kinh doanh vật liệu xây dựng.
 
-**Kỳ báo cáo:** 19/01/2026 - 26/01/2026
+**Kỳ báo cáo:** 23/01/2026 - 30/01/2026
 
-**Số bài báo phân tích:** 90 bài từ 25 nguồn tin
+**Số bài báo phân tích:** 118 bài từ 41 nguồn tin
 
 # PHẦN I: TÓM TẮT ĐIỀU HÀNH
 
 ## 1.1. Tình hình thị trường
 
-### 📈 GIÁ THÉP TĂNG - Một số loại tăng đến 2.1%
+### ➡️ GIÁ THÉP ỔN ĐỊNH - Biến động trong biên độ hẹp
 
 **Điểm nổi bật:**
 
-1. Tôn mạ kẽm tăng 2.1% - xu hướng tăng rõ rệt
+1. Giá thép biến động trong biên độ hẹp tuần qua
 
 ---
 
@@ -31,9 +31,6 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 | Chỉ số | Giá trị | Xu hướng |
 |:-------|--------:|:---------|
-| Tôn mạ kẽm | 19.6tr | 📈 +2.1% |
-| HRC | 17.9tr | ➡️ +0.8% |
-| Thép thanh | 15.8tr | ➡️ -0.6% |
 | Tâm lý | +0.34 | 🟢 Tích cực |
 | Quặng sắt | $105 | 🟡 TB |
 
@@ -45,16 +42,11 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 | Loại | Giá (tr/tấn) | 7 ngày | Xu hướng |
 |:-----|-------------:|-------:|:---------|
-| Tôn mạ kẽm | 19.6 | +2.1% | 📈 Tăng |
-| HRC | 17.9 | +0.8% | ➡️ Ổn định |
-| Thép thanh | 15.8 | -0.6% | ➡️ Ổn định |
 
 ### Nhận định giá thép:
 
-- **Tăng giá:** Tôn mạ kẽm (tăng đến +2.1%) - nhu cầu ổn định hoặc nguồn cung hạn chế
-- **Ổn định:** HRC, Thép thanh vằn - thị trường cân bằng cung cầu
 
-**Đánh giá chung:** Xu hướng tăng chiếm ưu thế, thị trường đang phục hồi.
+**Đánh giá chung:** Thị trường phân hóa, cần theo dõi từng loại thép cụ thể.
 
 ---
 
@@ -62,11 +54,11 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 | Mã | Giá | 7 ngày | Tín hiệu |
 |:---|----:|-------:|:---------|
-| HPG | 26.3K | -1.9% | 📉 Giảm nhẹ |
-| HSG | 15.9K | -2.5% | 📉 Giảm nhẹ |
-| NKG | 14.8K | -2.3% | 📉 Giảm nhẹ |
-| POM | 7.9K | +14.5% | 📈 Tăng mạnh |
-| TIS | 5.3K | -1.9% | 📉 Giảm nhẹ |
+| HPG | 26.8K | +1.9% | 📈 Tích cực |
+| HSG | 16.1K | +1.3% | 📈 Tích cực |
+| NKG | 15.2K | +2.4% | 📈 Tích cực |
+| POM | 7.9K | +0.0% | 📉 Giảm nhẹ |
+| TIS | 5.1K | -1.9% | 📉 Giảm nhẹ |
 
 ---
 
@@ -77,14 +69,14 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 | Nguyên liệu | Giá hiện tại | Xu hướng | Tác động đến giá thép |
 |-------------|--------------|----------|----------------------|
 | Quặng sắt 62% Fe | **$104.81/tấn** | - | Chi phí ổn định |
-| Dầu Brent | $64.82/thùng | - | Chi phí vận chuyển, năng lượng |
+| Dầu Brent | $69.75/thùng | - | Chi phí vận chuyển, năng lượng |
 
 ### Tỷ giá hối đoái
 
 | Cặp tiền | Tỷ giá | Tác động |
 |----------|--------|----------|
-| USD/VND | **26,180** | Nhập khẩu nguyên liệu đắt hơn nếu tăng |
-| USD/CNY | 6.9537 | Ảnh hưởng cạnh tranh với thép Trung Quốc |
+| USD/VND | **25,880** | Nhập khẩu nguyên liệu đắt hơn nếu tăng |
+| USD/CNY | 6.9535 | Ảnh hưởng cạnh tranh với thép Trung Quốc |
 
 ---
 
@@ -94,11 +86,11 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 | Loại tin | Số lượng | Tỷ lệ | Điểm trung bình |
 |----------|----------|-------|-----------------|
-| 🟢 Rất tích cực | 3 bài | 8% | +0.85 |
-| 🟢 Tích cực | 19 bài | 53% | +0.52 |
-| ⚪ Trung lập | 8 bài | 22% | +0.00 |
-| 🔴 Tiêu cực | 5 bài | 14% | -0.40 |
-| 🔴 Rất tiêu cực | 1 bài | 3% | -0.85 |
+| 🟢 Rất tích cực | 2 bài | 12% | +0.88 |
+| 🟢 Tích cực | 11 bài | 65% | +0.50 |
+| ⚪ Trung lập | 2 bài | 12% | -0.05 |
+| 🔴 Tiêu cực | 1 bài | 6% | -0.45 |
+| 🔴 Rất tiêu cực | 1 bài | 6% | -0.85 |
 
 ---
 
@@ -123,158 +115,106 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
   - Nguồn: VnEconomy | Tâm lý: 🔴 -0.85
 - **[24/01]** <a href="https://vietnambiz.vn/gia-thep-hom-nay-112026-dong-loat-di-xuong-2026118136401.htm" target="_blank" rel="nofollow noopener noreferrer">Giá thép xây dựng giảm 200.000 đồng/tấn do nguồn cung dư thừa</a>
   - Nguồn: VietnamBiz | Tâm lý: 🔴 -0.45
-- **[23/01]** <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc0YxME9GanRlLW4zZjJMRUFaaXJjajZZeUVnSjc5NVZaLTJjYmdPdHNuWkZLWU1ycVdBQ2hrZjVnVWVha0JnN3pkZk5OQzZOTWZUT2xWR2NIckg4S1k5bmducVp6Q25EOHM4R2dGZFRjNHF3NzlheTMxR2FLUERIU1B4QmFjOVhEVUV2RDEtZjA0cEl0X2pJVUF2VlZ1X0IwN2c5Z0huSEZYZDjSAacBQVVfeXFMT1lhUGM1UXpWb3AwV2pwOFE3NGV2ZW5jXy16TVBoaEZoTmM0QktVZjN2dGY4Y1ZqaW1hZXNEY09mMEE1UEdwc05UdDJVblNlMlRVaWpBUzVEQUFwbTFoX3doY3VuMmxSYjNtcVpveHBmUUxHMm1LTW5aRm16WEJQcnRmMW1iSEJaOXZoZGRGYy1JbGhwM0ZralVnS28yUl9weng1N0dxT2s?oc=5" target="_blank" rel="nofollow noopener noreferrer">Nhập khẩu sản phẩm từ sắt thép tăng kỷ lục, vượt 8,3 tỷ USD - Tin nhanh chứng khoán</a>
-  - Nguồn: Tin nhanh chứng khoán | Tâm lý: 🔴 -0.40
-- **[23/01]** <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxObzVJbVlhTlVFTXRHWXg0cVpicGEwZ1pvSk11STQtdFVNNk9nMEdleE82OXJwZ2RsX3NyZGhpTHlNeHozWlNEWVVPQXFiZlVSdDJWWm5ER2pBVmZmcm5URmpxVlNKc2NXUi0tVlNLSmxJSTZSQkhLNlYxLU8xc3JmcmVmMmlsWDFmQ2R6MzZKdEJtZjladld2WnNzWC1yOXpiSkx2Sk9QTXdabXhDY3VuMUQydHFpcThvLXVUQzBwdFdpNDhrMXdZSE5hSQ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Sản lượng thép thô Nhật Bản chạm đáy 56 năm vì sức ép hàng giá rẻ nhập khẩu từ Trung Quốc - VietnamBiz</a>
-  - Nguồn: VietnamBiz | Tâm lý: 🔴 -0.50
-- **[20/01]** <a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNXFpUHVveXF6OXBFZFBoTi01aVFOeE1kM1ppdllMNm52eGRSdUV5V2l6OXpZX1BRbkFEbFF5QmI4Yll0cnZfLWdrV3QyMnBJRWxSQWg0ekFaLWt1OHk4YTRQYm9zRzNwYWdoQjdIUzdnTzB6a3dacjZTTzlLMlM1Ymt1T0x6U1FmUUxVSUdpSWc4OUN6VmhvaXNhbXZSM21rTmcwNnY0SEk4VGcydzR1RGdDSG11YV9PTjhMNzBzQnlLZDBCTjJnY3RVU0d2TV9sSnFhaGJkQVpZSFZMbmhteXBRREs?oc=5" target="_blank" rel="nofollow noopener noreferrer">Dù trượt gói thầu EPC, Hòa Phát (HPG) vẫn 'sáng cửa' cung cấp ray thép cho tuyến metro 55.000 tỷ đồng mà THACO đảm nhận - nguoiquansat.vn</a>
-  - Nguồn: nguoiquansat.vn | Tâm lý: 🔴 -0.30
 
 ---
 
 # PHẦN IV: TIN TỨC CHI TIẾT
 
-1. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ2ZlYnE0WG1EZ0xYY3QyQml2b0xDNzlfMmZiY2ZsdTJxUE1UU0Q1NlkzVEFkaXZYVlE1MkpsZWtRLXBjQ2p2Vnp3cW56dVZMWExFakY5WlBNdmFnNUk0MmdGWlZrbW55R09yalBNVWFVUVVsNkp6TENTSzBxSXFIOGJ4WVhRY0R2VTdkWk1WbDJPd1U1M1JESmVCZWR3VzB4cWdwWU0zT0tOOHA2em1VV3BKUks4NjRLZ1BuVUJaMGxzZG1aT1E?oc=5" target="_blank" rel="nofollow noopener noreferrer">TT sắt thép hôm nay 26/1: Giá thép trong nước đi ngang, quặng sắt hồi phục lên 113,95 USD/tấn - Vinanet</a>
-   *Vinanet*
+1. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFBZkdTdDNVYzgxcXNUX0VqZlhYMUoxbDBHVG96bW5Dal9BU1JUNmFVdmVVeHFYdms0WVp5c0p4eUxydHY4NVJUT0ZzNXdLMW15WEh2NndKYkd3Z3VaLWo1dktMU1VBaC1XWHNzazlkb2JrYUV3R19zeFN5Wk83QWlBamRnQTFsSy0yN1Zmbzk0ZHVkdHJueGRmcG1rbzJodXc?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát hoàn thành vượt kế hoạch lợi nhuận năm 2025 - Chứng khoán DNSE</a>
+   *Chứng khoán DNS*
 
-2. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTFQzeDJJRExiNmZYclFZZ0x3OVZ6Q3VLdVBLYnliVjk1R2p5Q3NSZ3NoVmRjWWc2UmMwaFluMmFSSWtuWE04TGltekxCS1lyQ0dvS2c4dWIwWFlpVy1MWlc3eW5OX3lWTUFEM1BhSHdVdThGSmNEOWNfdjl4a0tibEltVnY5WkZoNm9wbm1KQzVGZWJNVllYdmZhclRaTzVMNUw5aUYtZmFSRXluUXozc3VxeVRjVDFNeVJtNWtwblNCRHZveGNDdXYzQkxxb05hYnJKWGQtY0g?oc=5" target="_blank" rel="nofollow noopener noreferrer">Bền bỉ nhất U23 châu Á 2026, 'lá chắn thép' U23 Việt Nam khiến NHM ngỡ ngàng nhờ khả năng đặc biệt - Techz.vn</a>
-   *Techz.vn*
+2. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPN3NDd0gxTUp3NWtDblJ0aXZicHlHeUUybVlManl6RjBubUZvNXQxNHJWekh1RGxwNTdYekF5ZUFpZFE4aVdoTmJDWU1FYkp1a3BUMC1NSHZqSVdMUDAwUFhMNVR2S0hQMlF0NXE5dUs5RDEzQW1OMDRhemJRMzFub0NIUW1VcXhpekNoTmRMdHVvOXZvVDYwZ2Q2ekJWaTgtTWpnQ2pB?oc=5" target="_blank" rel="nofollow noopener noreferrer">'Vua thép' Hòa Phát lời hơn 15.500 tỉ đồng, tăng 29% so với 2024 - Thanh Niên</a>
+   *Thanh Niên*
 
-3. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNLVN4azJHMTZuTDd3anpFX3ZJc3VLWDlvVlQ3S1lMVE0xbnc1XzNtQWxuTG56aVBGNHlCbU9GNzJoYktCaDVqdXAzakFZWkxxZHdydWR2alNaaTcyUHNYcC1fUWt4UkxWaXRFRktqV0dqT1JnZHdFaENTQXE4RmduanRCSnRLOUxMaHBpRDJocEZsbEVnS2ZneA?oc=5" target="_blank" rel="nofollow noopener noreferrer">Nông nghiệp Hòa Phát nộp hồ sơ niêm yết 285 triệu cổ phiếu trên HOSE - VnEconomy</a>
-   *VnEconomy*
+3. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV08tNkg3U2dJRUJyLVdHekdteEkteUg3NXhWLVNxUEpFOUpMM0M1RjJyQ2dPQXltQTBLckM3b3F6a3RVc0daSkpNeFVXRkZ3dmhHVnp1cVkwd0FERnlLMG5mWWZMU2xVb3JPOWN0R2xwdFdZSFFwX25rNmdqTmZWejZvYnNjMVB3REpNYTdGNmxLZzFGYlQ4VjYyUlA0N1N4d0RXRHMxeS1CcUk?oc=5" target="_blank" rel="nofollow noopener noreferrer">Doanh thu Hòa Phát lần đầu tiên vượt mốc 150.000 tỷ - Chứng khoán DNSE</a>
+   *Chứng khoán DNS*
 
-4. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNNllOSkhBMjdMTWJZWmZ0d2pfNW5FTXhHakVPbEU0UlRVOWF5cXhZRUdtZk4tYVNxWUZKUXlmWGU2V3J1djhYZnI0bWw5M3NzaTUwSndRQjlvcFJFUEwzYno5bkQ3cWozNmZYNFdpQm5xYm9TcnlQdHZQNjR4Q0c0QlpjRTZRQncyS2pRa09tYUxYc1pBZVhiQmNkWFd6UEpzSmxMSmFTZFlIbWRjZ3BTSg?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 26/1/2026: Sắc xanh bao phủ nhờ giá nguyên liệu ổn định - Tạp chí Doanh nghiệp và Hội nhập</a>
-   *Tạp chí Doanh n*
-
-5. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRGJqRDlPUE9CRmVOT3ZBZThiMjU0VjVJdWJGZk5fTVlmNUdqRVVSbWU3LUdubkJFZmFHdmdiOUo3Y3ZHMzA1UkJZLXp0YXdHNWxnb1NfUTdCdWhULWFuckpGeC1LNVRHMk4taVptT1VWUkxEb0FNYVdkMUlIbGhIVW1SQjR6dDdoelI3dnROVnZvSnlSVnhSdzEyVGFva0NHSk9mclk4ZTF2T0NNaE1XejhQR2NUWDMwc0x0anZpMUNGQXc?oc=5" target="_blank" rel="nofollow noopener noreferrer">"Lá chắn thép" U23 Việt Nam giỏi tiếng Anh, tiếng Pháp khiến netizen đồng loạt khen "đỉnh"! - Kenh14.vn</a>
-   *Kenh14.vn*
-
-6. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNODBkQkk3THFwSFA5ZlFFZ0FnX3FnVTRZWHZYdVhJTjhkTXZ2VGFna3h6MUxnQUZxSVpkU0hqZ2dIcjJqZnlCVW5Zb2NnTVk0YkhRaEtIblpuZ3M0WHdZV3hmb3o3bWJzcjRzZmdDT3V4bEpOU1JJTzRJYTIycDVfMHJHbGVyVjE3d3lIclVTU1dEdkY3V2QyR2Y5TTYyLTlNZDRGZ3Ewbw?oc=5" target="_blank" rel="nofollow noopener noreferrer">HPG tiếp tục “kéo giá” lần thứ 5: Chu kỳ thép đã thực sự quay lại? - 24HMoney</a>
+4. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkhpWVcwd194VkF2NGFCTTZIZVRuNjl5b05MQWZLa1RWQUV6bDVDS2NkaU95azdDcFR1Vi1CQ0pjX3hJYmJnSnFjLTVEMU5zdk9XMVpJUERWZjZOUloxSlVpZkl6Q2dfR0tMbXhDVEhncERHSk1UQjJyUGMyY0g1OUVFT1Zha1dYWE5hbDg0NUZDR3FyaEFmYmhrZUNGTWlUT2d2SnZYeVJWSW05d0E?oc=5" target="_blank" rel="nofollow noopener noreferrer">HPG: Lợi nhuận quý 4 tăng trưởng 38%, Dung Quất 2 bắt đầu "hái quả ngọt" - 24HMoney</a>
    *24HMoney*
 
-7. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPOS1iLUVlUHhZRlhKUTdjWEtoamd6TEw1SXdUZ2tGVVJaSElhc0ZETllxTXdiUlAwc0NLM0pzRFdMdTI5VnQ2eGFwSHF5NWR1MjV6NWI1RnkyYWw4STNfV29xdXN1OWJqaWNjWmF2T3d6cktsQ1U5Ul81R3NYcE43UEJxX29vRGdWV19TR0dPWW5wM2lkSk94U0p1aUo2dHZOOVp5czBCb2g2ZUIxbUEwNnh3blljc28?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 26/1: Quặng sắt hồi phục lên 113,95 USD/tấn, giá thép nội địa đi ngang - baolamdong.vn</a>
-   *baolamdong.vn*
+5. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVJRUHZZd0gwVC1IdEZiLXdfcHJPcWtiTW41YlY3eWVXX2ZuMzU2cmxhQXhqMHMxVVJPQk1UU2E2bEYwTWEwV19mV3MwUGd6Zi0zdUZOZ3BRYW4tOW4taE45MkRfSk5uVVZxamRqZXFvS1dQbDdfcE0wMWw3TGZDX2FOME4xTkVCS0Q2TzNrN1UtVlNodWNDYVZva2ZKa0FKdWlYWGpBN1Y4aWtWQ1dBWldCbC13M0NUOVdVb0JmVXVnTmxh?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG): Lãi sau thuế năm 2025 vượt 15.500 tỷ đồng, sản lượng thép cán nóng lập kỷ lục - Báo Pháp luật Việt Nam</a>
+   *Báo Pháp luật V*
 
-8. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMUdZVDNMR05JUnZqbG5PUUZGQV9sOVA1VmJSUDZkSVY2U2k1LTQ1aG5zT3VSVFN4V3lPM2NBck1hWHgzSFRQZ3RmMzZIUVROMTE2cndhcG01cW42eGxPb3BxU3QyTFF5Yl9hMWdFaDN5SExvdFp2OEFRQWZDSzFZU0tSeDhmTWdBOEdhYUdSUl9NQzVYb2hJNFJjb3E1aWl0emRvYlFxNGxPcEZkVWxBS0lOVUpRd1FfVXNVdlVMMks?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 26/1: Quặng sắt quay đầu tăng giá, thị trường thép nội địa giữ mức ổn định - baonghean.vn</a>
-   *baonghean.vn*
+6. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ19WUWVyZlU2MU9tX2xsN2h4VFlsZHNsSmYwa2k0OWZXNkhJLUJGaGxZWHl0Rnc1TU9zdGc1ZG9PbFdMT2JPRG1KVlRSanlrRDlaOS1qNm51SlpfalpPQXA1SnhFSENLb05TbDdIY2RPaHRqUG1LbV9DU2hHVWxqYXBFTFBTV1hqWVAyeVNIWEJfOUF4ZDdWbGdxZUZOX3p2MUJtTkx0WmVqN1RNa0dTdUtlYjk5X3AtWnprdmc2TWFsOHVkbmc?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG): Lãi sau thuế năm 2025 vượt 15.500 tỷ đồng, sản lượng thép cán nóng lập kỷ lục - Báo Pháp luật Việt Nam</a>
+   *Báo Pháp luật V*
 
-9. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNYlRCYmFsR0JYb0NuZXBUd2ZtWlZSNFp6a3Vqb3c3UnZ5WTBRaVQ3UHFQMUEtclF1aE5QYVBZV2hDR3pCTzFRRElvQkdMR1c1aC12Uy0zNE94emhsaG9GMEV5OWdGb0d4dHJReVhhejZ3Mk52c09xWHZwRFNhODFmanZWemE4dzdjNHdWWnp3SGwwMmQyUXhObkJPOWtCSjNTaFFnS0RzbjZUX0RyZGc?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 26/1: Quặng sắt tăng trở lại, thị trường thép nội địa ổn định - baodanang.vn</a>
-   *baodanang.vn*
+7. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXExQi12aHd0dmV5cEtKR19sTExQQ1FwSzRab05jNGh0ZFh2czQ4bHBtTmxVSHFwaDJqLTFBQi12X2ozb3dVUzNZajMwV1NVTktuMHpzanBYazJBR1BwekJQTmJybURLYnJhN3Q0NWYxaWhzc2tsWFZrTkdCM0lwak5YM0lBRDg0dnlablFpZ2VlME5vX19IX2JhLTJXeXJBTjBucmRBMHN3T0owc19J?oc=5" target="_blank" rel="nofollow noopener noreferrer">Tập đoàn Hòa Phát ghi nhận 15.515 tỷ đồng lợi nhuận sau thuế, tăng 29% - Vietnam+ (VietnamPlus)</a>
+   *Vietnam+ (Vietn*
 
-10. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxONWJSNGNIYXk2X1ZLQ011SDRPcS0yb3lUaUJkUWxCLVhISnl6Sjc2Q0JjcmJNWVRoZmtoZHFqTlNueGNVSzhPYXNNRUFEbHZsazVQbldXTm15Vm1FeVJWSEdPem1tc19CTFhPTFE5UHZHOUJlNElORjRZMDJOdjY3bXdaTHJ0Ujk5T0NZdHpsb0FOR1pqS1NzY0dTQ1E5Wkt4MllvcmNtZnFjMzREbXJxNklodm1KOUU?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 26/1: Quặng sắt dừng đà giảm, hỗ trợ thép kỳ hạn hồi phục - Tạp chí điện tử Thương Trường</a>
-   *Tạp chí điện tử*
+8. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNN1ZCeVlYRXNsWktFdGhUNUdaanJqd1dkYW5Wb2l3RXNaT1NoaHhSb19MM1pFZ0RLcUozZ3Z1WVVHQTVQS3BLR3ktTTFuSzBQWlRGVXl0OWI1YXMtTGVvbEwxUEx5X3NPVWdwZV90TF8zem9BQ1ZzbTZkZkhnT3dGZVJ5VGRlU3NHZVZoZ2M4QXB0N3FyTW80aFZ5amdwMzA?oc=5" target="_blank" rel="nofollow noopener noreferrer">Lần đầu tiên doanh thu năm của Hòa Phát vượt 150.000 tỷ đồng - Mekong ASEAN</a>
+   *Mekong ASEAN*
 
-11. ⚪ **[26/01]** <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxOemtudXI4d2NUYkVpdm85aHJpNW9FMHVQVmFSa2VoSHpxQkNybmtNajlqV3lFQ3lKUnhWRWYtWVVpZHdiWFJTcDBJLTd6c3R4X20zREF6c29qSUdRbnFjVEs1dnFtZ21vTVVQRFBrUFZmRTdrUDg3bWd4S0pEeE1rZ3lkcnFBQQ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 26/1: Khởi sắc đầu tuần - VietnamBiz</a>
-   *VietnamBiz*
+9. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPWUFJTFcxLXdjdmlqY0UtMjRjTUowZ2ozRXF4RUxtTWNuS01UOGZOd1JVZUNXRzV3MmtNdi1ENjVVOXVNcDRCdnlpWHpoMUFmTGZpTDJsMS1ZYWEwdXRJanhBYnhQMlpESXNsdzl6RGE2aWEyVVFzZWpEMDlCZ0xNLWh5ekZjRVUxUnM3VE8xZzRwakRlSW1LY256a1FlQTdGa3ljTm1XWQ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép tăng do Trung Quốc nới 'lằn ranh đỏ' - Tin tức 24h</a>
+   *Tin tức 24h*
 
-12. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPbjhGUzY0WVRhSV95bnloc1dnRHpMUjN4SUN5MUlhdm0xTUlzTE1fT1JXejJBX1dPckFVR2tRdG1QU05laGZBZmZZOFZScEFrYkxaeUdodFZpRDZNSkROV3ZDY3lKcGdsU0h1SlhtcVVGNFBpZUdhVVpsT2F0OXk5MmpqckExME9RbU90VWhORFVtc2VqQ0NtYXJUOXlraW9rM3pEUC1TeFlHZ3FiVzRiUnYzdlBUSExDSWVyWg?oc=5" target="_blank" rel="nofollow noopener noreferrer">Ngày 26/1: Giá thép hồi phục, quặng sắt chấm dứt chuỗi 6 phiên giảm liên tiếp - Thời báo Tài chính Việt Nam</a>
-   *Thời báo Tài ch*
-
-13. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQaHRIX1kzQ0ZqM2U2cDBWN3B0VHpqTTU5cmw5UFNvckNhZ1dsaUkxQ1AwZmc5RkhGSEwtdGo1RDJyQWs5Ums4bjlnM2RUZXNEaUwyMlF2SnNoejY5dTNOeWFkbGp6VjZYcFpVMkpXUnEwcUdycEZtZzlJUVdyaFdBSEJHdmxIdV9CY2E2NHN4ZEYxRGlOWkhodGU2WDE4RjJPaXpvcE5Ya0VRZUhWYXRhenlB?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát sắp tổ chức một đợt vinh danh lớn, mức thưởng chưa được tiết lộ - kinhtechungkhoan.vn</a>
+10. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS0N2c1pSM0FzSnRjVUlGZnNoZlBmbTlhWVhaR1VUTW44SFFkSHZzd3BHNkh2U2tGSmRDNE8zejdScy1KQ1BDaUptdDdPenNqdDFLLTRBT0RtalMxYXJNVHhqZ2xsWnhhYW9xUmp1ZjhRREdFMjBEckk4dUJWWTY0MjdDRTdWSFF0SkJHcnNRazFjSnc3eEJpRlpxelFyREp4YUpzTEtEdUR3RlNTZ2dRRG1EamwtODNB?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG) tiếp tục làm nên lịch sử, lợi nhuận năm cũng vượt kế hoạch đề ra - kinhtechungkhoan.vn</a>
    *kinhtechungkhoa*
 
-14. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOaVgtbWpybzA1TFFKZ2dHMzZPOEVYYnpOb0Y3UFZ4OG9iOWg2a21LYmRGRGthTngwNlRuaTE5dFpVM3ptLTVWY0plTExWeDVCd2piZWxzZEhNb0g2U2RUMWdLV3NVMTNMWXFpR1lnZHVKcmdhakthT250NTJDV0hRa2dZUUIydWZTWFh5b2EyTW9qODRDeG5UbEN5eXpOTGg4S3N0aktmd1NodDE4SElPMjhKZkF6c0h2cTZVNk9PTWpiamZJY0VN?oc=5" target="_blank" rel="nofollow noopener noreferrer">Ngoài mỏ Quý Xa, Hòa Phát (HPG) muốn đánh thức 'kho báu ngầm' hàng tỷ USD bị bỏ quên hơn chục năm - nguoiquansat.vn</a>
+11. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQTzRmdTZyVHhyS0hCZ3JMRWJOdlFyX1FwZTRFLV81dm1RVWxNWGFSR1V6R1d4bFNld3RZNTQtRTV6cmhLb2x1U1FYdlFVTmVxSkJ4d3FQSXhzX3NzSXBXMUx0RXlMUjZYc2lPNTU4QnF2RmNYODFpWFBzQkZ0Q3ExR1pyN2xxRHZpb1VxUmZNSl9kZjJyRjF2TEs1c3BHa3hEZXdFSEhwT1NhRzZDMW0xOURzNy1EVXhvcEl1MTljbHhtSDJIWUM4?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG) bắt tay đối tác nước ngoài triển khai điện mặt trời áp mái trên gần 1.500ha KCN - nguoiquansat.vn</a>
    *nguoiquansat.vn*
 
-15. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxONGdNMkRMSng4dGVaWlNMTS1UR2t2dFhPVVJsdHZsT29qVThEWVViSkZ2QkxudEVJazZtc2tlS0VQSjB0UVN5ckdwWWJ3aVZrV3kwVEpGZnh6YmxfZ3B1eXNmRUhpOGRFeU5hUEpDSXZkSXdBdUlaRHZQMlE4X3pCWDY3MXh6Z3Bhd2RBRkhMN3ZXbGdhd2V2SlRJc0FtaDhPcUxOM19jSFZpOWNoMzkzRlpn?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG) tính toán gì khi đề xuất 'ôm' khoản nợ 6.500 tỷ tại mỏ sắt Quý Xa? - nguoiquansat.vn</a>
-   *nguoiquansat.vn*
+12. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNMnBSWjJPLXl1eF9xQzUycFdmblN1VldEeVZSRDl1UjFwcDlDdVk0UjQ0Q3RJWGk0bHVZUTg2aW93ajlaakY2dy1IUFlZdVQ1Umc0eUd0QnNiU2xWc1pTckNKc0ktdkZpdlNTOGhtSnJtekFLQWxwRURPM09KVHUyOUYyYmdCaGNXTmJXQmQxRXZib0tnSHpiQTRZVERQNFdoZno4eFdlTmhlNFE2QVRZ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG) báo lãi sau thuế năm 2025 đạt hơn 15.500 tỷ đồng, tăng 29% - 24HMoney</a>
+   *24HMoney*
 
-16. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0J6b1dqNXpDS3I0SnhaY3puMnZYNktEQTdrbV8ySWd6b2VlOC03NkNPWDRNaTFMdC0xNGdsQjNqTkw4V3Z4b2dDZWhoc0ZRZHdkQnhnWkM2eU5SdTdvZkZoZWxrUHU1Mjl1VGYtNjB5VW1qaGhkdTFhWnlJNVZMOXJOSktyVlJFQ0RBRE5Scjk0Z1QxTE1tVGZ1TzNfckJ6aERzN19B?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 25/1: Quặng sắt chấm dứt chuỗi giảm, giá thép nội địa giữ ổn định - Vietnam.vn</a>
+13. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSUVZQldzampXbjFRRjJBRElnTFI1dTlGanZ5d2tWdUpQaHV0QnlrV3dzaG1vM0VSY0NaTGVZQ0V0M01oU2tOMGRBVllmUHpCblZJLTIyMUExVWVqbU54TEEtUTFmS3JPb2tDQnZIWkpTV09GOXo0ZFQzd09FVDFPN29qa2NrV055U3YxZXZ1eGxfdEFPVXpwV1RJVHVKV0dCSE5Lby1KNmdpeWRlZ19OVmxWeE9aWld3WDAwWVE1NThZUQ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG) báo lãi sau thuế năm 2025 đạt hơn 15.500 tỷ đồng, tăng 29% so với năm 2024 - CafeF</a>
+   *CafeF*
+
+14. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQTHJCV2hpWkRwWjZCXzJqcFd1UnlUaGZrMGRaaV8tUzUtbWJVN0kzYm9oZXYzMTNhYzNQSnVGM3NDMGFSVUZRVDZfdnVkR0lGV0syWHB3VHFPNXBRWVR3UWRIbE5oZmpCa3FmWnJfSWwxNkVPSzVGcTB0d0k3cnFjY054QWR5MDgxYlFKRHE2ckUwaGdOWVo3aHRn?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát báo lãi gần 3.900 tỷ quý 4/2025, tăng trưởng 38% - CafeF</a>
+   *CafeF*
+
+15. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPQzhFMTRvT1Bsa0hZOVJHSENWaTAzbnJTMlpRTjJPa2N0X2sxc2FPOEZzRWVQcHgzUklpTkVoSmNyaTBhRVVOdzg3UE92TlctaFcwQUpVSG1aWXRjV2tVY3dPejVZUVk4enNVcy1Ibml2TkF5N0NhUGlzSmVveTMtRUdnXzZLV0RqVEtlYTB4SmlKVnNOMll2TXp0Ri1zYzF2VFJvQ3JmUUdTbDZ0WkE?oc=5" target="_blank" rel="nofollow noopener noreferrer">Thép Việt Nam vượt sóng trầm lắng, hướng tới tăng trưởng 8 - 10% trong năm 2026 - Báo Dân Việt</a>
+   *Báo Dân Việt*
+
+16. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPTmVxck5jTTZFQTdyUzlFSDVJVGlpbDY4UVI0b0ZZLWJVRnpoeUtZd3F4QXlBRHN2cXlDYWE5dXpkSkphOVZwSmxvbThVcDdvTWU2bkZnTTJ5RGRQNUc3MWZWemJxZDU0UHg0bXNTdmFMQWx3c3V4TVJtVUxMZFJiR3QxU2RjbFFXb0Y2NXdvWDd6OExTZ1RrSWxGbjF5ZHNDZ3dZUnY0ZjFrSmhy?oc=5" target="_blank" rel="nofollow noopener noreferrer">Anh chấm dứt miễn trừ tự vệ với thép cây Việt Nam từ năm 2026 - Tạp chí Doanh nghiệp & Đầu tư</a>
+   *Tạp chí Doanh n*
+
+17. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQbU1nb2lZaWVnUV9yMkpMdFJaVVRYRmR2ZFZ1emdJQ1J1MktPRlZnalBCdXVQRzZOdzFtRnhVdmFpRG0yUEtxMHJ4d2tzOGN3RV9uVjF1ZVNsaDVsWGQyWTRUalBuVXRUdXBFOUxLZDJ6ZlFrUnJOWEI0YWxGSkNQZzVaMWRMUWRmekowaEthRURHVURfV0FDQjd4cXc0YmdDaXY2ZjNRY1hJWGxKS29rOWRja0NZdGhSc2gwa0VCVGp5THRI?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép trong nước ổn định, thép thế giới giảm do nhu cầu xây dựng Trung Quốc chững lại - Vinanet</a>
+   *Vinanet*
+
+18. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQc3lPS2RpWmRhTWx5ZjYxWXNQSTlYaFdmUk1yLURleGdmVHh2WE5raUxCSDFLT1luUWZMVTVXMFU2RDhFRkZkV1RUbC1nREFuZXBQSnNYOTFmWlpiakhoRnpLUm5tcW5SVzVPbDlyUF9iWGpGckh4ZndaR0pEOS1KZk5NR0FTQV9Nek5qME5sMXdCS0FqVmVwR3dhVUVTZmlwYUZhLUdvUkwxUGp1?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 30/1: Quặng sắt thế giới tăng mạnh, thị trường nội địa ổn định sát Tết - Vietnam.vn</a>
    *Vietnam.vn*
 
-17. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUplUFE3ZTJqMWM3MWZ5X1VRZjBQelphWkJaUjFsZTk2aHhONnF2RXBVSjV1X0wtbk9ETzlkOEpWZVJOeW1OYkRSYVJEeEQ0dzVQMng4cldhdmVXR3lWQ05CVkdkeWowaWN5T2RHbUUxaHo2YmRmYUJmT2V2Sk1CSnFPUXg0OUdJVS14MTh1d2FpejNRQllkZ2hxXzRfdGpLUGxJZkthczA?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 25/1: Quặng sắt chấm dứt chuỗi giảm, giá nội địa ổn định - baonghean.vn</a>
+19. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFhXQ3M4XzRaOHA5dzllcGh3RW1SQUl4WHdhWkV3UXl6Z2ZZMXJERFF0VUlTYW81MjlrdkxvdG9HLVZUUG9LcmM1d2tRbzJzbXRibjI2UndhaS1fQ1dpbUNWQVZfWnIxQVRNYmxJcGNJejNnbmxaZ0FscWhNZWNFUEFQWDRLRXRkcU9XeXkxRi02OFhVMHZwUnVzNFhDYm5SeXJLYg?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 30/1: Quặng sắt thế giới tăng mạnh, thép nội địa duy trì ổn định - Vietnam.vn</a>
+   *Vietnam.vn*
+
+20. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkdlTnN4SS1pZ3A3UjBndDJGWmFXSzJuUnRNU2E5a0VZWlJKREstTExqZWtCQWlfekZrQ0tPaEVWbUVITGxDSE10UmJlcm8yRTliUDMxcklyaEpBSHV4OHhsNHZXdUFja2FfTkRvbVA2bWJ2THdVc0JqdzUtcjItSjMwNjFvajZ0SHhId1ZRanNUWEhlM0hWNWd6TUpvUm5rckF6aGsxY2dkNWRkUGhyZG5xTnk4MGo5?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 30/1/2026: Quặng sắt tăng vọt khi Trung Quốc duy trì sản xuất - Tạp chí Doanh nghiệp và Hội nhập</a>
+   *Tạp chí Doanh n*
+
+21. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY0xseXp0T3d5TlhKbkJmQXJLb25fZUkxcFAtZmItSlNKSVAyNmZ2Wlo2b2hDc3dKd3g1NzQ5Y0xRN1paRFhMbDF1d1l1czk5QnVnbmthV3dYV0Z5QVh0cHgyWk4tTU9ldHZ0ODdDYmpFc2xJM3NrNG0tTmMtbzYxX0NmVFlqaEFlQmwxWnhfTVNReDhfc05GOVVnbTNXckx2cHVDdDRDX0pqSlVTOVBlNTBxN2NmS0Zu?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 30/1: Quặng sắt thế giới tăng lên 104 USD, giá thép nội địa đi ngang - baonghean.vn</a>
    *baonghean.vn*
 
-18. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNblc3RDZ4YllOYXlNbF9VbDYyQ0RfdjVjOGZ3eEoxTzNjS2VXX21SOTFNQlBTaEd3UlI0WHZUa3JQbnM1Zm9VMHNXZ25Mek96V0o2T2JEQVV3dnhLcmRnb2hic0xKNk56T0pJQVlVaHlRQlJnenc4NHdpd3Z1T1pqbTU3WlV3bmUwb25KWUw1eF9aOWVEWDlJczJxTVFxV1d4VGpKMENfUDNxMXAzV3g0?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép thanh Thượng Hải tăng lên 3.089 nhân dân tệ, quặng sắt dứt chuỗi giảm - baodanang.vn</a>
-   *baodanang.vn*
+22. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTmxwYzVySWxuNXQ4QWc1ZXg5TlYwaGp2SFVfQ2NSejJ5WVZOeUllaVd0ZXNmYi1yN1MzUjJRNFJiWE5GVDBZVmxScnU1VXdlT2d2RVRkSEQ2b0dPQk1BeHFxdURWRzRFdHBNT0tfcERQb0hVcnJMVUNlTFh5ZVJ0TEdKcmVSU0tIMXRuUHhERFVLMVNVOXkwNlM4ckxJMEFObGJVUTdTOFY1YUhSc1VyZTNyenJYOEpKYjRUaEQtaDZzVE9LLUtKeHRjZTF4eEQybkE?oc=5" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát (HPG): Lãi sau thuế năm 2025 vượt 15.500 tỷ đồng, sản lượng thép cán nóng lập kỷ lục - Báo Pháp luật Việt Nam</a>
+   *Báo Pháp luật V*
 
-19. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3pScEU4ODE0TGJmemhWdzhGM0JwMkwyOXlja1pVa3ktUlQ1ZlJ0cXVqbEpadDZpN2dlZHFIeldfcUZLT0pEYW1IbTBoQjRpNmNwbnJVTmlYMElIWlM0dU4yaWVzXzlJM3djLVVyX3NTcmlOcWVGRnZMemZoTEh1RVRqSmg4d0hkY09naEdCcTliWXJvMi1KVGNn?oc=5" target="_blank" rel="nofollow noopener noreferrer">Công ty nông nghiệp của ông Trần Đình Long đăng ký niêm yết - VnExpress</a>
-   *VnExpress*
-
-20. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPbWphQU1TV3RBVjZIQldrcFRndDRQTTdZMXhHRlZCbVlNYWhTdU5tQWptbTlPRTA1QWR6SXdEaXNjbG94aG5uN0dpcWhWNWpKV3RsZk1GQmkzVHotdGUybXFIVUExTVVncWZOY1ZXcno0d1ZxLVpUU25LbGgwVnZBeGFzTmlZTjBIZURxa1FuMHRKNW9aTFBONEJjdmRhWGdMb3NsWkhIN3Z6ajFMaEt3Yl9B?oc=5" target="_blank" rel="nofollow noopener noreferrer">Thị trường VLXD tuần qua: Danh mục thiết bị, vật liệu bị buộc phải loại bỏ - cafeland.vn</a>
-   *cafeland.vn*
-
-21. ⚪ **[25/01]** <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHpuWEpRRThRODlDdUZjTFBQeVQtejh3ZEdvSU5lZjdjOVpGak1NS3JWeUFpUndnYUtNSDBZb0doZHR0cmRDWTk2Ym5PY0xibExQUTlzX3F1T0R1b3ZjaXlvUEpYLVZkRjh0NWFaWTNUN3NvZlh2QzFSR3JJNWtfYWpBU2lxeVA3ck4xeHNJN0dCVExKakl0NjNFVTU1dTk0VjZtMWJtMjYtbllKbDNLZ040dWhPa3FmQ0c0?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 25/1: Thị trường hồi phục nhẹ, quặng sắt chấm dứt chuỗi giảm - Tạp chí điện tử Thương Trường</a>
+23. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVU0wc3BEYzFaaXNFUU1TZ3hoN0M5Wmh0VlRBMXVlQ3VYclFKeGlrV3RqS3RSNWQ3SFh1X25pYWI3TTE4dDFhazk1N0lyWXRndUFUVnd4RVM1RmRGQjNlbHo4WnpGX1MyNE1ITDZFQnB0MGxubHZZSWtOTkp1MzViSk1GRzV3ZjhqaS1pQUZKTERuVFlpMFpTN09SQ2tveDExb2JZR3Z6bFMyYndkR25EX0MwZUhISl9VRVF4V1pVZWpqcjA?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 30/1: Quặng sắt hồi phục nhờ kỳ vọng nhà máy thép tăng sản lượng - Tạp chí điện tử Thương Trường</a>
    *Tạp chí điện tử*
 
-22. ⚪ **[24/01]** <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUg1R1R5Z1Q3c243Z2tqR2tkMWZQVDdiYWhHbkk4TE41dzdiSEJ2YjRIODAxcGx3bkhtUzZGWVpHMFVteDN0Q3ZEdFJ1SEM1eU41YlFkcFQ5WWY2Mi1IbWl6cHkwZXZxNmF6YS1CZjBEb1NLaTFmb3NnZ3dqMlBoNVI4Q3BROFZRRlFzaFU5SHV3VG1Cbm1LbjZub2FlZGpo?oc=5" target="_blank" rel="nofollow noopener noreferrer">Ngày 25/1: Giá thép và quặng sắt kỳ hạn duy trì đà tăng - Thời báo Tài chính Việt Nam</a>
+24. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNeTUtYW9BRjhsMXEwZllJcFl5eE1tRWlzMTJnaU9ISmd3SnVYTDVOWGlKWFBrZnVrNDB6XzhNTGxaLXJiVVhpNlNlMVNXd09LdG5BbkgwRERpSWl2MUtBZXdtb3ZMVnp5NHJnNXN5MEVabjlId19yY3h1YVQzaWM0QXV5ZVFKMEdkTV9zeF9kaHU5ekwtN0tra2pmNVYyTGRZbk15SDNmMDF4cmMwM2x5WUJwSUstX0VoUHd1WkNSU0gzeHFoZWc?oc=5" target="_blank" rel="nofollow noopener noreferrer">Giá thép hôm nay 30/1: Quặng sắt hồi phục nhờ kỳ vọng vào các nhà máy gia tăng sản xuất - VietnamBiz</a>
+   *VietnamBiz*
+
+25. ⚪ **[30/01]** <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVDBBTFkwTHVoWlFXSlQ2N05jUllCbWFiRDZkOG1YbzdrZFpVRHpZdU9WT1p3R3J2ZEQzME5tM2l4VHNDZW93dU9tODJWbEZaZGwtZHFGamNINXZvbmxFX2J3YWRidUF6OVZIVkMxZXF4SG9MTlB3OVpaX0VEVjhqTzl5OFQ0X2k3TnZtUmRBaGlNOVJZcW1DNXNudE9yUlFDMVhVNWwwUThnS0d1QW9xZk8zcnNQWTlGM1VQWFhkSXI?oc=5" target="_blank" rel="nofollow noopener noreferrer">Ngày 30/1: Giá thép đồng loạt đi xuống khi nhu cầu xây dựng của Trung Quốc giảm - Thời báo Tài chính Việt Nam</a>
    *Thời báo Tài ch*
 
-23. 🟢 **[24/01]** <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVlVJdVhmbmM4ZmNocUlLbmNaeVM0dHZJanV3aEF1MlJfb1hxOTYzSXJ3bFFwdEs4eGxRbUJuUjhEQUFsVHAtMDlmNUJoQmowQXlXRFV4V2tjcFlvMWplMHJWd2gwb0RiZDFiaTUtQmFMZ1ZKLXgyZEVGdTljeWRwSXpnX09GbWo1bFNmUXNaYjFXRk1waXNrMFpTRjZILWdpbjgzWXhqQVBfdVRwOE05TEFqSElSOExKbUNZRmFyLWpmUmVxcGgzbW1MSUxBamxCVFBJZ3h3Um1DS0s4SXRGSy05ankzdw?oc=5" target="_blank" rel="nofollow noopener noreferrer">Chính sách mới cho đường sắt tốc độ cao 67 tỷ USD: Hòa Phát (HPG) gần như độc chiếm thép ray, Trung Quốc khó có cửa vào - nguoiquansat.vn</a>
+26. ⚪ **[29/01]** <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOV1hIZGRsVzUzNy05RjQ4MG9OcFhPWV9nNnZOTmJXamNHYVhnd1RnejUwNGdNNkVBaTJOb3l0NTVhLVl2WklvVm1jd3p3X2pQZEdGVmM5dXdrX0V1WnhKN0ZvdlNqTENBRmxIbjFaRTJYVERIcmo0Ums0ZHJaeG5KdngwU3RiWDJzNUlHZQ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Ngành thép dự báo tăng trưởng 8-10% trong năm 2026 - Báo Nhân Dân điện tử</a>
+   *Báo Nhân Dân đi*
+
+27. ⚪ **[29/01]** <a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDBKdDE0VkVYR1EzdnhBOW1PVmhwMFZucHJlbkVJakxlMHk4MEVqWFlEckpxbmUwMGpZb0lwNDdZcVJURnBUaTMxZzNaUDMyZmdXYmFJdld5aTdyLTJ0NklZenBUZVdpbDFuX2xzcFo4eFpVQ0Y2WHFhLWJhV2VNaEpJWmlLUzV3Qnc2MUZTbE9VdnpDVmlNa24ydE9rRGRDQUNMcHRkNWhacWNYVW5TTzVzdkhpSXNoU3lyWU1oX3dvMlB2VXp2aWhsb18?oc=5" target="_blank" rel="nofollow noopener noreferrer">Nhôm Vạn Xuân Thành: Bông hồng thép khẳng định vị thế trong ngành công nghiệp nhôm Việt Nam - Tạp chí Doanh nghiệp và Hội nhập</a>
+   *Tạp chí Doanh n*
+
+28. ⚪ **[29/01]** <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQcC1oSVhQajFiczNBTDVyLUVPSEhvS19DblNhR1p3M1hhNEhjcXBDTU5MLTJSQ1JrQXFhV0YxMnB5a3RIV2ktOGY0YUliWlVCcW83dHNPdHh6WDB0cmdMRlJxa3pxR0lIbzA1UjNpWnZ4UWpCRVVRcWVwdG5lWjFpN1JIUEpkdVY4Q3A3VzVSZHJtNkJmOUg1LXVKNGJURl9hUi0ybXlDTmxNN294aG1v?oc=5" target="_blank" rel="nofollow noopener noreferrer">Cơ chế đặt hàng thép ray dần hình thành, Hòa Phát (HPG) bắt đầu tăng tốc - kinhtechungkhoan.vn</a>
+   *kinhtechungkhoa*
+
+29. ⚪ **[29/01]** <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQUTZyQTJtd3gxVGZ1ZDVPNVZCSnoxMEVJcUNsbVNPOGxKZ3k2cEZ0NUxZbjZKODhQRV9FSjNhV0M2cFlJaFFWWUNkWlFqeHA4T1B6ZFJDZUdNUmVaaHlGSEQ2SURXb21UTVFtY00yaFZtbFRWbm13a21xa0Z0MVRNTUI5Sy1DM013aFVTcVFva2dWQQ?oc=5" target="_blank" rel="nofollow noopener noreferrer">Sản lượng thép của Mỹ vượt Nhật Bản lần đầu tiên sau 26 năm - bnews.vn</a>
+   *bnews.vn*
+
+30. ⚪ **[29/01]** <a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPSzB4S1JFcWNwRXBuT0dZT0RxdUdqeXdRbnNrR0ZwdzRTb0lTUDhtVHZyVlRYU2xURG9PR3ZRdEVaTkNkT2cweWRza25YR1lTZjdBcWxqS0tQeG1VOXEtSzAzQk85Q3hyQXpJZTFIMGI4c1FLTzQwZDZOM0JkM0x6RzJ2NWtjZTQ4UEktX1pPd3ZBVU5pbjJKTnRCTUc4SDBZTFZRV0tNbjktZnNvRGJxSGIxN2thckxlazRxVXFuaEdtWEdVYTBsbU13d1A?oc=5" target="_blank" rel="nofollow noopener noreferrer">Chính phủ mở cơ chế đặt hàng, Hòa Phát tăng vốn gấp 7 lần cho công ty sản xuất ray thép đường sắt - nguoiquansat.vn</a>
    *nguoiquansat.vn*
-
-24. ⚪ **[24/01]** <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWUweWdhSHk0aWpta1VjNmd5OV9DaDYtTGhqeHlXekZOYmx2dVNZOTB5NnZNbzhMcFpGVG1lR25iQVJqMXAyYXV5emlReWoxOWZiR2JvVFJvN0tmRTZUTHEtelNhQmdHVnU2Q2p0MWY4WmIxS0NzQmVuZFJZTDhfQ2ZfWmtMWmx3RDQ3ZzdrWnpYSWZxQ0pyTg?oc=5" target="_blank" rel="nofollow noopener noreferrer">Diễn biến mới tại công ty nông nghiệp của 'vua thép' Hòa Phát - Znews</a>
-   *Znews*
-
-25. 🟢 **[24/01]** <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVVrRDlEd2pOaTdIdUJGaktHdTVZUTBibXBCRVpqVmFBQlRxWnFzX2ttSlVzVG1PNGdsdm1iLS1GMnZNN0FRcE9HNkhzdExmU2FuV3VjNlhWY1B6Y2w2T0Q1a3ZvTU1VZnhVbUxLZEpVRTRkYlZ2eExhT3lkSG5ZMnVaT25NRk4zOHhveDctQ2I?oc=5" target="_blank" rel="nofollow noopener noreferrer">HPG AWARDS 2025: Dự kiến vinh danh, khen thưởng - Nội Bộ Hòa Phát</a>
-   *Nội Bộ Hòa Phát*
-
-26. 🔴 **[24/01]** <a href="https://vneconomy.vn/lo-luy-ke-hon-2-356-ty-dong-pom-sap-phai-thanh-toan-hon-15-ty-vi-thua-kien.htm" target="_blank" rel="nofollow noopener noreferrer">Pomina lỗ 500 tỷ đồng trong năm 2025, cổ phiếu POM giảm sâu</a>
-   *VnEconomy*
-
-27. 🟢 **[24/01]** <a href="https://vietnambiz.vn/trung-quoc-siet-xuat-khau-thep-20251214102232554.htm" target="_blank" rel="nofollow noopener noreferrer">Trung Quốc tăng thuế xuất khẩu thép, cơ hội cho doanh nghiệp Việt</a>
-   *VietnamBiz*
-
-28. 🔴 **[24/01]** <a href="https://vietnambiz.vn/gia-thep-hom-nay-112026-dong-loat-di-xuong-2026118136401.htm" target="_blank" rel="nofollow noopener noreferrer">Giá thép xây dựng giảm 200.000 đồng/tấn do nguồn cung dư thừa</a>
-   *VietnamBiz*
-
-29. 🟢 **[24/01]** <a href="https://cafebiz.vn/hoa-phat-cua-ty-phu-tran-dinh-long-lap-ky-luc-vuot-10-trieu-tan-thep-trong-nam-2025-176260109093034711.chn" target="_blank" rel="nofollow noopener noreferrer">Hòa Phát báo lãi kỷ lục quý 4/2025, doanh thu thép tăng 25%</a>
-   *CafeBiz*
-
-30. 🟢 **[24/01]** <a href="https://vnexpress.net/ly-do-quang-ngai-tang-truong-kinh-te-dan-dau-mien-trung-5005507.html" target="_blank" rel="nofollow noopener noreferrer">Lý do Quảng Ngãi tăng trưởng kinh tế dẫn đầu miền Trung</a>
-   *vnexpress*
 
 ---
 
 ## Phân Tích Chuyên Sâu
 
-### Diễn biến giá thép tuần qua
-
-**Tôn mạ kẽm** ghi nhận mức tăng mạnh nhất trong tuần với **+2.1%**, đạt 19,633,326 VND/tấn (cập nhật 23/01). Đây là mức tăng đáng kể so với các loại thép khác.
-
-**Thép cuộn cán nóng (HRC)** tăng nhẹ **+0.8%**, hiện ở mức 17,921,871 VND/tấn. Biên độ dao động hẹp cho thấy thị trường đang trong trạng thái cân bằng.
-
-**Thép thanh vằn (Rebar)** giảm nhẹ **-0.6%**, xuống còn 15,784,377 VND/tấn. Mức giảm không đáng kể, phản ánh nhu cầu xây dựng chưa có đột biến trong giai đoạn cận Tết.
-
-**So sánh:** Tôn mạ kẽm đang có đà tăng tốt nhất, trong khi thép xây dựng (rebar) chịu áp lực nhẹ. HRC giữ ổn định ở vùng giá hiện tại.
-
----
-
-### Các yếu tố tác động
-
-**Quặng sắt:** Giá quặng sắt hồi phục lên **113.95 USD/tấn** theo tin tức ngày 26/01, trong khi dữ liệu giao dịch ghi nhận mức **104.81 USD/tấn**. Việc quặng sắt "quay đầu tăng giá" và "dừng đà giảm" (theo nhiều nguồn tin) đang hỗ trợ giá thép kỳ hạn hồi phục.
-
-**Tỷ giá USD/VND:** Ở mức **26,180 VND** - tương đối ổn định, chưa tạo áp lực lớn lên chi phí nhập khẩu nguyên liệu.
-
-**Tỷ giá USD/CNY:** Mức **6.9537** - đồng CNY yếu có thể khiến thép Trung Quốc cạnh tranh hơn về giá khi xuất khẩu.
-
-**Giá dầu Brent:** **64.82 USD/thùng** - mức thấp giúp giảm chi phí vận chuyển và logistics.
-
----
-
-### Điểm đáng chú ý
-
-**HPG điều chỉnh giá lần thứ 5:** Tin tức ngày 26/01 cho thấy Hòa Phát tiếp tục "kéo giá", đặt ra câu hỏi về việc chu kỳ thép có thực sự quay lại hay không. Đây là tín hiệu nhà sản xuất lớn nhất đang chủ động điều chỉnh giá bán.
-
-**Cổ phiếu POM tăng đột biến +14.5%:** Pomina Steel ghi nhận mức tăng bất thường trong khi các cổ phiếu thép khác đều giảm (HPG -1.7%, HSG -2.8%, NKG -3.3%). Cần theo dõi liệu đây là giao dịch đầu cơ ngắn hạn hay có thông tin nội bộ.
-
-**Tâm lý thị trường nghiêng tích cực:** 21.1% tin tức tích cực so với 5.6% tiêu cực. Điểm đánh giá tổng thể **0.26** (trung lập nhưng hơi nghiêng về tích cực).
-
-**Thị trường nội địa đi ngang:** Nhiều nguồn tin xác nhận giá thép trong nước "giữ mức ổn định", không có biến động lớn trong ngày 26/01.
-
----
-
-### Yếu tố cần theo dõi
-
-**Diễn biến quặng sắt:** Quặng sắt vừa hồi phục sau đà giảm. Nếu tiếp tục tăng, giá thép có thể được đẩy lên. Nếu quay đầu giảm, áp lực chi phí sẽ giảm bớt.
-
-**Nhu cầu sau Tết Nguyên đán:** Giai đoạn trước Tết thường trầm lắng. Nhu cầu thực sự sẽ thể hiện rõ từ tháng 2-3 khi các công trình xây dựng khởi động lại.
-
-**Động thái của HPG:** Hòa Phát đã điều chỉnh giá 5 lần liên tiếp. Xu hướng này có tiếp tục hay dừng lại sẽ ảnh hưởng đến mặt bằng giá chung.
-
-**Thép nhập khẩu từ Trung Quốc:** Với đồng CNY yếu, cần theo dõi lượng thép nhập khẩu có tăng và gây áp lực cạnh tranh hay không.
-
-**Chính sách chống bán phá giá:** Bất kỳ động thái mới nào từ cơ quan quản lý về thuế chống bán phá giá đều có thể tác động đáng kể đến giá thép nội địa.
+Lỗi: Claude Code CLI không được cài đặt. Chạy: npm install -g @anthropic-ai/claude-code
 ---
 
 # PHẦN V: PHÂN TÍCH CƠ BẢN (CHI PHÍ & TƯƠNG QUAN)
@@ -285,9 +225,9 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 | Thành phần | Triệu/tấn | Tỷ lệ |
 |:-----------|----------:|------:|
-| Quặng sắt | 4.4 | 37% |
+| Quặng sắt | 4.3 | 37% |
 | Than cốc | 2.7 | 23% |
-| Năng lượng | 3.0 | 25% |
+| Năng lượng | 3.0 | 26% |
 | Cố định | 1.8 | 15% |
 | **Tổng** | **11.9** | 100% |
 
@@ -297,8 +237,8 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 |:-------|--------:|:--------|
 | Giá HRC | 17.9tr | Hiện tại |
 | Chi phí | 11.9tr | Sản xuất |
-| **Biên LN** | **33.4%** | ✅ OK |
-| Sàn giá | 12.6tr | Min 5% |
+| **Biên LN** | **33.8%** | ✅ OK |
+| Sàn giá | 12.5tr | Min 5% |
 
 **Tín hiệu:** 🔴 Tiêu cực
 
@@ -313,25 +253,24 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 |:-------|-----:|---------:|
 | Chi phí (30%) | -0.60 | -0.18 |
 | Quặng sắt (25%) | +0.00 | +0.00 |
-| Mean rev (20%) | -0.20 | -0.04 |
-| Cung cầu (25%) | -0.12 | -0.03 |
+| Mean rev (20%) | -0.19 | -0.04 |
+| Cung cầu (25%) | +0.00 | +0.00 |
 
-### 📉 Điểm cơ bản: -0.25 (BEARISH (Tiêu cực))
+### 📉 Điểm cơ bản: -0.22 (BEARISH (Tiêu cực))
 
-- Độ tin cậy: 87%
+- Độ tin cậy: 85%
 
 ## 5.4. Mức giá tham khảo
 
 | Mức | Giá (tr) | Ghi chú |
 |:----|--------:|:--------|
-| 🟢 Hỗ trợ | 12.6 | Chi phí +5% |
-| 🟡 Hợp lý | 13.6 | Chi phí +12% |
+| 🟢 Hỗ trợ | 12.5 | Chi phí +5% |
+| 🟡 Hợp lý | 13.5 | Chi phí +12% |
 | 🔴 Kháng cự | 18.5 | Đỉnh 90 ngày |
 
 ### Yếu tố cơ bản tiêu cực
 
-- ⚠️ Biên lợi nhuận cao (33.4%), thu hút tăng cung
-- ⚠️ Cổ phiếu thép underperform, tín hiệu tồn kho tăng
+- ⚠️ Biên lợi nhuận cao (33.8%), thu hút tăng cung
 
 ---
 
@@ -363,7 +302,7 @@ Thị trường sắt thép Việt Nam tuần 5/2026. Bài viết phân tích di
 
 **Báo cáo được tạo tự động bởi Vietnam Steel Analyzer**
 
-**Ngày tạo:** 26/01/2026 16:25
+**Ngày tạo:** 30/01/2026 12:00
 
 **Liên hệ:** Để biết thêm chi tiết hoặc yêu cầu phân tích chuyên sâu, vui lòng liên hệ đội ngũ phân tích.
 
