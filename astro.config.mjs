@@ -12,6 +12,7 @@ export default defineConfig({
     '/cộng-tác-viên': { status: 301, destination: '/cong-tac-vien' },
     '/phí-dịch-vụ': { status: 301, destination: '/phi-dich-vu' },
     '/điều-khoản-dịch-vụ': { status: 301, destination: '/ai-bao-cao' },
+    '/hợp-tác': { status: 301, destination: '/hop-tac' },
   },
   integrations: [
     tailwind(),
